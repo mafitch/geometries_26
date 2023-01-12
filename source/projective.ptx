@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-projective-axioms" >
+<title>Axioms for Projective Geometry</title>
+
+<subsection xml:id="subsection-projective-illustration">
+<title>Motivating Illustration</title>
+
+<exercise><p>Consider the following illustration as a motivation of this geometry.
+Consider standing in the middle of Kansas looking down a perfectly straight road that extends all the way to the horizon.</p>
+<ol>
+	<li> Presuming perfect construction, the two sides of the road are lines with what geometric property?</li>
+	<li> As you look toward the horizon, what do the sides of the road appear to do?</li>
+	<li> Two lines always intersect in one what?</li>
+	<li> Consider all the lane line markings (there are more than two). All of these lines are what compared to each other and appear to do what?</li>
+	<li> If you are in an intersection of two roads (not in the same direction), will the lane markings all converge together?</li>
+	<li> How many different convergent locations are there?</li>
+</ol>
+</exercise>
+
+<definition>
+	<title>Ideal Point</title>
+	<statement><p>A point is an <term>ideal point</term> if and only if it is the intersection of parallel lines. These are sometimes called "points at infinity."</p></statement>
+</definition>
+
+<definition>
+	<title>Ideal Line</title>
+	<statement><p>A line is the <term>ideal line</term> if and only if it consists of solely ideal points.</p>
+	</statement>
+</definition>
+
+</subsection>
+
+<subsection xml:id="subsection-projective-axioms">
+	<title>Axioms for Projective Geometry</title>
+
+<axiom><title>Projective Geometry</title>
+<statement><p>
+<ol>
+	<li> A line lies on at least two points.</li>
+	<li> Any two distinct points have exactly one line in common.</li>
+	<li> Any two distinct lines have at least one point in common.</li>
+	<li> There is a set of four distinct points no three of which are colinear.</li>
+	<li> All but one point of every line can be put in one-to-one correspondence with the real numbers.</li>
+</ol></p>
+</statement>
+</axiom>
+
+<p>The first four axioms above are the definition of a finite projective geometry. The fifth axiom is added for infinite projective geometries and may not be used for proofs of finite projective geometries.</p>
+
+<theorem><p>A line lies on at least three points.</p></theorem>
+
+<theorem><p>Any two, distinct lines have exactly one point in common.</p></theorem>
+
+<lemma><p>For any two distinct lines there exists a point not on either line.</p></lemma>
+
+<theorem><p>There exists a one-to-one correspondence between the points of any two lines.</p></theorem>
+
+<theorem><p>Every point lies on the same number of lines.</p></theorem>
+
+<corollary><p>A projective plane in which each line lies on exactly $k+1$ points has a total of $k^2+k+1$ points and <m>k^2+k+1</m> lines.</p></corollary>
+
+</subsection>
+
+<subsection>
+<title>Duality</title>
+
+<definition>
+	<title>Projective Duality</title>
+	<statement><p>A statement is the <term>projective dual</term> of another statement if and only if one statement is obtained from the other by switching the roles of "point" and "line."</p></statement>
+</definition>
+
+<theorem><p>Each point is incident with at least three lines.</p></theorem>
+
+<theorem><p>There exist four lines no three of which are coincident in a point.</p></theorem>
+
+<theorem><p>There is a one-to-one correspondence between the real numbers and all but one of the lines incident with a point.</p></theorem>
+
+<theorem>
+	<title>Projective Duality</title>
+	<statement><p>The projective dual of every projective theorem is also true.</p></statement>
+</theorem>
+
+<theorem><p>Every line consists of the same number of points.</p></theorem>
+
+<theorem><p>There exists a one-to-one correspondence between the lines thru any two points.</p></theorem>
+
+</subsection>
+</section>

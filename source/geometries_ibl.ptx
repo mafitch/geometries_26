@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--********************************************************************
+Copyright 2019 Mark A. Fitch
+*********************************************************************-->
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+
+    <xi:include href="./bookinfo.ptx" /> <!-- ISBN, website, other metadata -->
+
+    <book xml:id="geometries-ibl-book">
+
+        <title>An IBL Introduction to Geometries</title>
+
+        <xi:include href="./frontmatter.ptx" />      <!-- Title Page, Preface, etc. -->
+
+        <chapter xml:id="chapter-complete" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <title>Completeness and Consistency</title>
+
+            <xi:include href="./finite.ptx" />         <!-- Complete and consistent from finite geometries  -->
+
+            <xi:include href="./complete.ptx" />         <!-- Complete and consistent from finite geometries  -->
+
+            <xi:include href="./consistent.ptx" />         <!-- Complete and consistent from finite geometries  -->
+
+            <xi:include href="./complete_finish.ptx" />         <!-- Complete and consistent from finite geometries  -->
+
+        </chapter>
+
+        <chapter xml:id="chapter-neutral" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <title>Neutral Geometry</title>
+
+            <xi:include href="./triangles.ptx" />        <!-- Basic triangle theorems including congruences  -->
+        </chapter>
+
+        <chapter xml:id="chapter-euclidean" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <title>Synthetic Euclidean Geometry</title>
+
+            <xi:include href="./euclideanpostulates.ptx" /> <!-- Equivalent parallel postulates -->
+
+            <xi:include href="./similarity.ptx" />       <!-- Defining similarity -->
+
+            <xi:include href="./concurrency.ptx" />       <!-- Discovering triangle concurrencies -->
+
+            <xi:include href="./construction.ptx" />       <!-- Determining and proving some constructions -->
+        </chapter>
+
+        <chapter xml:id="chapter-transformational" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <title>Transformational Geometry</title>
+
+            <xi:include href="./transform.ptx" />       <!-- Introduction to transformational geometry -->
+
+            <xi:include href="./analytic.ptx" />       <!-- Develop matrices for arbitrary isometries -->
+
+            <xi:include href="./algebra.ptx" />       <!-- Discover isometry group -->
+
+            <xi:include href="./symmetry.ptx" />       <!-- Discover isometry group -->
+        </chapter>
+
+        <chapter xml:id="chapter-hyperbolic" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <title>Hyperbolic Geometry</title>
+
+            <xi:include href="./hyperbolic.ptx" />       <!-- Introduction to hyperbolic geometry -->
+
+            <xi:include href="./model.ptx" />       <!-- Present a model for the hyperbolic plane -->
+
+            <xi:include href="./hyperbolic_thms.ptx" />       <!-- Hyperbolic theorems -->
+
+            <xi:include href="./superparallel.ptx" />       <!-- Properties of hyperbolic parallels -->
+        </chapter>
+
+        <chapter xml:id="chapter-projective" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <title>Projective Geometry</title>
+
+            <xi:include href="./projective.ptx" />       <!-- Introduction to hyperbolic geometry -->
+
+            <xi:include href="./perspectivity.ptx" />       <!-- Introduction to hyperbolic geometry -->
+
+        </chapter>
+
+        <backmatter>
+            <xi:include href="./glossary.ptx" />
+
+            <xi:include href="./axiomsSMSG.ptx" />
+        </backmatter>
+
+    </book>
+
+</pretext>

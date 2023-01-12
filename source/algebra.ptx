@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-algebra">
+<title>Algebra of Transformations</title>
+
+<subsection>
+	<title>Explore</title>
+
+	<definition>
+		<title>Translation</title>
+		<statement><p>An transformation <m>T</m> is a translation if and only if there exists a non-zero constant vector <m>\vec{v}</m> such that <m>T(P)-P=\vec{v}</m> for all points <m>P.</m></p></statement>
+	</definition>
+
+	<definition>
+		<title>Rotation</title>
+		<statement><p>An transformation <m>T</m> is a rotation if and only if there exists a fixed point <m>C</m> and constant angle <m>\alpha</m> such that <m>m\angle PCT(P) = \alpha </m> and <m>\|\overline{CP}\| = \|\overline{CT(P)}\|</m> for all points <m>P</m></p></statement>
+	</definition>
+
+	<definition>
+		<title>Reflection</title>
+		<statement><p>An transformation <m>T</m> is a reflection if and only if there exists a fixed line <m>\ell</m> such that the line perpendicular to <m>\ell</m> through <m>P</m> contains <m>T(P)</m> and the distances from <m>P</m> and <m>T(P)</m> to the <m>\ell</m> are equal.</p></statement>
+	</definition>
+
+	<theorem><p>Translations, rotations, and reflections are isometries.</p></theorem>
+
+	<exercise><p>Draw an arbitrary triangle <m>ABC.</m> Draw the result <m>\triangle A'B'C'</m> of some translation. Draw the result <m>\triangle A''B''C''</m> of some translation applied to <m>\triangle A'B'C'.</m> Determine which type of isometry would transform <m>\triangle ABC </m> to <m>\triangle A''B''C''.</m></p></exercise>
+
+	<exercise><p>Complete the following table of composition of isometries.</p>
+	<sidebyside>
+	<tabular>
+		<row bottom="medium"><cell right="medium"></cell> <cell right="medium">Translate </cell> <cell right="medium"> Reflect </cell> <cell right="medium"> Rotate </cell> </row>
+		<row bottom="medium"><cell right="medium">Translate </cell> <cell right="medium"> </cell> <cell right="medium"> </cell> <cell right="medium"> </cell> </row>
+		<row bottom="medium"><cell right="medium">Reflect </cell> <cell right="medium"> </cell> <cell right="medium"> </cell> <cell right="medium"> </cell> </row>
+		<row bottom="medium"><cell right="medium">Rotate </cell> <cell right="medium"> </cell> <cell right="medium"> </cell> <cell right="medium"> </cell> </row>
+	</tabular>
+	</sidebyside>
+	</exercise>
+
+</subsection>
+
+<subsection>
+	<title>Prove</title>
+
+	<exercise><p>How many isometry types are there?</p></exercise>
+
+	<exercise><p>How many isometry types are needed to generate all isometry types?</p></exercise>
+
+	<exercise><p>How many isometries are needed to generate all isometries?</p></exercise>
+
+</subsection>
+
+</section>

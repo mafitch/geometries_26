@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-completeness" >
+<title>Completeness</title>
+
+        <definition>
+            <title>Fano Geometry</title>
+            <statement><p>Use the following axioms and definitions of intersection and parallel as a definition of the Fano geometry.</p>
+            <p>more stuff</p>
+            <p><ol>
+                <li>There exists at least one line.</li>
+                <li>There are exactly three points on every line.</li>
+                <li>Not all points are on the same line.</li>
+            </ol></p>
+            </statement>
+        </definition>
+
+        <exercise><p>Explore the Fano geometry as follows.</p>
+            <ol>
+                <li> Draw a line using Geogebra.</li>
+                <li> Add a third point to the line.</li>
+                <li> Note that Axiom 3 requires one more point. Draw one.</li>
+                <li> Must any more lines be added? If so, do so.</li>
+                <li xml:id="fanolinecount"> How many lines are in this geometry?</li>
+                <li> Add the axiom: every point is on at least one line.</li>
+                <li> To your line with three points, and one point not on that line add any lines required by this new axiom.</li>
+                <li> Make sure these lines satisfy Axiom 2.</li>
+                <li xml:id="fanolinecount2"> How many lines are in this geometry?</li>
+                <li> May any more lines be added? If so, do so, and be sure the axioms are satisfied.</li>
+                <li xml:id="fanolinecount3"> How many lines are in this geometry?</li>
+                <li> What do the answers to <xref ref="fanolinecount" />, <xref ref="fanolinecount2" />, and <xref ref="fanolinecount3" /> say about this attempt at constructing a geometry?</li>
+                <li> What is needed to fix the difficulty noted in the previous question?</li>
+            </ol>
+        </exercise>
+</section>

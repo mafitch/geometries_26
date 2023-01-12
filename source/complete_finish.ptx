@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-summarize" >
+<title>Explain and Apply</title>
+
+        <exercise><p>Explain what completeness is and why it is important. Note, an explanation is not a proof, just a clarification for someone else.</p></exercise>
+
+        <exercise><p>Explain what consistency is and why it is important.</p></exercise>
+
+        <exercise><p>Modify the axioms for the Fano geometry so they are complete and consistent. You might use the Four Point Geometry axioms as a model.</p></exercise>
+
+        <exercise><p>Try to construct a Fano geometry with exactly seven points.</p></exercise>
+
+        <exercise><p>Modify the axioms of the Five Point Geometry to be complete and consistent. You might use the Four Point Geometry axioms as a model.</p></exercise>
+
+        <exercise><p>How many lines are there in this geometry?</p></exercise>
+
+        <exercise><p>Modify the axioms of the Five Point Geometry to be complete and consistent and so that they result in five lines.</p></exercise>
+
+</section>

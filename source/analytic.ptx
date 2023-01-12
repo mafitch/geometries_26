@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-analytic" >
+<title>Analytic Transformational Geometry</title>
+
+<p>The goal is to develop matrix formulas for arbitrary isometries using the basic isometry formulas given below as building blocks.</p>
+
+<definition>
+	<title>Homogeneous coordinates</title>
+	<statement><p>A point with normal coordinates <m>(x,y)</m> in homogeneous coordinates is written <m>(x,y,1).</m></p></statement>
+</definition>
+
+<table>
+	<title>Linear Transformations for Isometries</title>
+	<tabular>
+		<row>
+			<cell>Translate</cell> 
+			<cell><m>T(x,y,1) = \begin{bmatrix} 1 &amp; 0 &amp; a \\ 0 &amp; 1 &amp; b \\ 0 &amp; 0 &amp; 1 \end{bmatrix} \begin{bmatrix} x \\ y \\ 1 \end{bmatrix} </m>.</cell>
+		</row>
+		<row>
+			<cell>Reflect over the <m>y</m>-axis</cell>
+			<cell><m>M_y(x,y,1)= \begin{bmatrix} -1 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 0 \\  0 &amp; 0 &amp; 1 \end{bmatrix} \begin{bmatrix} x \\ y \\ 1 \end{bmatrix}. </m> </cell>
+		</row>
+		<row>
+			<cell>Reflect over the <m>x</m>-axis </cell>
+			<cell> <m>M_y(x,y,1)= \begin{bmatrix} 1 &amp; 0 &amp; 0 \\ 0 &amp; -1 &amp; 0 \\ 0 &amp; 0 &amp; 1 \end{bmatrix} \begin{bmatrix} x \\ y \\ 1 \end{bmatrix} </m>. </cell>
+		</row>
+		<row>
+			<cell>Rotate counterclockwise about the origin </cell>
+			<cell> <m>R_\phi(x,y,1)= \begin{bmatrix} \cos \phi &amp; -\sin \phi &amp; 0 \\ \sin \phi &amp; \cos \phi &amp; 0 \\ 0 &amp; 0 &amp; 1 \end{bmatrix} \begin{bmatrix} x \\ y \\ 1 \end{bmatrix} </m> </cell>
+		</row>
+	</tabular>
+</table>
+
+<exercise><p>Goal: develop a rotation about a point <m>[x_0,y_0]^T</m> using the following steps.</p>
+<ol>
+	<li> Find a transformation that moves <m>[x_0,y_0]^T</m> to the origin.</li>
+	<li> Find a transformation that moves <m>[x_0,y_0]^T</m> to the origin then rotates by <m>\phi</m>. </li>
+	<li> Find a transformation that moves <m>[x_0,y_0]^T</m> to the origin, rotates by <m>\phi,</m> then returns the origin to <m>[x_0,y_0]^T</m>. </li>
+	<li> State, using matrix notation, a transformation that rotates the plane about a point <m>[x_0,y_0]^T</m> by <m>\phi</m>. </li>
+</ol>
+</exercise>
+
+<exercise><p>Goal: develop a reflection about a vertical line given by <m>x=a</m>  using the following steps.</p>
+<ol>
+	<li> Find a transformation that move the line <m>x=a</m> to the <m>y</m>-axis.</li>
+	<li> Find a transformation that move the line <m>x=a</m> to the <m>y</m>-axis, then reflects the plane over the <m>y</m>-axis.</li>
+	<li> Find a transformation that move the line <m>x=a</m> to the <m>y</m>-axis, reflects the plane over the <m>y</m>-axis, then returns the <m>y</m>-axis to the line <m>x=a.</m></li>
+	<li> State, using matrix notation, a transformation that reflects about an arbitrary vertical line <m>x=a.</m></li>
+</ol>
+</exercise>
+
+<exercise><p>Goal: develop a reflection about a horizontal line given by <m>y=b</m> using the following steps.</p>
+<ol>
+	<li> Find a transformation that move the line <m>y=b</m> to the <m>x</m>-axis.</li>
+	<li> Find a transformation that move the line <m>y=b</m> to the <m>x</m>-axis, then reflects the plane over the <m>x</m>-axis.</li>
+	<li> Find a transformation that move the line <m>y=b</m> to the <m>x</m>-axis, reflects the plane over the <m>x</m>-axis, then returns the <m>x</m>-axis to the line <m>y=b.</m></li>
+	<li> State, using matrix notation, a transformation that reflects about an arbitrary horizontal line <m>y=b.</m></li>
+</ol>
+</exercise>
+
+<exercise><p>Develop a reflection about an arbitrary (non-vertical) line.</p></exercise>
+
+</section>

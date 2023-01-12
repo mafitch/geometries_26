@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-constructions" >
+
+<title>Constructions</title>
+
+<introduction>
+
+<p>For each construction figure out how to do it using the classic Greek tools: a straight edge and rusty compass (okay that isn't quite classic Greek). Note you can use the circle and line tools in Geogebra to perform these. Next prove that your construction works.</p>
+
+</introduction>
+
+<subsection>
+
+	<title>Discover and Prove Construction</title>
+
+	<exercise><p>Construct an equilateral triangle with side length matching a given segment.</p></exercise>
+
+	<exercise><p>Given a line segment construct the perpendicular bisector of it.</p></exercise>
+
+	<exercise><p>Construct a square with side length matching a given segment.</p></exercise>
+
+	<exercise><p>Construct the midpoint of a line segment.</p></exercise>
+
+	<exercise><p>Construct the bisector of given angle.</p></exercise>
+
+	<exercise><p>Copy an angle.</p></exercise>
+
+	<exercise><p>Construct a line parallel to a given line through a given point.</p></exercise>
+
+</subsection>
+
+</section>

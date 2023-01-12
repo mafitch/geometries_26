@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-symmetry">
+<title>Symmetries</title>
+
+<subsection>
+	<title>Explore Symmetries</title>
+
+	<definition>
+		<title>Symmetry</title>
+		<statement><p>A set of points <m>A</m> has symmetry of type <m>T</m> for some transformation <m>T</m> if and only if <m>T(A)=A.</m></p></statement>
+	</definition>
+
+	<exercise><p>Confirm <m>T(x,y)=(-y,x)</m> is a symmetry of the set <m>\{ (1,1), (-1,1), (-1,-1), (1,-1) \}.</m></p></exercise>
+
+	<exercise><p>Demonstrate <m>T(x,y)=(-y,x)</m> is not a symmetry of the set <m>\{ (0,0), (1,0), (1,1), (0,1) \}.</m></p></exercise>
+
+	<exercise><p>What points do you have to add to <m>\{ (1,1), (-1,1), (-1,-1), (1,-1), (1,0) \}</m> so <m>T(x,y)=(-y,x)</m> is a symmetry of this set?</p></exercise>
+
+	<exercise><p>List all symmetries of a square by labeling the vertices and giving the type and parameters for the transformations.</p></exercise>
+
+	<exercise><p>List all symmetries of a regular <m>n</m>-sided polygon (<m>n</m>-gon) by labeling the vertices and giving the type and parameters for the transformations.</p></exercise>
+
+	<exercise><p>For one of the regular <m>n</m>-gons check the following.</p>
+		<ol>
+			<li> What is the composition of two rotational symmetries?</li>
+			<li> What is the composition of two reflection symmetries?</li>
+			<li> What is the smallest number of symmetries you can use to generate all the symmetries?</li>
+		</ol>
+	</exercise>
+
+	<exercise><p>Draw some regular <m>n</m>-gon. Color in the <m>n</m>-gon so that the colored figure maintains the rotational symmetries, but not the reflectional symmetries.</p></exercise>
+
+	<exercise><p>Draw some regular <m>n</m>-gon. Color in the <m>n</m>-gon so that the colored figure maintains the reflectional symmetries, but not the rotational symmetries.</p></exercise>
+
+	<exercise><p>Draw a figure that has translational symmetry.</p></exercise>
+
+	<exercise><p>Draw a figure that has translational symmetry and exactly one reflectional symmetry.</p></exercise>
+
+	<exercise><p>Draw a figure that has translational symmetry and rotational symmetry.</p></exercise>
+
+	<exercise><p>Draw a figure that has dilational symmetry.</p></exercise>
+
+</subsection>
+
+<subsection>
+	<title>Explore Tesselations</title>
+
+	<definition>
+		<title>Tesselation</title>
+		<statement><p>A covering of the plane is a <term>tesselation</term> if and only if it consists of a single shape infinitely reproduced using a finite set of transformations.</p></statement>
+	</definition>
+
+	<definition>
+		<title>Tiling</title>
+		<statement><p>A covering of the plane is a <term>tiling</term> if and only if it consists of a finite set of shapes infinitely reproduced using a finite set of transformations.</p></statement>
+	</definition>
+
+	<exercise><p>Analyze the tesselation in Figure \ref{tessel} as follows.</p>
+		<ol>
+			<li> Identify the generating shape.</li>
+			<li> Identify the smallest set of transformations that can generate the tesselation.</li>
+			<li> List all symmetries of the tesselation.</li>
+			<li> Identify the smallest set of symmetries of the tesselation that can generate all the symmetries of the tesselation.</li>
+		</ol>
+	</exercise>
+
+	<definition>
+		<title>Conway Label</title>
+		<statement><p>The following labeling of tesselations derives from the book <em>The Symmetries of Things</em> by John Conway, Heidi Burgiel, and Chaim Goodman-Strauss. Follow these steps in order to identify and label the type of symmetry group of a tesselation. The resulting notation is called the <em>signature</em></p>
+
+	<p><ol>
+		<li> Identify all lines of reflection.</li>
+		<li> If two or more lines of reflection intersect in a point, write <m>*n_1n_2 \ldots</m> where <m>n_1,</m> <m>n_2,</m> are the number of lines intersecting at each unique point of intersection.</li>
+		<li> If any line of reflection does not intersect other lines of reflection, just write one <m>*</m> for each of these.</li>
+		<li> Identify any rotations that are not the composition of reflections already listed.</li>
+		<li> Write <m>n_1n_2 \ldots </m> in front of any <m>*</m> for each rotation where <m>n_1,</m> <m>n_2</m> are the order of the rotations.</li>
+		<li> Identify any glide reflections that are not the composition of reflections or rotations already listed.</li>
+		<li> Write <m>\times</m> at the end of the signature for each of these glide reflections.</li>
+		<li> Identify any translations that are not the composition of other symmetries already listed.</li>
+		<li> Write <m>\circ</m> at the front of the signature for each pair of these translations.</li>
+	</ol></p>
+	</statement>
+	</definition>
+
+	<p>See the example signatures in Figures <xref ref="signature1" /> to <xref ref="signature2" />.</p>
+
+	<exercise><p>Find the signatures of two tesselations from the class archive at <url href="http://www.math.uaa.alaska.edu/~afmaf/classes/math305/notes/tessel_gallery/gallery.html" />. You may not choose two with the same signature.</p></exercise>
+
+	<exercise><p>Find the signature of the tesselation in Figure <xref ref="tessel" />.</p></exercise>
+
+	<exercise><p>Begin the tesselation project.</p></exercise>
+
+</subsection>
+
+<subsection>
+	<title>Tesselation Images</title>
+
+<figure xml:id="tessel">
+<caption>Tesselation</caption>
+<image source="images/Tesselation.jpg" />
+</figure>
+
+<figure xml:id="signature1">
+<caption>Signature *236 (Variation on a Theme by Scott Roseman)</caption>
+<image source="images/Signature1.jpg" />
+</figure>
+
+<figure xml:id="signature2">
+<caption>Signature 22*</caption>
+<image source="images/Signature2.jpg" />
+</figure>
+
+<figure xml:id="signature3">
+<caption>Signature *X</caption>
+<image source="images/Signature3.jpg" />
+</figure>
+
+</subsection>
+
+</section>

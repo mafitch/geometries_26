@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<frontmatter xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <titlepage>
+
+        <author>
+            <personname>Mark A. Fitch</personname>
+            <department>Department of Mathematics and Statistics</department>
+            <institution>University of Alaska Anchorage</institution>
+            <email>mafitch@alaska.edu</email>
+        </author>
+
+        <date>25 February 2019</date>
+
+    </titlepage>
+
+    <colophon xml:id="front-colophon">
+
+        <edition>Spring 2019</edition>
+
+        <website>
+            <name><c>math.uaa.alaska.edu</c></name>
+            <address>http://math.uaa.alaska.edu</address>
+        </website>
+
+        <copyright>
+            <year>2008<ndash />2019</year>
+            <holder>Mark A. Fitch</holder>
+            <minilicense>GFDL License</minilicense>
+            <shortlicense>Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.2 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.  A copy of the license is included in the appendix entitled <q>GNU Free Documentation License.</q>  All trademarks<trademark /> are the registered<registered /> marks of their respective owners.</shortlicense>
+        </copyright>
+
+    </colophon>
+
+    <!-- A section of its own in HTML, migrates to copyright-page in LaTeX -->
+    <!-- Titles are optional, presumably none for single author,           -->
+    <!-- or for every author, even if we test a mix here                   -->
+
+    <biography xml:id="author-bio-MAF">
+        <title>About Mark A. Fitch</title>
+        <p>Do you really want to know anything.</p>
+
+    </biography>
+
+    <!-- The following items must be placed in the desired/required order -->
+    <!-- This will be checked by a Document Type Definition eventually -->
+    <!-- Order: dedication, acknowledgements, forewords, prefaces -->
+
+    <acknowledgement xml:id="acknowledgement">
+
+        <p>This problem set has been developed with the assistance of many students from Introduction to Geometries at the University of Alaska Anchorage.</p>
+
+    </acknowledgement>
+
+    <preface xml:id="preface">
+
+        <p>This text was designed for an IBL approach to MATH A305 Introduction to Geometries at the University of Alaska Anchorage. Its purpose in the mathematics baccalaureates at UAA is to cover geometry topics required for secondary teacher certification. As a result it covers synthetic, transformational, and a tiny bit of analytic approaches to geometry and covers both Euclidean (parabolic), hyperbolic, and some projective geometry.</p>
+        <p>Students are expected to have completed a proofs course covering proof techniques, basic set operations, and cardinality as a prerequisite. The students have typically taken high school geometry. </p>
+
+    </preface>
+
+</frontmatter>

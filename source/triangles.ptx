@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-triangles" >
+<title>Triangles</title>
+
+    <subsection>
+        <title>Basic Triangle Theorems</title>
+
+        <p>Note all theorems in this section can and should be proved without using the parallel postulate.</p>
+
+        <definition xml:id="def-vertical-angles">
+            <title>Vertical Angles</title>
+            <statement><p>The opposing angles formed by the intersection of two lines are called <term>vertical angles</term>.</p></statement>
+        </definition>
+
+        <definition>
+            <title>Congruent Angles</title>
+            <statement><p>Two angles are <term>congruent</term> (<m>\angle ABC \cong \angle DEF</m>) if and only if their measures are equal (<m>m\angle ABC = m\angle DEF</m>).</p></statement>
+        </definition>
+
+        <theorem>
+            <title>Vertical Angle Congruence</title>
+            <statement><p>Vertical angles are congruent.</p></statement>
+        </theorem>
+
+        <p><m>A-B-C</m> means that the points <m>A,B,</m> and <m>C</m> are colinear and <m>B</m> is between <m>A</m> and <m>C.</m></p>
+
+        <theorem>
+            <title>Pasch's Axiom</title>
+            <statement><p>If a line <m>\ell</m> intersects a triangle <m>\triangle ABC</m> at a point <m>D</m> such that <m>A-D-B,</m> then <m>\ell</m> must intersect <m>\overline{AC}</m> or <m>\overline{BC}.</m></p></statement>
+        </theorem>
+
+        <theorem>
+            <title>Crossbar</title>
+            <statement><p>If <m>X</m> is a point in the interior of <m>\triangle ABC</m> then ray <m>AX</m> intersects <m>\overline{BC}</m> at a point <m>D</m> such that <m>B-D-C.</m></p></statement>
+        </theorem>
+
+        <definition>
+            <title>Congruent Line Segments</title>
+            <statement><p>Two line segments are congruent (<m>\overline{AB} \cong \overline{CD}</m>) if and only if their measures (length) are equal (<m>|AB|=|CD|</m>).</p></statement>
+        </definition>
+
+        <definition>
+            <title>Isosceles</title>
+            <statement><p>A triangle is <term>isosceles</term> if and only if two sides are congruent.</p></statement>
+        </definition>
+
+        <theorem>
+            <title>Isosceles Triangle</title>
+            <statement><p>In an isosceles triangle the angles opposite the equal sides are congruent.</p></statement>
+        </theorem>
+
+        <theorem>
+            <title>Perpendicular Bisector</title>
+            <statement><p>A point is on the perpendicular bisector of a segment if and only if it is equidistant from the endpoints.</p></statement>
+        </theorem>
+
+        <definition>
+            <title>Exterior Angle</title>
+            <statement><p>The supplementary angle formed by extending one side of a triangle is called an <term>exterior angle</term>.</p></statement>
+        </definition>
+
+        <theorem>
+            <title>Exterior Angle</title>
+            <statement><p>The measure of an exterior angle of a triangle is greater than the measure of either of the opposing angles of the triangle.</p></statement>
+        </theorem>
+
+        <definition>
+            <title>Congruent Triangles</title>
+            <statement><p>Two triangles are congruent if and only if all their sides and angles are congruent (<m>\Delta ABC \cong \Delta DEF</m>).</p></statement>
+        </definition>
+    </subsection>
+
+    <subsection>
+        <title>Triangle Congruence Theorems</title>
+
+        <exercise><p>Determine if two triangles with two congruent sides and a congruent angle not between the two sides are congruent.</p></exercise>
+
+            <theorem>
+                <title>Angle-Side-Angle</title>
+                <statement><p>Two triangles are congruent if and only if two corresponding angles and the side between them are congruent.</p></statement>
+            </theorem>
+
+            <theorem>
+                <title>Angle-Angle-Side</title>
+                <statement><p>Two triangles are congruent if and only if two corresponding angles and a side not between them are congruent.</p></statement>
+            </theorem>
+
+            <theorem>
+                <title>Side-Side-Side</title>
+                <statement><p>Two triangles are congruent if and only if all three corresponding sides are congruent.</p></statement>
+            </theorem>
+
+            <theorem>
+                <title>Right Angle-Side-Side</title>
+                <statement><p>Two right triangles are congruent if and only if two corresponding sides and a right angle not between those sides are congruent.</p></statement>
+            </theorem>
+
+            <theorem>
+                <title>Converse of Isosceles Triangle</title>
+                <statement><p>If two angles of a triangle are congruent then the sides opposite those angles are congruent.</p></statement>
+            </theorem>
+
+            <theorem>
+                <title>Extended Inverse of Isosceles Triangle</title>
+                <statement><p>If two sides of a triangle are not congruent then the angles opposite those sides are not congruent. Further the larger angle is opposite the longer side.</p></statement>
+            </theorem>
+
+            <theorem>
+                <title>Triangle Inequality</title>
+                <statement><p>The sum of the lengths of any two sides of a triangle is larger than the length of the other side.</p></statement>
+            </theorem>
+
+    </subsection>
+
+</section>

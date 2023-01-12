@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--********************************************************************
+Copyright 2019 Mark A. Fitch
+*********************************************************************-->
+
+<appendix xml:id="appendix-glossary" >
+    <title>Glossary</title>
+
+<p>
+<dl>
+<li><title><m>A, B, C, \ldots</m></title> <p>capital letters are points</p></li>
+<li><title><m> \overleftrightarrow{AB}</m></title> <p>line containing points <m>A</m> and <m>B</m></p></li>
+<li><title><m> \overline{AB} </m></title> <p>line segment from <m>A</m> to <m>B</m></p></li>
+<li><title><m> |AB| </m></title> <p>length of line segment from <m>A</m> to <m>B</m></p></li>
+<li><title><m> \|\vec{A}\| </m></title> <p>magnitude of a vector</p></li>
+<li><title><m> \|A-B\| </m></title> <p>distance from point <m>A</m> to point <m>B</m></p></li>
+<li><title><m> \angle ABC </m></title> <p>angle with rays meeting at <m>B</m></p></li>
+<li><title><m> m\angle ABC </m></title> <p>angle measure</p></li>
+<li><title><m> \Delta ABC </m></title> <p>triangle with vertices <m>A, B,</m> and <m>C</m></p></li>
+<li><title><m> A \cong B </m></title> <p>objects <m>A</m>and <m>B</m> are congruent (may be line segments, angles, triangles).</p></li>
+<li><title><m> \overleftrightarrow{AB} \: \parallel \: \overleftrightarrow{CD} </m></title> <p>lines are parallel</p></li>
+<li><title><m> \overleftrightarrow{AB} \: \perp \: \overleftrightarrow{CD} </m></title> <p>lines are perpendicular</p></li>
+<li><title>acute</title> <p>an angle with measure less than a right angle</p></li>
+<li><title>circle</title> <p>set of points equidistant from a given point</p></li>
+<li><title>complementary</title> <p>the angle sum is that of a right angle</p></li>
+<li><title>line</title> <p>undefined term (see chair)</p></li>
+<li><title>obtuse</title> <p>an angle with measure greater than a right angle</p></li>
+<li><title>parallel</title> <p>two lines which do not intersect</p></li>
+<li><title>perpendicular</title> <p>two line segments intersect in a right angle</p></li>
+<li><title>plane</title> <p>undefined term (see table)</p></li>
+<li><title>point</title> <p>undefined term (see mug)</p></li>
+<li><title>right angle</title> <p>an angle with measure <m>\pi/2</m></p></li>
+<li><title>supplementary</title> <p>the angle sum is that of two right angles</p></li>
+<li><title>transversal</title> <p>a line crossing two other (typically parallel) lines</p></li>
+<li><title>triangle</title> <p>the shape consisting of line segments connecting three, non-colinear points</p></li>
+</dl>
+</p>
+
+</appendix>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--********************************************************************
+Copyright 2019 Mark A. Fitch
+*********************************************************************-->
+<docinfo>
+
+    <!-- the other option is "long" which will produce an -->
+    <!-- entire front matter section with more headings   -->
+    <author-biographies length="short" />
+
+    <brandlogo url="http://uaa.alaska.edu" source="images/Mathematics_GG.jpg" />
+
+    <!-- this is the default, but supresses a warning -->
+    <cross-references text="type-global" />
+
+    <macros>
+    \newcommand{\R}{\mathbb{R}}
+    </macros>
+
+</docinfo>

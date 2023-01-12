@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-projective-perspectivity" >
+<title>Perspectivities</title>
+
+<exercise><p>Review the motivation for projective geometry and answer the following.</p>
+<ol>
+	<li> If you view a tree from 10 meters away and 100 meters away (viewing from the same side), what is the difference in the objects?</li>
+	<li> As you continue to move away from the tree, toward what does the mapping of the tree approach?</li>
+	<li> Look up the term 'vanishing point' in an art book. Explain its relationship to this.</li>
+</ol>
+</exercise>
+
+<definition>
+	<title>Perspectivity</title>
+	<statement><p>A transformation is a <term>perspectivity</term> if and only if it maps the points of a line to the points of another line such that all lines from points to their images are incident in a single point.</p></statement>
+</definition>
+
+<exercise><p>Draw two distinct lines. Choose a point not on either line. Choose three points on one of the lines and find the points on the second line to which they are mapped by the perspectivity defined by your chosen point.</p></exercise>
+
+<exercise><p>Investigate the composition of perspectivities as follows.</p>
+<ol>
+	<li> Draw three distinct lines <m>\ell_1, \ell_2, \ell_3.</m> </li>
+	<li> Choose a point <m>A</m> not on any of the lines. </li>
+	<li> Select three points <m>P_1, Q_1, R_1</m> on <m>\ell_1</m> and map them to <m>P_2, Q_2, R_2</m> ON <m>\ell_2</m> by the perspectivity defined by <m>A.</m></li>
+	<li> Choose a point <m>B</m> distinct from all other points.</li>
+	<li> Map <m>P_2, Q_2, R_2</m> to <m>P_3, Q_3, R_3</m> on <m>\ell_3</m> by the perspectivity defined by <m>B.</m></li>
+	<li> Determine if <m>P_1, Q_1, R_1</m> are mapped to <m>P_3, Q_3, R_3</m> by any perspectivity.</li>
+</ol>
+</exercise>
+
+<definition>
+	<title>Projectivity</title>
+	<statement><p>A transformation is a <term>projectivity</term> if and only if it can be written as a composition of perspectivities.</p></statement>
+</definition>
+
+<definition>
+	<title>Triangle</title>
+	<statement><p>A set of points is a <term>triangle</term> if and only if it is size three.</p></statement>
+</definition>
+
+<definition>
+	<title>Trilateral</title>
+	<statement><p>A set of lines is a <term>trilateral</term> if and only if it is size three.</p></statement>
+</definition>
+
+<definition>
+	<title>Perspective from a point</title>
+	<statement><p>Two triangles are <term>perspective with respect to a point</term> if and only if the lines connecting corresponding pairs of vertices are incident in a point.</p></statement>
+</definition>
+
+<definition>
+	<title>Perspective from a line</title>
+	<statement><p>Two trilaterals are <term>perspective with respect to a line</term> if and only if the corresponding sides are incident on a line.</p></statement>
+</definition>
+
+<theorem>
+	<title>Desargues Theorem</title>
+	<statement><p>Triangles perspective from a point are perspective from a line.</p></statement>
+</theorem>
+
+<theorem>
+	<title>Fundamental Theorem of Projective Geometry</title>
+	<statement><p>A projectivity is uniquely defined by three points and their images.</p></statement>
+</theorem>
+
+</section>

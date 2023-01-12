@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-transformation" >
+
+<title>Transformation</title>
+
+<subsection>
+	<title>Planar Transformations</title>
+
+	<definition>
+		<title>Transformation</title>
+		<statement><p>A function is a <term>transformation</term> if and only if it is one-to-one and onto.</p></statement>
+	</definition>
+
+	<definition>
+		<title>Planar Transformation</title>
+		<statement><p>A transformation is a <term>planar</term> transformation if and only if it is from <m>\R^2</m> to <m>\R^2.</m></p></statement>
+	</definition>
+
+	<p>For this course all transformations will be transformations of the Euclidean plane.</p>
+
+	<exercise><p>Describe the effect of each of the following transformations by considering the effects on the region (area) with the following vertices. (0,0), (2,0), (3,5), (0,4). Hint: map the vertices, then map the lines connecting the vertices.</p>
+	<ol>
+		<li><m>T_1:(x,y) \mapsto (y,x).</m></li>
+		<li><m>T_2:(x,y) \mapsto (x/2,y/2).</m></li>
+		<li><m>T_3:(x,y) \mapsto (1-x^3,1-y^3).</m></li>
+		<li><m>T_4:(x,y) \mapsto (\sqrt{x^2+y^2}x,\sqrt{x^2+y^2}y).</m></li>
+	</ol>
+	</exercise>
+
+</subsection>
+
+<subsection>
+	<title>Isometry</title>
+
+	<definition>
+		<title>Isometry</title>
+		<statement><p>A transformation is an <term>isometry</term> if and only if <m>\|P-Q\|=\|T(P)-T(Q)\|.</m></p></statement>
+	</definition>
+
+	<exercise><p>Determine which of the following transformations are isometries.</p>
+	<ol>
+		<li> <m>T_1:(x,y) \mapsto (2x,2y)</m></li>
+		<li> <m>T_2:(x,y) \mapsto (-y,-x)</m></li>
+		<li> <m>T_3:(x,y) \mapsto \begin{bmatrix} \cos\theta &amp; \sin\theta \\ -\sin\theta &amp; \cos\theta \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} </m></li>
+	</ol>
+	</exercise>
+
+	<lemma><p>The composition of two isometries is an isometry.</p></lemma>
+
+	<theorem>
+		<title>Isometries preserve colinearity</title>
+		<statement><p>For any isometry <m>T</m> if <m>A,</m> <m>B,</m> and <m>C</m> are colinear, then <m>T(A),</m> <m>T(B),</m> and <m>T(C)</m> are colinear.</p></statement>
+	</theorem>
+
+	<corollary>
+		<title>Isometries preserve betweeness</title>
+		<statement><p>For any isometry <m>T</m> if <m>A-B-C</m> then <m>T(A)-T(B)-T(C).</m></p></statement>
+	</corollary>
+
+	<theorem>
+		<title>Isometries preserve triangles</title>
+		<statement><p>For any isometry <m>T</m> and any three points <m>\triangle ABC \cong \triangle T(A)T(B)T(C).</m></p></statement>
+	</theorem>
+
+	<theorem>
+		<title>Isometries preserve angles</title>
+		<statement><p>For any isometry <m>T</m> and any three points <m>m\angle ABC = m\angle T(A)T(B)T(C).</m></p></statement>
+	</theorem>
+
+	<theorem>
+		<title>Isometries preserve parallelism</title>
+		<statement><p>For any isometry <m>T</m> <m>\ell_1 \parallel \ell_2</m> if and only if <m>T(\ell_1) \parallel T(\ell_2).</m></p></statement>
+	</theorem>
+
+	<theorem>
+		<title>Isometries preserve circles</title>
+		<statement><p>For any isometry <m>T</m> circles are mapped to congruent circles.</p></statement>
+	</theorem>
+
+</subsection>
+
+<subsection>
+	<title>Dilations</title>
+
+	<definition>
+		<title>Dilation</title>
+		<statement><p>A transformation is a <term>dilation</term> if and only if it can be defined by a point <m>Z</m> and a ratio <m>k</m> such that <m>T(P)=Q</m> where <m>Z-P-Q</m> and <m>\|ZQ\|/\|ZP\|=k.</m></p></statement>
+	</definition>
+
+	<definition>
+		<title>Similarity</title>
+		<statement><p>A transformation is a <term>similarity</term> if and only if it can be expressed as a composition of an isometry and a dilation.</p></statement>
+	</definition>
+
+	<lemma>
+		<title>Similarity scales segments uniformly</title>
+		<statement><p>For any similarity <m>T,</m> <m>\|T(A)T(B)\|/\|AB\| =k.</m></p></statement>
+	</lemma>
+
+	<theorem>
+		<title>Similarity preserves colinearity</title>
+		<statement><p>For any similarity <m>T</m> if <m>A,</m> <m>B,</m> and <m>C</m> are colinear, then <m>T(A),</m> <m>T(B),</m> and <m>T(C)</m> are colinear.</p></statement>
+	</theorem>
+
+	<corollary>
+		<title>Similarity preserves betweeness</title>
+		<statement><p>For any similarity <m>T</m> if <m>A-B-C</m> then <m>T(A)-T(B)-T(C).</m></p></statement>
+	</corollary>
+
+	<theorem>
+		<title>Similarity preserves triangle similarity</title>
+		<statement><p>For any similarity <m>T</m> and any three points <m>\triangle ABC \sim \triangle T(A)T(B)T(C).</m></p></statement>
+	</theorem>
+
+	<theorem>
+		<title>Similarity preserves angles</title>
+		<statement><p>For any similarity <m>T</m> and any three points <m>m\angle ABC = m\angle T(A)T(B)T(C).</m></p></statement>
+	</theorem>
+
+	<theorem>
+		<title>Similarity preserves parallelism</title>
+		<statement><p>For any similarity <m>T</m> <m>\ell_1 \parallel \ell_2</m> if and only if <m>T(\ell_1) \parallel T(\ell_2).</m></p></statement>
+	</theorem>
+
+	<theorem>
+		<statement><p>For any similarity <m>T</m> circles are mapped to circles.</p></statement>
+	</theorem>
+
+	<lemma>
+		<title>Similarities are closed</title>
+		<statement><p>The composition of two similarities is a similarity.</p></statement>
+	</lemma>
+
+</subsection>
+
+</section>

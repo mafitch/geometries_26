@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<section xml:id="section-finite-geometries" >
+<title>Finite Geometries</title>
+
+    <definition>
+        <title>Intersect</title>
+        <statement><p>Two lines <term>intersect</term> if and only if they share a point.</p></statement>
+    </definition>
+
+    <definition>
+        <title>Parallel</title>
+        <statement><p>Two lines are <term>parallel</term> if and only if they do not intersect.</p></statement>
+    </definition>
+
+    <definition>
+        <title>Four Point Geometry</title>
+        <statement><p>The four point geometry is defined by the following axioms and definitions.
+            <ol>
+                <li>There exist exactly four points.</li>
+                <li>Any two distinct points have exactly one line on both of them.</li>
+                <li>Each line is on exactly two points.</li>
+            </ol></p>
+        </statement>
+    </definition>
+
+    <exercise><p>Explore the four point geometry as follows.</p>
+    <ol>
+        <li>Draw and label four points.</li>
+        <li>Use axiom 2 to draw as many lines as possible.</li>
+        <li>How many lines exist in this geometry?</li>
+        <li>Find a pair of parallel lines.</li>
+        <li>Can you find three lines that are pairwise parallel?</li>
+        <li>Can you find a point that is on three lines?</li>
+    </ol>
+    </exercise>
+
+</section>

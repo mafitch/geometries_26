@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-hyperbolic-superparallel" >
+<title>Parallels in Hyperbolic</title>
+
+<theorem><p>If two lines are sensed parallels to a third line, they are also sensed parallels to each other.</p></theorem>
+
+<theorem><p>If two lines are sensed parallels to a third line, the line farthest away has the smallest angle of parallelism.</p></theorem>
+
+<definition>
+	<title>Saccheri Quadrilateral</title>
+	<statement><p>A quadrilateral is a <term>Saccheri quadrilateral</term> if and only if it has two consecutive right angles adjacent to two congruent sides. The side orthogonal to two sides is the base. The opposite side is the summit.</p></statement>
+</definition>
+
+<theorem><p>The non-right angles in a Saccheri quadrilateral are congruent.</p></theorem>
+
+<theorem><p>The line segment joining the midpoint of the base to the midpoint of the summit is orthogonal to both.</p></theorem>
+
+<lemma><p>Let <m>ABCD</m> be a Saccheri quadrilateral with right angles at <m>A</m> and <m>B.</m> Prove that <m>\angle AD\Omega \cong \angle BC\Omega.</m></p></lemma>
+
+<theorem><p>The non-right angles in a Saccheri quadrilateral are acute.</p></theorem>
+
+<theorem><p>Parallel lines are not everywhere equidistant.</p></theorem>
+
+<theorem><p>A transversal perpendicular to two parallel lines is unique.</p></theorem>
+
+</section>

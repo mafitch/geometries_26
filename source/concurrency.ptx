@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-concurrency" >
+
+<title>Concurrent</title>
+
+<introduction>
+
+<definition>
+	<title>Median</title>
+	<statement><p>A line is a <term>median</term> if and only if it connects a vertex of a triangle to the midpoint of the opposing side.</p></statement>
+</definition>
+
+</introduction>
+
+<subsection>
+	<title>Explore</title>
+
+	<p>Geogebra will be helpful for performing these experiments. Be as detailed as you can with your conjectures.</p>
+
+	<exercise><p>Use the Geogebra example in <xref ref="geogebra-perpbisect" /> to experiment with the relationship of the three perpendicular bisectors of a triangle. Move the vertices of the triangle around. What remains true about the perpendicular bisectors?</p></exercise>
+
+	<figure xml:id="geogebra-perpbisect">
+        <caption>GeoGebra: Perpendicular Bisectors</caption>
+        <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/TrianglePerpendicularBisectors.png">
+            <slate xml:id="perpbisect" surface="geogebra" source="code/TrianglePerpBisect.ggb" aspect="4:3" />
+        	<instructions>
+        		<p>Drag the vertices of the triangles around and see what is always true about the perpendicular bisectors.</p>
+        	</instructions>
+        </interactive>
+    </figure>
+
+	<exercise><p>Use the Geogebra example in <xref ref="geogebra-medians" /> to experiment with the relationship of the three medians of a triangle. Move the vertices of the triangle around. What remains true about the medians?</p></exercise>
+https://www.geogebra.org/classic/mfg3xkjf
+    <figure xml:id="geogebra-medians">
+        <caption>GeoGebra: Medians</caption>
+        <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/TriangleMedians.png">
+            <slate xml:id="medians" surface="geogebra" material="ttavzcwk" aspect="4:3">
+                setAxisSteps(1, 1, 5, 1);
+                setCoordSystem(-0.7, 8, -6, 56);
+                enableShiftDragZoom(true);
+            </slate>
+        	<instructions>
+        		<p>Drag the vertices of the triangles around and see what is always true about the medians.</p>
+        	</instructions>
+         </interactive>
+    </figure>
+
+
+	<exercise>
+		<p>Use the Geogebra example in <xref ref="geogebra-anglebisect" /> to experiment with the relationship of the three angle bisectors of a triangle. Move the vertices of the triangle around. What remains true about the angle bisectors?</p>
+	</exercise>
+
+    <figure xml:id="geogebra-anglebisect">
+        <caption>GeoGebra: Angle Bisectors</caption>
+         <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/TriangleAngleBisectors.png">
+            <slate xml:id="anglebisect" surface="geogebra" material="t6qcnzga" aspect="4:3">
+                setAxisSteps(1, 1, 5, 1);
+                setCoordSystem(-0.7, 8, -6, 56);
+                enableShiftDragZoom(true);
+            </slate>
+        	<instructions>
+        		<p>Drag the vertices of the triangles around and see what is always true about the angle bisectors.</p>
+        	</instructions>
+         </interactive>
+    </figure>
+
+	<exercise><p>Use the Geogebra example in <xref ref="geogebra-altitudes" /> to experiment with the relationship of the three altitudes of a triangle. Move the vertices of the triangle around. What remains true about the altitudes?</p></exercise>
+
+    <figure xml:id="geogebra-altitudes">
+        <caption>GeoGebra: Altitudes</caption>
+         <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/TriangleAltitudes.png">
+            <slate xml:id="perpalt" surface="geogebra" source="code/TriangleAltitudes.ggb" aspect="4:3" />
+        	<instructions>
+        		<p>Drag the vertices of the triangles around and see what is always true about the altitudes.</p>
+        	</instructions>
+         </interactive>
+    </figure>
+
+	<exercise><p>Construct <m>\triangle ABC.</m> Construct <m>\triangle XYZ</m> such that <m>X-B-Y,</m> <m>Y-C-Z,</m> <m>Z-A-X,</m> and <m>\overline{XY} \parallel \overline{AC},</m> <m>\overline{YZ} \parallel \overline{AB},</m> <m>\overline{ZX} \parallel \overline{BC}.</m> Construct the perpendicular bisectors of <m>\triangle XYZ.</m> What appears to be true of these with respect to <m>\triangle ABC.</m></p></exercise>
+
+</subsection>
+
+<subsection>
+	<title>Prove</title>
+
+	<lemma>
+		<statement><p>Consider three points <m>A,B,C</m> with <m>\ell_1</m> and <m>\ell_2</m> the perpendicular bisectors of <m>\overline{AB}</m> and <m>\overline{BC}</m> respectively. Let <m>M_2=\ell_2 \cap \overline{BC}.</m> Show <m>\ell_1 \parallel \ell_2</m> implies the existence of <m>D=\ell_2 \cap \stackrel{\longleftrightarrow}{AB}</m> such that <m>A,</m> <m>B,</m> and <m>D</m> are collinear and <m>\angle BDM_2</m> is a right angle.</p></statement>
+	</lemma>
+
+	<theorem>
+		<title>Perpendicular bisectors</title>
+		<statement><p>Prove the conjecture about the perpendicular bisectors.</p></statement>
+	</theorem>
+
+	<theorem>
+		<title>Circumcenter</title>
+		<statement><p>Three points uniquely determine a circle.</p></statement>
+	</theorem>
+
+	<lemma>
+		<statement><p>Two medians intersect at a point <m>2/3</m> of the way down both medians.</p></statement> 
+	</lemma>
+
+	<theorem>
+		<title>Medians</title>
+		<statement><p>Prove the conjecture about the medians.</p></statement>
+	</theorem>
+
+	<theorem>
+		<statement><p>A point is on the angle bisector of an angle if and only if it is equidistant from both sides of the angle.</p></statement>
+	</theorem>
+
+	<theorem>
+		<title>Angle bisectors</title>
+		<statement><p>Prove the conjecture about the angle bisectors.</p></statement>
+	</theorem>
+
+	<theorem>
+		<title>Incenter</title>
+		<statement><p>For each triangle there exists a circle inside and tangent to all three sides.</p></statement>
+	</theorem>
+
+	<theorem>
+		<title>Altitudes</title>
+		<statement><p>Prove the conjecture about the altitudes.</p></statement>
+	</theorem>
+
+</subsection>
+
+</section>

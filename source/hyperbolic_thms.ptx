@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-hyperbolic-theorems" >
+<title>Theorems of Hyperbolic Geometry</title>
+
+<p>Note when working on these problems the model may be useful in figuring out why something works. However the proofs should be directly based on the axioms. It is legitimate to prove a statement using the model description if the model has been proven to be equivalent to the axioms. For this course proofs using the model will be worth fewer points than proofs directly from the axioms.</p>
+
+<lemma>
+	<title>Hyperbolic Parallel Corollary</title>
+	<statement><p>Given a line and a point not on that line there exists infinitely many lines through that point parallel to the given line.</p></statement>
+</lemma>
+
+<lemma>
+	<title>Sensed Parallel</title>
+	<statement><p>Given a line and a point not on that line there exists a first line through that point parallel to the given line.</p></statement>
+</lemma>
+
+<definition>
+	<title>Sensed Parallel</title>
+	<statement><p>A line is a <term>sensed parallel</term> if and only if it is the first line parallel to a given line on that side through a given point.</p></statement>
+</definition>
+
+<definition>
+	<title>Angle of Parallelism</title>
+	<statement><p>The smaller angle formed by a sensed parallel and a transversal through the given point is the <term>angle of parallelism</term> if and only if the transversal is perpendicular to the given line.</p></statement>
+</definition>
+
+<corollary>
+	<statement><p>The angle of parallelism is the same on the left and right.</p></statement>
+</corollary>
+
+<theorem><p>The angle of parallelism is less than <m>\pi/2.</m></p></theorem>
+
+<lemma><p>Consider the following illustrated in <xref ref="alsoleft" />. <m>\ell</m> is the right sensed parallel to <m>n</m> at <m>P.</m> Let <m>S</m> be on <m>\ell</m> to the left of <m>P.</m> Suppose line <m>m</m> through <m>S</m> is the sensed parallel to <m>n</m> at <m>S.</m> Show that if <m>T</m> is on <m>m</m> to the left of <m>S</m> then <m>m</m> must be below <m>\stackrel{\longleftrightarrow}{TP}</m> to the right of <m>T.</m> Further if <m>U</m> on <m>\ell</m> such that <m>U-S-P</m> and <m>A=\stackrel{\longleftrightarrow}{TP} \cap n</m>, then sensed parallel <m>m</m> must be above <m>\stackrel{\longleftrightarrow}{SA}</m> to the right of <m>A</m> and above <m>\stackrel{\longleftrightarrow}{UA}.</m> </p></lemma>
+
+<figure xml:id="alsoleft">
+<caption>Sensed Parallels Left</caption>
+<image source="images/LemmasSensedAllPoints" />
+</figure>
+
+<lemma><p>Consider the following illustrated in <xref ref="alsoright" />. <m>\ell</m> is the right sensed parallel to <m>n</m> at <m>P.</m> Let <m>S</m> be on <m>\ell</m> to the right of <m>P.</m> Suppose line <m>m</m> through <m>S</m> is the sensed parallel to <m>n</m> at <m>S.</m> Show that if <m>U</m> and <m>T</m> are on <m>m</m> such that <m>U-S-T</m> and <m>A=\stackrel{\longleftrightarrow}{PT} \cap n</m> then <m>m</m> is below <m>\stackrel{\longleftrightarrow}{UA}</m> to the right of <m>U</m> and above <m>\stackrel{\longleftrightarrow}{PA}.</m></p></lemma>
+
+<figure xml:id="alsoright">
+<caption>Sensed Parallels Right</caption>
+<image source="images/LemmasSensedAllPoints2" />
+</figure>
+
+<lemma><p>If <m>\ell</m> is the right sensed parallel to <m>m</m> at <m>P,</m> then <m>\ell</m> is the right sensed parallel to <m>m</m> at any point to the left of <m>P</m> on <m>\ell.</m></p></lemma>
+
+<theorem>
+	<title>Sensed Everywhere</title>
+	<statement><p>If <m>\ell</m> is the sensed parallel to <m>m</m> at a point <m>P</m>, then <m>\ell</m> is the sensed parallel to <m>m</m> at any point <m>Q</m> also on <m>\ell.</m></p></statement>
+</theorem>
+
+<definition>
+	<title>Omega Triangle</title>
+	<statement><p>A pair of parallel lines and a transversal is a <term>omega triangle</term> if and only if the parallels are sensed parallels.</p></statement>
+</definition>
+
+<exercise><p>Draw an omega triangle using the Poincaré disc model.</p></exercise>
+
+<exercise><p>In terms of the model what are omega points (the third "vertex" of an omega triangle)? What might these represent in terms of pairs of sensed parallels?</p></exercise>
+
+<lemma>
+	<title>Crossbar for Omega Triangles</title>
+	<statement><p>If a line <m>k</m> contains a vertex and an interior point of an omega triangle, it intersects the side opposite the vertex.</p></statement>
+</lemma>
+
+<exercise><p>Does a version of Pasch's Axiom work for omega triangles?</p></exercise>
+
+<exercise><p>Let <m>\ell</m> and <m>m</m> be sensed parallels. Let <m>\overline{AB}</m> be a transversal with <m>A \in \ell</m> and <m>B \in m.</m> Let <m>M</m> be the midpoint of <m>\overline{AB},</m> and <m>D</m> be the foot of the perpendicular from <m>M</m> to <m>\ell.</m> Also choose <m>F \in m</m> on the opposite side of <m>\overline{AB}</m> from <m>D</m> such that <m>\overline{BF} \cong \overline{AD}.</m> Let <m>C \in \ell</m> be such that <m>C-A-D.</m> Prove that <m>\angle CAB \not\cong \angle AB\omega.</m></p></exercise>
+
+<lemma>
+	<title>Omega Triangle Exterior Angle</title>
+	<statement><p>An exterior angle of an omega triangle is greater than the opposite interior angle.</p></statement>
+</lemma>
+
+<lemma>
+	<title>Angle-Side Congruency</title> 
+	<statement><p>Two omega triangles are congruent if the length of the finite sides and the measure of one pair of corresponding angles are congruent.</p></statement>
+</lemma>
+
+<lemma>
+	<title>Angle-Angle Congruency</title>
+	<statement><p>Two omega triangles are congruent if corresponding pairs of angles are congruent.</p></statement>
+</lemma>
+
+</section>
