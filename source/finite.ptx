@@ -36,4 +36,19 @@
     </ol>
     </exercise>
 
+    <p>The four point geometry is an <term>affine</term> geometry. We are also interested in <term>projective</term> geometries.</p>
+
+    <definition xml:id="definition-projective-geometry">
+        <title>Projective Geometry</title>
+        <statement>
+            <p>A finite projective geometry satisfies the following conditions.
+            <ol>
+                <li>Every two distinct points have exactly one line on them.</li>
+                <li>There are at least four points with no three on the same line.</li>
+                <li>Every two lines have at least one point on them both.</li>
+            </ol></p>
+        </statement>
+    </definition>
+
+    <exercise><p>Construct a projective geometry with exactly 4 points on every line.</p></exercise>
 </section>

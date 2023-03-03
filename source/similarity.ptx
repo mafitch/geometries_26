@@ -44,7 +44,7 @@
 			<statement><p>The area of a triangle is equal to one half of the product of one side times the length of the altitude from the opposing vertex to that side.</p></statement>
 		</definition>
 
-		<exercise><p>Construct <m>\triangle ABC.</m>m> Construct <m>\overline{DE}</m> such that <m>B-D-A,</m> <m>B-E-C</m>, and <m>\overline{DE} \parallel \overline{AC}.</m></p>
+		<exercise><p>Construct <m>\triangle ABC</m>. Construct <m>\overline{DE}</m> such that <m>B-D-A,</m> <m>B-E-C</m>, and <m>\overline{DE} \parallel \overline{AC}.</m></p>
 			<ol>
 				<li>Construct <m>\overline{AE}</m> and <m>\overline{EF}</m> such that <m>F</m> is the foot of the perpendicular from <m>E.</m> Reduce the ratio of the areas of <m>\triangle DEB</m> and <m>\triangle AED.</m></li>
 				<li>Construct <m>\overline{DC}</m> and <m>\overline{DG}</m> such that <m>G</m> is the foot of the perpendicular from <m>D.</m> Reduce the ratio of the areas of <m>\triangle DEB</m> and <m>\triangle CDE.</m></li>
@@ -63,7 +63,7 @@
 
 		<lemma><p>A line parallel to one side of a triangle and intersecting the other two sides divides those sides proportionally.</p></lemma>
 
-		<corollary><p>If a line parallel to one side of a triangle divides the other sides proportionally then the two triangles (large and part) are similar.</p></corollary>
+		<corollary><p>A line parallel to one side of a triangle divides the triangle into two (whole and part), similar triangles.</p></corollary>
 
 		<theorem>
 			<title>Angle-Angle-Angle (AAA) Similarity</title>

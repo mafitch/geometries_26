@@ -6,7 +6,6 @@
         <definition>
             <title>Fano Geometry</title>
             <statement><p>Use the following axioms and definitions of intersection and parallel as a definition of the Fano geometry.</p>
-            <p>more stuff</p>
             <p><ol>
                 <li>There exists at least one line.</li>
                 <li>There are exactly three points on every line.</li>

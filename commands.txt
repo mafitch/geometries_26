@@ -1,7 +1,7 @@
-cd /d/Documents/texts/geometries/
+cd /d/Documents/texts/geometries_ibl/
 
 pretext build web
 
 pretext build print
 
-/c/'Program Files'/Java/jdk-17.0.1/bin/java -classpath ~/xsltproc/jing-trang/build -Dorg.apache.xerces.xni.parser.XMLParserConfiguration=org.apache.xerces.parsers.XIncludeParserConfiguration -jar ~/xsltproc/jing-trang/build/jing.jar ~/pretext/schema/pretext.rng /d/Documents/texts/geometries/source/geometries_ibl.ptx >/d/Documents/texts/geometries/schemaerrors.txt
+/c/'Program Files'/Java/jdk-19/bin/java -classpath ~/xsltproc/jing-trang/build -Dorg.apache.xerces.xni.parser.XMLParserConfiguration=org.apache.xerces.parsers.XIncludeParserConfiguration -jar ~/xsltproc/jing-trang/build/jing.jar ~/pretext/schema/pretext.rng /d/Documents/texts/geometries_ibl/source/geometries_ibl.ptx >/d/Documents/texts/geometries_ibl/schemaerrors.txt

@@ -22,8 +22,11 @@
 
 	<figure xml:id="geogebra-perpbisect">
         <caption>GeoGebra: Perpendicular Bisectors</caption>
-        <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/TrianglePerpendicularBisectors.png">
-            <slate xml:id="perpbisect" surface="geogebra" source="code/TrianglePerpBisect.ggb" aspect="4:3" />
+        <interactive platform="geogebra" width="100%" aspect="5:3" preview="images/TrianglePerpendicularBisectors.png">
+            <slate xml:id="perpbisect" surface="geogebra" material="k4nbskmn" aspect="5:3">
+                setCoordSystem(0, 10, 0, 6);
+                enableShiftDragZoom(true);
+            </slate>
         	<instructions>
         		<p>Drag the vertices of the triangles around and see what is always true about the perpendicular bisectors.</p>
         	</instructions>
@@ -34,10 +37,9 @@
 https://www.geogebra.org/classic/mfg3xkjf
     <figure xml:id="geogebra-medians">
         <caption>GeoGebra: Medians</caption>
-        <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/TriangleMedians.png">
-            <slate xml:id="medians" surface="geogebra" material="ttavzcwk" aspect="4:3">
-                setAxisSteps(1, 1, 5, 1);
-                setCoordSystem(-0.7, 8, -6, 56);
+        <interactive platform="geogebra" width="100%" aspect="5:3" preview="images/TriangleMedians.png">
+            <slate xml:id="medians" surface="geogebra" material="ttavzcwk" aspect="5:3">
+                setCoordSystem(0, 10, 0, 6);
                 enableShiftDragZoom(true);
             </slate>
         	<instructions>
@@ -53,10 +55,9 @@ https://www.geogebra.org/classic/mfg3xkjf
 
     <figure xml:id="geogebra-anglebisect">
         <caption>GeoGebra: Angle Bisectors</caption>
-         <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/TriangleAngleBisectors.png">
-            <slate xml:id="anglebisect" surface="geogebra" material="t6qcnzga" aspect="4:3">
-                setAxisSteps(1, 1, 5, 1);
-                setCoordSystem(-0.7, 8, -6, 56);
+         <interactive platform="geogebra" width="100%" aspect="5:3" preview="images/TriangleAngleBisectors.png">
+            <slate xml:id="anglebisect" surface="geogebra" material="t6qcnzga" aspect="5:3">
+                setCoordSystem(0, 10, 0, 6);
                 enableShiftDragZoom(true);
             </slate>
         	<instructions>
@@ -69,8 +70,11 @@ https://www.geogebra.org/classic/mfg3xkjf
 
     <figure xml:id="geogebra-altitudes">
         <caption>GeoGebra: Altitudes</caption>
-         <interactive platform="geogebra" width="100%" aspect="4:3" preview="images/TriangleAltitudes.png">
-            <slate xml:id="perpalt" surface="geogebra" source="code/TriangleAltitudes.ggb" aspect="4:3" />
+         <interactive platform="geogebra" width="100%" aspect="5:3" preview="images/TriangleAltitudes.png">
+            <slate xml:id="perpalt" surface="geogebra" material="mykyhhv8" aspect="5:3">
+                setCoordSystem(0, 10, 0, 6);
+                enableShiftDragZoom(true);
+            </slate>
         	<instructions>
         		<p>Drag the vertices of the triangles around and see what is always true about the altitudes.</p>
         	</instructions>
@@ -95,7 +99,7 @@ https://www.geogebra.org/classic/mfg3xkjf
 
 	<theorem>
 		<title>Circumcenter</title>
-		<statement><p>Three points uniquely determine a circle.</p></statement>
+		<statement><p>Three, non-colinear points uniquely determine a circle.</p></statement>
 	</theorem>
 
 	<lemma>
