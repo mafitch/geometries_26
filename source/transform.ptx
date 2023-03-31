@@ -4,6 +4,10 @@
 
 <title>Transformation</title>
 
+<introduction>
+	<p><alert>If you see this statement, remind the instructor to revise this section to have more play before the proofs.</alert></p>
+</introduction>
+
 <subsection>
 	<title>Planar Transformations</title>
 
@@ -19,7 +23,7 @@
 
 	<p>For this course all transformations will be transformations of the Euclidean plane.</p>
 
-	<exercise><p>Describe the effect of each of the following transformations by considering the effects on the region (area) with the following vertices. (0,0), (2,0), (3,5), (0,4). Hint: map the vertices, then map the lines connecting the vertices.</p>
+	<exercise><p>Describe the effect of each of the following transformations by considering the effects on the region (area) with the following vertices. (0,0), (1,0), (2,0), (2.5,2.5), (3,5), (0,2), (0,4), (1.5,4.5). Hint: map the vertices, then map the lines connecting the vertices.</p>
 	<ol>
 		<li><m>T_1:(x,y) \mapsto (y,x).</m></li>
 		<li><m>T_2:(x,y) \mapsto (x/2,y/2).</m></li>
