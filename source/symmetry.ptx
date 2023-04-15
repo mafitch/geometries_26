@@ -56,7 +56,7 @@
 		<statement><p>A covering of the plane is a <term>tiling</term> if and only if it consists of a finite set of shapes infinitely reproduced using a finite set of transformations.</p></statement>
 	</definition>
 
-	<exercise><p>Analyze the tesselation in Figure \ref{tessel} as follows.</p>
+	<exercise><p>Analyze the tesselation in <xref ref="figure-tesselation1" /> as follows.</p>
 		<ol>
 			<li> Identify the generating shape.</li>
 			<li> Identify the smallest set of transformations that can generate the tesselation.</li>
@@ -83,11 +83,11 @@
 	</statement>
 	</definition>
 
-	<p>See the example signatures in Figures <xref ref="signature1" /> to <xref ref="signature2" />.</p>
+	<p>See the example signatures in <xref ref="signature1" /> to <xref ref="signature2" />.</p>
 
 	<exercise><p>Find the signatures of two tesselations from the class archive at <url href="http://www.math.uaa.alaska.edu/~afmaf/classes/math305/notes/tessel_gallery/gallery.html" />. You may not choose two with the same signature.</p></exercise>
 
-	<exercise><p>Find the signature of the tesselation in Figure <xref ref="tessel" />.</p></exercise>
+	<exercise><p>Find the signature of the tesselation in <xref ref="figure-tesselation1" />.</p></exercise>
 
 	<exercise><p>Begin the tesselation project.</p></exercise>
 
@@ -96,7 +96,7 @@
 <subsection>
 	<title>Tesselation Images</title>
 
-<figure xml:id="tessel">
+<figure xml:id="figure-tesselation1">
 <caption>Tesselation</caption>
 <image source="images/Tesselation.jpg" />
 </figure>

@@ -23,13 +23,20 @@
 
 	<p>For this course all transformations will be transformations of the Euclidean plane.</p>
 
-	<exercise><p>Describe the effect of each of the following transformations by considering the effects on the region (area) with the following vertices. (0,0), (1,0), (2,0), (2.5,2.5), (3,5), (0,2), (0,4), (1.5,4.5). Hint: map the vertices, then map the lines connecting the vertices.</p>
-	<ol>
-		<li><m>T_1:(x,y) \mapsto (y,x).</m></li>
-		<li><m>T_2:(x,y) \mapsto (x/2,y/2).</m></li>
-		<li><m>T_3:(x,y) \mapsto (1-x^3,1-y^3).</m></li>
-		<li><m>T_4:(x,y) \mapsto (\sqrt{x^2+y^2}x,\sqrt{x^2+y^2}y).</m></li>
-	</ol>
+	<exercise>
+		<introduction><p>Describe the effect of each of the following transformations by considering the effects on the region (area) with the following vertices. (0,0), (2,0), (3,5), (0,4). Hint: map the vertices, then map the lines connecting the vertices.</p></introduction>
+		<task>
+			<statement><p><m>T_1:(x,y) \mapsto (y,x)</m>.</p></statement>
+		</task>
+		<task>
+			<statement><p><m>T_2:(x,y) \mapsto (x/2,y/2)</m>.</p></statement>
+		</task>
+		<task>
+			<statement><p><m>T_3:(x,y) \mapsto (1-x^3,1-y^3)</m>.</p></statement>
+		</task>
+		<task>
+			<statement><p><m>T_4:(x,y) \mapsto (\sqrt{x^2+y^2}x,\sqrt{x^2+y^2}y)</m>.</p></statement>
+		</task>
 	</exercise>
 
 </subsection>
@@ -42,12 +49,17 @@
 		<statement><p>A transformation is an <term>isometry</term> if and only if <m>\|P-Q\|=\|T(P)-T(Q)\|.</m></p></statement>
 	</definition>
 
-	<exercise><p>Determine which of the following transformations are isometries.</p>
-	<ol>
-		<li> <m>T_1:(x,y) \mapsto (2x,2y)</m></li>
-		<li> <m>T_2:(x,y) \mapsto (-y,-x)</m></li>
-		<li> <m>T_3:(x,y) \mapsto \begin{bmatrix} \cos\theta &amp; \sin\theta \\ -\sin\theta &amp; \cos\theta \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} </m></li>
-	</ol>
+	<exercise>
+		<introduction><p>Determine which of the following transformations are isometries.</p></introduction>
+		<task>
+			<statement><p><m>T_1:(x,y) \mapsto (2x,2y)</m></p></statement>
+		</task>
+		<task>
+			<statement><p><m>T_2:(x,y) \mapsto (-y,-x)</m></p></statement>
+		</task>
+		<task>
+			<statement><p><m>T_3:(x,y) \mapsto \begin{bmatrix} \cos\theta &amp; \sin\theta \\ -\sin\theta &amp; \cos\theta \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} </m></p></statement>
+		</task>
 	</exercise>
 
 	<lemma><p>The composition of two isometries is an isometry.</p></lemma>

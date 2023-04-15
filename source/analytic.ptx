@@ -7,7 +7,7 @@
 
 <definition>
 	<title>Homogeneous coordinates</title>
-	<statement><p>A point with normal coordinates <m>(x,y)</m> in homogeneous coordinates is written <m>(x,y,1).</m></p></statement>
+	<statement><p>A point with normal coordinates <m>(x,y)</m> is written <m>(x,y,1)</m> in homogeneous coordinates.</p></statement>
 </definition>
 
 <table>
