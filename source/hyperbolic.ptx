@@ -5,7 +5,7 @@
 
 <p>Hyperbolic geometry results by replacing the Euclidean parallel postulate with the following.</p>
 
-<axiom><statement><p>Given a line and a point not on that line there exists at least two lines through the point and parallel to the lines.</p></statement></axiom>
+<axiom><statement><p>Given a line and a point not on that line there exists at least two lines through the point and parallel to the line.</p></statement></axiom>
 
 <exercise><p>There were three major variants (wordings) of the Euclidean parallel postulate. Conjecture what these look like in hyperbolic geometry.</p></exercise>
 
