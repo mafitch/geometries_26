@@ -1,4 +1,4 @@
-cd /d/Documents/texts/geometries_ibl/
+cd /c/DATA/Documents/texts/geometries_ibl/
 
 pretext build web
 
