@@ -2,7 +2,7 @@
 
 <frontmatter xmlns:xi="http://www.w3.org/2001/XInclude">
 
-    <titlepage>
+    <bibinfo>
 
         <author>
             <personname>Mark A. Fitch</personname>
@@ -12,10 +12,6 @@
         </author>
 
         <date>25 February 2019</date>
-
-    </titlepage>
-
-    <colophon xml:id="front-colophon">
 
         <edition>Spring 2023</edition>
 
@@ -30,17 +26,15 @@
             <shortlicense>Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.2 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.  A copy of the license is included in the appendix entitled <q>GNU Free Documentation License.</q>  All trademarks<trademark /> are the registered<registered /> marks of their respective owners.</shortlicense>
         </copyright>
 
+    </bibinfo>
+
+    <titlepage>
+        <titlepage-items />
+    </titlepage>
+
+    <colophon label="front-colophon">
+        <colophon-items />
     </colophon>
-
-    <!-- A section of its own in HTML, migrates to copyright-page in LaTeX -->
-    <!-- Titles are optional, presumably none for single author,           -->
-    <!-- or for every author, even if we test a mix here                   -->
-
-    <biography xml:id="author-bio-MAF">
-        <title>About Mark A. Fitch</title>
-        <p>Do you really want to know anything.</p>
-
-    </biography>
 
     <!-- The following items must be placed in the desired/required order -->
     <!-- This will be checked by a Document Type Definition eventually -->
@@ -48,7 +42,7 @@
 
     <acknowledgement xml:id="acknowledgement">
 
-        <p>This problem set has been developed with the assistance of many students from Introduction to Geometries at the University of Alaska Anchorage.</p>
+        <p>This problem set was developed for the MATH A305 Introduction to Geometries at the University of Alaska Anchorage. It has been modified based on the experience of the students in this class.</p>
 
     </acknowledgement>
 

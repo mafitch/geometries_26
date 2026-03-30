@@ -101,13 +101,15 @@
       exercise-worksheet="no"
       exercise-readingquestion="no"
     />
-    <!-- Specify the style of the html by giving names to      -->
-    <!-- override defaults.  Ex: to use "style_oscarlevin.css" -->
-    <!-- put <css style="oscarlevin"/>                         -->
-    <!-- @colors now implemented                               -->
-    <!-- also @knowls, @toc, and @banner, although no          -->
-    <!-- alternative styles exist yet for those.               -->
-    <css style="default" colors="blue_red" />
+    <!-- Specify the theme for the html by giving names to     -->
+    <!-- override defaults.  Ex:<css theme="denver"/>          -->
+    <!-- See also                                              -->
+    <!-- https://pretextbook.org/doc/guide/html/publication-file-online.html#online-style-options -->
+    <css
+      theme="denver"
+      palette="leaves"
+    />
+
     <!-- Search can be default or none, or you can use a Google-cx number to use google's search
     feature (but then variant should be set to none to avoid conflict) -->
     <search variant="default" />
