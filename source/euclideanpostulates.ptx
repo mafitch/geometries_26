@@ -4,16 +4,16 @@
 <title>Equivalent Parallel Postulates</title>
 
     <introduction>
-    <p>Each of the following is an equivalent Euclidean postulate.</p>
+        <p>Each of the following is an equivalent Euclidean postulate.</p>
 
-    <list>
-        <title>Equivalent Euclidean Postulates</title>
-    <ul>
-        <li>(<em>Playfair</em>) Given a line and a point not on that line, there exists exactly one line through that point parallel to the given line.</li>
-        <li>(<em>Equidistance</em>) Lines that are parallel are everywhere equidistant.</li>
-        <li>(<em>Euclid</em>) Given two lines and a transversal of those lines, if the sum of the angles on one side of the transversal is less than two right angles then the lines meet on that side.</li>
-    </ul>
-    </list>
+        <list>
+            <title>Equivalent Euclidean Postulates</title>
+            <ul>
+                <li>(<em>Playfair</em>) Given a line and a point not on that line, there exists exactly one line through that point parallel to the given line.</li>
+                <li>(<em>Equidistance</em>) Lines that are parallel are everywhere equidistant.</li>
+                <li>(<em>Euclid</em>) Given two lines and a transversal of those lines, if the sum of the angles on one side of the transversal is less than two right angles then the lines meet on that side.</li>
+            </ul>
+        </list>
     </introduction>
 
     <subsection>
@@ -43,19 +43,43 @@
 
             <p>The following theorem produces an easier to use version of Euclid's postulate.</p>
 
-            <theorem><p>Euclid's postulate and Theorem <xref ref="parallelright" /> are equivalent to the following. "The sum of the angles on one side of a transversal of two lines is equal to the sum of two right angles if and only if the lines are parallel."</p></theorem>
+            <theorem>
+                <statement>
+                    <p>Euclid's postulate and Theorem <xref ref="parallelright" /> are equivalent to the following. "The sum of the angles on one side of a transversal of two lines is equal to the sum of two right angles if and only if the lines are parallel."</p>
+                </statement>
+            </theorem>
 
-            <theorem><p>Euclid's postulate implies Playfair's axiom.</p></theorem>
+            <theorem>
+                <statement>
+                    <p>Euclid's postulate implies Playfair's axiom.</p>
+                </statement>
+            </theorem>
 
-            <theorem><p>Playfair's axiom implies the alternate interior angle converse theorem.</p></theorem>
+            <theorem>
+                <statement>
+                    <p>Playfair's axiom implies the alternate interior angle converse theorem.</p>
+                </statement>
+            </theorem>
 
             <p>The alternate interior angle converse theorem states ``Given parallel lines and a transversal of those lines, the alternate interior angles formed by the transversal are congruent.''</p>
 
-            <theorem><p>Playfair and the alternating interior angle converse theorem imply the equidistance of parallel lines.</p></theorem>
+            <theorem>
+                <statement>
+                    <p>Playfair and the alternating interior angle converse theorem imply the equidistance of parallel lines.</p>
+                </statement>
+            </theorem>
 
-            <theorem><p>The equidistance of parallel lines implies Euclid's postulate.</p></theorem>
+            <theorem>
+                <statement>
+                    <p>The equidistance of parallel lines implies Euclid's postulate.</p>
+                </statement>
+            </theorem>
 
-            <theorem><p>Prove the three postulates are all equivalent.</p></theorem>
+            <theorem>
+                <statement>
+                    <p>Prove the three postulates are all equivalent.</p>
+                </statement>
+            </theorem>
 
     </subsection>
 

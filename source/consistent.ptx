@@ -5,7 +5,7 @@
 
         <definition>
             <title>Five Point Geometry</title>
-            <statement><p>Use the following axioms and definitions of intersection and parallel as a definition of the five point geometry.</p>
+            <statement><p>Use the following axioms and definitions of intersection and parallel as an alleged definition of the five point geometry.</p>
             <p><ol>
                     <li>There exist exactly five points.</li>
                     <li>There exist exactly five lines.</li>
@@ -15,12 +15,21 @@
             </statement>
         </definition>
 
-        <exercise><p>Explore the five point geometry as follows.</p>
-            <ol>
-                <li>Draw five points using Geogebra.</li>
-                <li>Use Axiom 3 to draw all required lines.</li>
-                <li>How many lines did you construct?</li>
-                <li>Compare this answer to Axiom 2.</li>
-            </ol>
+        <exercise>
+            <introduction>
+                <p>Explore the alleged five point geometry as follows.</p>
+            </introduction>
+            <task>
+                <statement><p>Draw five points using Geogebra.</p></statement>
+            </task>
+            <task>
+                <statement><p>Use Axiom 3 to draw all required lines.</p></statement>
+            </task>
+            <task>
+                <statement><p>How many lines did you construct?</p></statement>
+            </task>
+            <task>
+                <statement><p>Compare this answer to Axiom 2.</p></statement>
+            </task>
         </exercise>
 </section>

@@ -4,5 +4,6 @@
   <targets>
     <target name="web" format="html" source="geometries_ibl.ptx" />
     <target name="print" format="pdf" source="geometries_ibl.ptx" />
+    <target name="latex" format="latex" source="geometries_ibl.ptx" />
   </targets>
 </project>

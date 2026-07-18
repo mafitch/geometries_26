@@ -18,12 +18,17 @@
 
 	<p>Geogebra will be helpful for performing these experiments. Be as detailed as you can with your conjectures.</p>
 
-	<exercise><p>Use the Geogebra example in <xref ref="geogebra-perpbisect" /> to experiment with the relationship of the three perpendicular bisectors of a triangle. Move the vertices of the triangle around. What remains true about the perpendicular bisectors?</p></exercise>
+	<exercise>
+		<statement>
+			<p>Use the Geogebra example in <xref ref="geogebra-perpbisect" /> to experiment with the relationship of the three perpendicular bisectors of a triangle. Move the vertices of the triangle around. What remains true about the perpendicular bisectors?</p>
+		</statement>
+	</exercise>
 
 	<figure xml:id="geogebra-perpbisect">
         <caption>GeoGebra: Perpendicular Bisectors</caption>
         <interactive platform="geogebra" width="100%" aspect="5:3" preview="images/TrianglePerpendicularBisectors.png">
-            <slate xml:id="perpbisect" surface="geogebra" material="k4nbskmn" aspect="5:3">
+			<!-- old: k4nbskmn -->
+            <slate xml:id="perpbisect" surface="geogebra" material="enecsuwx" aspect="5:3">
                 setCoordSystem(0, 10, 0, 6);
                 enableShiftDragZoom(true);
             </slate>
@@ -33,9 +38,13 @@
         </interactive>
     </figure>
 
-	<exercise><p>Use the Geogebra example in <xref ref="geogebra-medians" /> to experiment with the relationship of the three medians of a triangle. Move the vertices of the triangle around. What remains true about the medians?</p></exercise>
-https://www.geogebra.org/classic/mfg3xkjf
-    <figure xml:id="geogebra-medians">
+	<exercise>
+		<statement>
+			<p>Use the Geogebra example in <xref ref="geogebra-medians" /> to experiment with the relationship of the three medians of a triangle. Move the vertices of the triangle around. What remains true about the medians?</p>
+		</statement>
+	</exercise>
+
+	<figure xml:id="geogebra-medians">
         <caption>GeoGebra: Medians</caption>
         <interactive platform="geogebra" width="100%" aspect="5:3" preview="images/TriangleMedians.png">
             <slate xml:id="medians" surface="geogebra" material="ttavzcwk" aspect="5:3">
@@ -48,9 +57,10 @@ https://www.geogebra.org/classic/mfg3xkjf
          </interactive>
     </figure>
 
-
 	<exercise>
-		<p>Use the Geogebra example in <xref ref="geogebra-anglebisect" /> to experiment with the relationship of the three angle bisectors of a triangle. Move the vertices of the triangle around. What remains true about the angle bisectors?</p>
+		<statement>
+			<p>Use the Geogebra example in <xref ref="geogebra-anglebisect" /> to experiment with the relationship of the three angle bisectors of a triangle. Move the vertices of the triangle around. What remains true about the angle bisectors?</p>
+		</statement>
 	</exercise>
 
     <figure xml:id="geogebra-anglebisect">
@@ -66,7 +76,11 @@ https://www.geogebra.org/classic/mfg3xkjf
          </interactive>
     </figure>
 
-	<exercise><p>Use the Geogebra example in <xref ref="geogebra-altitudes" /> to experiment with the relationship of the three altitudes of a triangle. Move the vertices of the triangle around. What remains true about the altitudes?</p></exercise>
+	<exercise>
+		<statement>
+			<p>Use the Geogebra example in <xref ref="geogebra-altitudes" /> to experiment with the relationship of the three altitudes of a triangle. Move the vertices of the triangle around. What remains true about the altitudes?</p>
+		</statement>
+	</exercise>
 
     <figure xml:id="geogebra-altitudes">
         <caption>GeoGebra: Altitudes</caption>
@@ -81,7 +95,11 @@ https://www.geogebra.org/classic/mfg3xkjf
          </interactive>
     </figure>
 
-	<exercise><p>Construct <m>\triangle ABC.</m> Construct <m>\triangle XYZ</m> such that <m>X-B-Y,</m> <m>Y-C-Z,</m> <m>Z-A-X,</m> and <m>\overline{XY} \parallel \overline{AC},</m> <m>\overline{YZ} \parallel \overline{AB},</m> <m>\overline{ZX} \parallel \overline{BC}.</m> Construct the perpendicular bisectors of <m>\triangle XYZ.</m> What appears to be true of these with respect to <m>\triangle ABC.</m></p></exercise>
+	<exercise>
+		<statement>
+			<p>Construct <m>\triangle ABC.</m> Construct <m>\triangle XYZ</m> such that <m>X-B-Y,</m> <m>Y-C-Z,</m> <m>Z-A-X,</m> and <m>\overline{XY} \parallel \overline{AC},</m> <m>\overline{YZ} \parallel \overline{AB},</m> <m>\overline{ZX} \parallel \overline{BC}.</m> Construct the perpendicular bisectors of <m>\triangle XYZ.</m> What appears to be true of these with respect to <m>\triangle ABC.</m></p>
+		</statement>
+	</exercise>
 
 </subsection>
 

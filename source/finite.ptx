@@ -25,15 +25,28 @@
         </statement>
     </definition>
 
-    <exercise><p>Explore the four point geometry as follows.</p>
-    <ol>
-        <li>Draw and label four points.</li>
-        <li>Use axiom 2 to draw as many lines as possible.</li>
-        <li>How many lines exist in this geometry?</li>
-        <li>Find a pair of parallel lines.</li>
-        <li>Can you find three lines that are pairwise parallel?</li>
-        <li>Can you find a point that is on three lines?</li>
-    </ol>
+    <exercise>
+        <introduction>
+            <p>Explore the four point geometry as follows.</p>
+        </introduction>
+        <task>
+            <statement><p>Draw and label four points.</p></statement>
+        </task>
+        <task>
+            <statement><p>Use axiom 2 to draw as many lines as possible.</p></statement>
+        </task>
+        <task>
+            <statement><p>How many lines exist in this geometry?</p></statement>
+        </task>
+        <task>
+            <statement><p>Find a pair of parallel lines.</p></statement>
+        </task>
+        <task>
+            <statement><p>Can you find three lines that are pairwise parallel?</p></statement>
+        </task>
+        <task>
+            <statement><p>Can you find a point that is on three lines?</p></statement>
+        </task>
     </exercise>
 
     <p>The four point geometry is an <term>affine</term> geometry. We are also interested in <term>projective</term> geometries.</p>
@@ -50,5 +63,9 @@
         </statement>
     </definition>
 
-    <exercise><p>Construct a projective geometry with exactly 4 points on every line.</p></exercise>
+    <exercise>
+        <statement>
+            <p>Construct a projective geometry with exactly 4 points on every line.</p>
+        </statement>
+    </exercise>
 </section>

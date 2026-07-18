@@ -32,33 +32,65 @@
 	</tabular>
 </table>
 
-<exercise><p>Goal: develop a rotation about a point <m>[x_0,y_0]^T</m> using the following steps.</p>
-<ol>
-	<li> Find a transformation that moves <m>[x_0,y_0]^T</m> to the origin.</li>
-	<li> Find a transformation that moves <m>[x_0,y_0]^T</m> to the origin then rotates by <m>\phi</m>. </li>
-	<li> Find a transformation that moves <m>[x_0,y_0]^T</m> to the origin, rotates by <m>\phi,</m> then returns the origin to <m>[x_0,y_0]^T</m>. </li>
-	<li> State, using matrix notation, a transformation that rotates the plane about a point <m>[x_0,y_0]^T</m> by <m>\phi</m>. </li>
-</ol>
+<exercise>
+	<introduction>
+		<p>Goal: develop a rotation about a point <m>[x_0,y_0]^T</m> using the following steps.</p>
+	</introduction>
+	<task> 
+		<statement>Find a transformation that moves <m>[x_0,y_0]^T</m> to the origin.
+		</statement>
+	</task>
+	<task> 
+		<statement>Find a transformation that moves <m>[x_0,y_0]^T</m> to the origin then rotates by <m>\phi</m>. </statement>
+	</task>
+	<task> 
+		<statement>Find a transformation that moves <m>[x_0,y_0]^T</m> to the origin, rotates by <m>\phi,</m> then returns the origin to <m>[x_0,y_0]^T</m>. </statement>
+	</task>
+	<task> 
+		<statement>State, using matrix notation, a transformation that rotates the plane about a point <m>[x_0,y_0]^T</m> by <m>\phi</m>. </statement>
+	</task>
 </exercise>
 
-<exercise><p>Goal: develop a reflection about a vertical line given by <m>x=a</m>  using the following steps.</p>
-<ol>
-	<li> Find a transformation that move the line <m>x=a</m> to the <m>y</m>-axis.</li>
-	<li> Find a transformation that move the line <m>x=a</m> to the <m>y</m>-axis, then reflects the plane over the <m>y</m>-axis.</li>
-	<li> Find a transformation that move the line <m>x=a</m> to the <m>y</m>-axis, reflects the plane over the <m>y</m>-axis, then returns the <m>y</m>-axis to the line <m>x=a.</m></li>
-	<li> State, using matrix notation, a transformation that reflects about an arbitrary vertical line <m>x=a.</m></li>
-</ol>
+<exercise>
+	<introduction>
+		<p>Goal: develop a reflection about a vertical line given by <m>x=a</m>  using the following steps.</p>
+	</introduction>
+	<task> 
+		<statement>Find a transformation that move the line <m>x=a</m> to the <m>y</m>-axis.</statement>
+	</task>
+	<task> 
+		<statement>Find a transformation that move the line <m>x=a</m> to the <m>y</m>-axis, then reflects the plane over the <m>y</m>-axis.</statement>
+	</task>
+	<task> 
+		<statement>Find a transformation that move the line <m>x=a</m> to the <m>y</m>-axis, reflects the plane over the <m>y</m>-axis, then returns the <m>y</m>-axis to the line <m>x=a.</m></statement>
+	</task>
+	<task> 
+		<statement>State, using matrix notation, a transformation that reflects about an arbitrary vertical line <m>x=a.</m></statement>
+	</task>
 </exercise>
 
-<exercise><p>Goal: develop a reflection about a horizontal line given by <m>y=b</m> using the following steps.</p>
-<ol>
-	<li> Find a transformation that move the line <m>y=b</m> to the <m>x</m>-axis.</li>
-	<li> Find a transformation that move the line <m>y=b</m> to the <m>x</m>-axis, then reflects the plane over the <m>x</m>-axis.</li>
-	<li> Find a transformation that move the line <m>y=b</m> to the <m>x</m>-axis, reflects the plane over the <m>x</m>-axis, then returns the <m>x</m>-axis to the line <m>y=b.</m></li>
-	<li> State, using matrix notation, a transformation that reflects about an arbitrary horizontal line <m>y=b.</m></li>
-</ol>
+<exercise>
+	<introduction>
+		<p>Goal: develop a reflection about a horizontal line given by <m>y=b</m> using the following steps.</p>
+	</introduction>
+	<task>
+		<statement>Find a transformation that move the line <m>y=b</m> to the <m>x</m>-axis.</statement>
+	</task>
+	<task>
+		<statement>Find a transformation that move the line <m>y=b</m> to the <m>x</m>-axis, then reflects the plane over the <m>x</m>-axis.</statement>
+	</task>
+	<task>
+		<statement>Find a transformation that move the line <m>y=b</m> to the <m>x</m>-axis, reflects the plane over the <m>x</m>-axis, then returns the <m>x</m>-axis to the line <m>y=b.</m></statement>
+	</task>
+	<task>
+		<statement>State, using matrix notation, a transformation that reflects about an arbitrary horizontal line <m>y=b.</m></statement>
+	</task>
 </exercise>
 
-<exercise><p>Develop a reflection about an arbitrary (non-vertical) line.</p></exercise>
+<exercise>
+	<statement>
+		<p>Develop a reflection about an arbitrary (non-vertical) line.</p>
+	</statement>
+</exercise>
 
 </section>
