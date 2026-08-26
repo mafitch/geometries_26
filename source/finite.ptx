@@ -19,7 +19,7 @@
         <statement><p>The four point geometry is defined by the following axioms and definitions.
             <ol>
                 <li>There exist exactly four points.</li>
-                <li>Any two distinct points have exactly one line on both of them.</li>
+                <li>Any two, distinct points have exactly one line on them.</li>
                 <li>Each line is on exactly two points.</li>
             </ol></p>
         </statement>
@@ -56,9 +56,9 @@
         <statement>
             <p>A finite projective geometry satisfies the following conditions.
             <ol>
-                <li>Every two distinct points have exactly one line on them.</li>
+                <li>Any two, distinct points have exactly one line on them.</li>
                 <li>There are at least four points with no three on the same line.</li>
-                <li>Every two lines have at least one point on them both.</li>
+                <li>Any two, distinct lines share at least one point.</li>
             </ol></p>
         </statement>
     </definition>
