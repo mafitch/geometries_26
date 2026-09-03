@@ -34,6 +34,14 @@
         </task>
         <task>
             <statement><p>Use axiom 2 to draw as many lines as possible.</p></statement>
+            <solution>
+                <p>Your text will go here.
+                    <image source="images/LemmasSensedAllPoints">
+                        <shortdescription>(for accessibility)</shortdescription>
+                        <description>A longer description for better accessibility</description>
+                    </image>
+                </p>
+            </solution>
         </task>
         <task>
             <statement><p>How many lines exist in this geometry?</p></statement>
