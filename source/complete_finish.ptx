@@ -23,25 +23,25 @@
 
         <exercise>
                 <statement>
-                        <p>Try to construct a Fano geometry with exactly seven points.</p>
+                        <p>Try to construct the Fano geometry with exactly seven points.</p>
                 </statement>
         </exercise>
 
         <exercise>
                 <statement>
-                        <p>Modify the axioms of the Five Point Geometry to be complete and consistent. You might use the Four Point Geometry axioms as a model.</p>
+                        <p>Modify the axioms of the Nine Point Geometry to be complete and consistent. You might use the Four Point Geometry axioms as a model.</p>
                 </statement>
         </exercise>
 
         <exercise>
                 <statement>
-                        <p>How many lines are there in this geometry?</p>
+                        <p>How many lines are there in the Nine Point Geometry?</p>
                 </statement>
         </exercise>
 
         <exercise>
                 <statement>
-                        <p>Modify the axioms of the Five Point Geometry to be complete and consistent and so that they result in five lines.</p>
+                        <p>Modify the axioms of the Nine Point Geometry to be complete and consistent and so that they result in the same number of points and lines.</p>
                 </statement>
         </exercise>
 

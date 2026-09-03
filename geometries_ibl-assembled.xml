@@ -98,7 +98,7 @@ Copyright 2019 Mark A. Fitch
         <statement><p>The four point geometry is defined by the following axioms and definitions.
             <ol>
                 <li>There exist exactly four points.</li>
-                <li>Any two distinct points have exactly one line on both of them.</li>
+                <li>Any two, distinct points have exactly one line on them.</li>
                 <li>Each line is on exactly two points.</li>
             </ol></p>
         </statement>
@@ -108,12 +108,24 @@ Copyright 2019 Mark A. Fitch
         <introduction>
             <p>Explore the four point geometry as follows.</p>
         </introduction>
-        <task>Draw and label four points.</task>
-        <task>Use axiom 2 to draw as many lines as possible.</task>
-        <task>How many lines exist in this geometry?</task>
-        <task>Find a pair of parallel lines.</task>
-        <task>Can you find three lines that are pairwise parallel?</task>
-        <task>Can you find a point that is on three lines?</task>
+        <task>
+            <statement><p>Draw and label four points.</p></statement>
+        </task>
+        <task>
+            <statement><p>Use axiom 2 to draw as many lines as possible.</p></statement>
+        </task>
+        <task>
+            <statement><p>How many lines exist in this geometry?</p></statement>
+        </task>
+        <task>
+            <statement><p>Find a pair of parallel lines.</p></statement>
+        </task>
+        <task>
+            <statement><p>Can you find three lines that are pairwise parallel?</p></statement>
+        </task>
+        <task>
+            <statement><p>Can you find a point that is on three lines?</p></statement>
+        </task>
     </exercise>
 
     <p>The four point geometry is an <term>affine</term> geometry. We are also interested in <term>projective</term> geometries.</p>
@@ -123,9 +135,9 @@ Copyright 2019 Mark A. Fitch
         <statement>
             <p>A finite projective geometry satisfies the following conditions.
             <ol>
-                <li>Every two distinct points have exactly one line on them.</li>
+                <li>Any two, distinct points have exactly one line on them.</li>
                 <li>There are at least four points with no three on the same line.</li>
-                <li>Every two lines have at least one point on them both.</li>
+                <li>Any two, distinct lines share at least one point.</li>
             </ol></p>
         </statement>
     </definition>
@@ -155,19 +167,45 @@ Copyright 2019 Mark A. Fitch
             <introduction>
                 <p>Explore the Fano geometry as follows.</p>
             </introduction>
-            <task> Draw a line using Geogebra.</task>
-            <task> Add a third point to the line.</task>
-            <task> Note that Axiom 3 requires one more point. Draw one.</task>
-            <task> Must any more lines be added? If so, do so.</task>
-            <task xml:id="fanolinecount"> How many lines are in this geometry?</task>
-            <task> Add the axiom: every point is on at least one line.</task>
-            <task> To your line with three points, and one point not on that line add any lines required by this new axiom.</task>
-            <task> Make sure these lines satisfy Axiom 2.</task>
-            <task xml:id="fanolinecount2"> How many lines are in this geometry?</task>
-            <task> May any more lines be added? If so, do so, and be sure the axioms are satisfied.</task>
-            <task xml:id="fanolinecount3"> How many lines are in this geometry?</task>
-            <task> What do the answers to <xref ref="fanolinecount"/>, <xref ref="fanolinecount2"/>, and <xref ref="fanolinecount3"/> say about this attempt at constructing a geometry?</task>
-            <task> What is needed to fix the difficulty noted in the previous question?</task>
+            <task>
+                <statement><p> Draw a line using Geogebra.</p></statement>
+            </task>
+            <task>
+                <statement><p> Add a third point to the line.</p></statement>
+            </task>
+            <task>
+                <statement><p> Note that Axiom 3 requires one more point. Draw one.</p></statement>
+            </task>
+            <task>
+                <statement><p> Must any more lines be added? If so, do so.</p></statement>
+            </task>
+            <task xml:id="fanolinecount">
+                <statement><p> How many lines are in this geometry?</p></statement>
+            </task>
+            <task>
+                <statement><p> Add the axiom: every point is on at least one line.</p></statement>
+            </task>
+            <task>
+                <statement><p> To your line with three points, and one point not on that line add any lines required by this new axiom.</p></statement>
+            </task>
+            <task>
+                <statement><p> Make sure these lines satisfy Axiom 2.</p></statement>
+            </task>
+            <task xml:id="fanolinecount2">
+                <statement><p> How many lines are in this geometry?</p></statement>
+            </task>
+            <task>
+                <statement><p> May any more lines be added? If so, do so, and be sure the axioms are satisfied.</p></statement>
+            </task>
+            <task xml:id="fanolinecount3">
+                <statement><p> How many lines are in this geometry?</p></statement>
+            </task>
+            <task>
+                <statement><p> What do the answers to <xref ref="fanolinecount"/>, <xref ref="fanolinecount2"/>, and <xref ref="fanolinecount3"/> say about this attempt at constructing a geometry?</p></statement>
+            </task>
+            <task>
+                <statement><p> What is needed to fix the difficulty noted in the previous question?</p></statement>
+            </task>
         </exercise>
 </section>         <!-- Complete and consistent from finite geometries  -->
 
@@ -190,10 +228,18 @@ Copyright 2019 Mark A. Fitch
             <introduction>
                 <p>Explore the alleged five point geometry as follows.</p>
             </introduction>
-            <task>Draw five points using Geogebra.</task>
-            <task>Use Axiom 3 to draw all required lines.</task>
-            <task>How many lines did you construct?</task>
-            <task>Compare this answer to Axiom 2.</task>
+            <task>
+                <statement><p>Draw five points using Geogebra.</p></statement>
+            </task>
+            <task>
+                <statement><p>Use Axiom 3 to draw all required lines.</p></statement>
+            </task>
+            <task>
+                <statement><p>How many lines did you construct?</p></statement>
+            </task>
+            <task>
+                <statement><p>Compare this answer to Axiom 2.</p></statement>
+            </task>
         </exercise>
 </section>         <!-- Complete and consistent from finite geometries  -->
 
@@ -1156,9 +1202,9 @@ Copyright 2019 Mark A. Fitch
 		<introduction>
 			<p>For one of the regular <m>n</m>-gons check the following.</p>
 		</introduction>
-		<task><statement> What is the composition of two rotational symmetries?</statement></task>
-		<task><statement> What is the composition of two reflectional symmetries?</statement></task>
-		<task><statement> What is the smallest number of symmetries you can use to generate all the symmetries?</statement></task>
+		<task><statement><p> What is the composition of two rotational symmetries?</p></statement></task>
+		<task><statement><p> What is the composition of two reflectional symmetries?</p></statement></task>
+		<task><statement><p> What is the smallest number of symmetries you can use to generate all the symmetries?</p></statement></task>
 	</exercise>
 
 	<exercise>
@@ -1216,10 +1262,10 @@ Copyright 2019 Mark A. Fitch
 		<introduction>
 			<p>Analyze the tesselation in <xref ref="figure-tesselation1"/> as follows.</p>
 		</introduction>
-		<task><statement> Identify the generating shape.</statement></task>
-		<task><statement> Identify the smallest set of transformations that can generate the tesselation.</statement></task>
-		<task><statement> List all symmetries of the tesselation.</statement></task>
-		<task><statement> Identify the smallest set of symmetries of the tesselation that can generate all the symmetries of the tesselation.</statement></task>
+		<task><statement><p> Identify the generating shape.</p></statement></task>
+		<task><statement><p> Identify the smallest set of transformations that can generate the tesselation.</p></statement></task>
+		<task><statement><p> List all symmetries of the tesselation.</p></statement></task>
+		<task><statement><p> Identify the smallest set of symmetries of the tesselation that can generate all the symmetries of the tesselation.</p></statement></task>
 	</exercise>
 
 	<definition>
@@ -1262,7 +1308,7 @@ Copyright 2019 Mark A. Fitch
 <figure xml:id="figure-tesselation1">
 	<caption>Tesselation</caption>
 	<image source="images/Tesselation.jpg">
-		<description>A set of three line segments intersect to form an asterisk (sixty degrees between each line segment). At the tips of each of the six points of the asterisk, there is a star. The tips of the star curve slightly counterclockwise. This figure repeats indefinitely. left and right such that two, adjacent asterisks share one pair of stars. This asterisk figure also repeats indefinitely up-right and down-left (at sixty degrees) such that two, adjacent asterisks share one pair of stars.</description>
+		<description><p>A set of three line segments intersect to form an asterisk (sixty degrees between each line segment). At the tips of each of the six points of the asterisk, there is a star. The tips of the star curve slightly counterclockwise. This figure repeats indefinitely. left and right such that two, adjacent asterisks share one pair of stars. This asterisk figure also repeats indefinitely up-right and down-left (at sixty degrees) such that two, adjacent asterisks share one pair of stars.</p></description>
 	</image>
 </figure>
 
@@ -1270,7 +1316,7 @@ Copyright 2019 Mark A. Fitch
 	<caption>Signature *236 (Variation on a Theme by Scott Roseman)</caption>
 	<image source="images/Signature1.jpg">
 		<shortdescription>Signature *236 (Variation on a Theme by Scott Roseman)</shortdescription>
-		<description>The image consists of six cellos radiating outward as if they form an asterisk. The tops of the necks of each cello intersect in sets of three. The cello asterisks repeat indefinitely left and right such that two, adjacent asterisks meet at the tips of two of their necks. The cello asterisks also repeat indefinitely up-right and down-left (at sixty degrees) such that two, adjacent asterisks meet at the tips of two of their necks. In the space between the cello asterisks, are a set of four bass clefs mirroring each other at right angles. Lines indicate six fold mirror symmetry thru the center of each cello asterisk as well as three fold mirror symmetry through the meetings of the tips of three cellos. Another two fold mirror symmetry is between the bass clefs.</description>
+		<description><p>The image consists of six cellos radiating outward as if they form an asterisk. The tops of the necks of each cello intersect in sets of three. The cello asterisks repeat indefinitely left and right such that two, adjacent asterisks meet at the tips of two of their necks. The cello asterisks also repeat indefinitely up-right and down-left (at sixty degrees) such that two, adjacent asterisks meet at the tips of two of their necks. In the space between the cello asterisks, are a set of four bass clefs mirroring each other at right angles. Lines indicate six fold mirror symmetry thru the center of each cello asterisk as well as three fold mirror symmetry through the meetings of the tips of three cellos. Another two fold mirror symmetry is between the bass clefs.</p></description>
 	</image>
 </figure>
 
@@ -1278,7 +1324,7 @@ Copyright 2019 Mark A. Fitch
 	<caption>Signature 22*</caption>
 	<image source="images/Signature2.jpg">
 		<shortdescription>Signature 22*</shortdescription>
-		<description>The image consists of pairs of french horn like shapes. Each pair are arranged so that the bells touch each other, but one is rotate 180 degrees from the other. These pairs fill a rectangular area. Those rectangles repeat indefinitely in a rectangular grid pattern. Left to right they repeat indefinitely by translation. Up and down they repeat by reflection.A horizontal line indicates the mirror symmetry. A symbol where the bells meet indicates the 180 degree rotational symmetry. The same symbol between two rectangular regions indicates another 180 degree rotations symmetry.</description>
+		<description><p>The image consists of pairs of french horn like shapes. Each pair are arranged so that the bells touch each other, but one is rotate 180 degrees from the other. These pairs fill a rectangular area. Those rectangles repeat indefinitely in a rectangular grid pattern. Left to right they repeat indefinitely by translation. Up and down they repeat by reflection. A horizontal line indicates the mirror symmetry. A symbol where the bells meet indicates the 180 degree rotational symmetry. The same symbol between two rectangular regions indicates another 180 degree rotation symmetry.</p></description>
 	</image>
 </figure>
 
@@ -1322,20 +1368,36 @@ Copyright 2019 Mark A. Fitch
 	<introduction>
 		<p>Construct each of the following hyperbolic figures.</p>
 	</introduction>
-	<task>Triangle using at least two lines that are diameters.</task>
-	<task>Triangle using exactly one line that is a diameter.</task>
-	<task>Triangle using no lines that are diameters.</task>
-	<task>Quadrilateral (Can you make it a square?)</task>
+	<task>
+		<statement><p>Triangle using at least two lines that are diameters.</p></statement>
+	</task>
+	<task>
+		<statement><p>Triangle using exactly one line that is a diameter.</p></statement>
+	</task>
+	<task>
+		<statement><p>Triangle using no lines that are diameters.</p></statement>
+	</task>
+	<task>
+		<statement><p>Quadrilateral (Can you make it a square?)</p></statement>
+	</task>
 </exercise>
 
 <exercise>
 	<introduction>
 		<p>Explore parallelism in hyperbolic geometry.</p>
 	</introduction>
-	<task>Construct a line and select a point not on that line. Construct two lines through that point parallel to the given line.</task>
-	<task>How many lines through that point parallel to the given line could be constructed?</task>
-	<task>Do any of these parallel lines have special properties? Properties might be easier to describe in terms of the model.</task>
-	<task>Construct two parallel lines. For ease make them large and close in the model. What seems to be true about the distance between the parallel lines?</task>
+	<task>
+		<statement><p>Construct a line and select a point not on that line. Construct two lines through that point parallel to the given line.</p></statement>
+	</task>
+	<task>
+		<statement><p>How many lines through that point parallel to the given line could be constructed?</p></statement>
+	</task>
+	<task>
+		<statement><p>Do any of these parallel lines have special properties? Properties might be easier to describe in terms of the model.</p></statement>
+	</task>
+	<task>
+		<statement><p>Construct two parallel lines. For ease make them large and close in the model. What seems to be true about the distance between the parallel lines?</p></statement>
+	</task>
 </exercise>
 
 </section>       <!-- Present a model for the hyperbolic plane -->
@@ -1384,7 +1446,7 @@ Copyright 2019 Mark A. Fitch
 <figure label="alsoleft" xml:id="figure-alsoleft">
 	<caption>Sensed Parallels Left</caption>
 	<image source="images/LemmasSensedAllPoints">
-		<description>This diagram is described in the preceeding lemma.</description>
+		<description><p>This diagram is described in the preceeding lemma.</p></description>
 	</image>
 </figure>
 
@@ -1397,7 +1459,7 @@ Copyright 2019 Mark A. Fitch
 <figure label="alsoright" xml:id="figure-alsoright">
 	<caption>Sensed Parallels Right</caption>
 	<image source="images/LemmasSensedAllPoints2">
-		<description>This diagram is described in the preceding lemma.</description>
+		<description><p>This diagram is described in the preceding lemma.</p></description>
 	</image>
 </figure>
 
@@ -1836,16 +1898,16 @@ Copyright 2019 Mark A. Fitch
 			<li> Any three points lie in at least one plane, and any three non-collinear points lie in exactly one plane.</li>
 			<li> If two planes intersect, then that intersection is a line.</li>
 			<li><p>Plane Separation Postulate. Given a line and a plane containing it, the points of the plane that do not lie on the line form two sets such that:
-			<ul>
+			<ol>
 				<li> each of the sets is convex</li>
 				<li> if <m>P</m> is in one set and <m>Q</m> is in the other, then segment <m>\overline{PQ}</m> intersects the line.</li>
-			</ul></p>
+			</ol></p>
 			</li>
 			<li><p> Space Separation Postulate. The points of space that do not lie in a given plane form two sets such that:
-			<ul>
+			<ol>
 				<li> Each of the sets is convex.</li>
 				<li> If <m>P</m> is in one set and <m>Q</m> is in the other, then segment <m>\overline{PQ}</m> intersects the plane.</li>
-			</ul></p>
+			</ol></p>
 			</li>
 			<li> Angle Measurement Postulate. To every angle there corresponds a real number between <m>0^\circ</m> and <m>180^\circ.</m></li>
 			<li> Angle Construction Postulate. Let AB be a ray on the edge of the half-plane H. For every r between 0 and 180 there is exactly one ray <m>\overrightarrow{AP}</m>, with P in H such that <m>m \angle PAB=r.</m></li>

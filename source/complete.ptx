@@ -4,8 +4,8 @@
 <title>Completeness</title>
 
         <definition>
-            <title>Fano Geometry</title>
-            <statement><p>Use the following axioms and definitions of intersection and parallel as a definition of the Fano geometry.</p>
+            <title>Fano Geometry (attempt 1)</title>
+            <statement>
             <p><ol>
                 <li>There exists at least one line.</li>
                 <li>There are exactly three points on every line.</li>
@@ -16,7 +16,7 @@
 
         <exercise>
             <introduction>
-                <p>Explore the Fano geometry as follows.</p>
+                <p>Use the definition above and the previous definitions of intersection and parallel to explore the Fano geometry as follows.</p>
             </introduction>
             <task>
                 <statement><p> Draw a line using Geogebra.</p></statement>
@@ -25,13 +25,13 @@
                 <statement><p> Add a third point to the line.</p></statement>
             </task>
             <task>
-                <statement><p> Note that Axiom 3 requires one more point. Draw one.</p></statement>
+                <statement><p> Axiom 3 requires one more point. Draw one.</p></statement>
             </task>
             <task>
                 <statement><p> Must any more lines be added? If so, do so.</p></statement>
             </task>
             <task xml:id="fanolinecount">
-                <statement><p> How many lines are in this geometry?</p></statement>
+                <statement><p> By continuing this process of adding required points and lines, determine how many lines are in this geometry.</p></statement>
             </task>
             <task>
                 <statement><p> Add the axiom: every point is on at least one line.</p></statement>
@@ -43,10 +43,10 @@
                 <statement><p> Make sure these lines satisfy Axiom 2.</p></statement>
             </task>
             <task xml:id="fanolinecount2">
-                <statement><p> How many lines are in this geometry?</p></statement>
+                <statement><p> How many lines are in this geometry now?</p></statement>
             </task>
             <task>
-                <statement><p> May any more lines be added? If so, do so, and be sure the axioms are satisfied.</p></statement>
+                <statement><p> May any more lines be added? If so, do so, and be sure all the axioms are satisfied.</p></statement>
             </task>
             <task xml:id="fanolinecount3">
                 <statement><p> How many lines are in this geometry?</p></statement>

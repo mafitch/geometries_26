@@ -4,23 +4,23 @@
 <title>Consistency</title>
 
         <definition>
-            <title>Five Point Geometry</title>
-            <statement><p>Use the following axioms and definitions of intersection and parallel as an alleged definition of the five point geometry.</p>
+            <title>Nine Point Geometry</title>
+            <statement><p>Use the following axioms and definitions of intersection and parallel as an alleged definition of the nine point geometry.</p>
             <p><ol>
-                    <li>There exist exactly five points.</li>
-                    <li>There exist exactly five lines.</li>
-                    <li>Any two distinct points have exactly one line on both of them.</li>
-                    <li>Each line is on exactly two points.</li>
+                    <li>There exist exactly nine points.</li>
+                    <li>There exist exactly nine lines.</li>
+                    <li>Any two, distinct points have exactly one line on them.</li>
+                    <li>Each line is on exactly three points.</li>
             </ol></p>
             </statement>
         </definition>
 
         <exercise>
             <introduction>
-                <p>Explore the alleged five point geometry as follows.</p>
+                <p>Explore the alleged nine point geometry as follows.</p>
             </introduction>
             <task>
-                <statement><p>Draw five points using Geogebra.</p></statement>
+                <statement><p>Draw nine points using Geogebra.</p></statement>
             </task>
             <task>
                 <statement><p>Use Axiom 3 to draw all required lines.</p></statement>

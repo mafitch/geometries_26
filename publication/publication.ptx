@@ -29,7 +29,6 @@
   <!-- stored or created.  Directories are relative to the main -->
   <!-- source PreTeXt file                                      -->
   <source>
-    <directories external="../assets" generated="../generated-assets" />
     <!-- Set which marked elements are included in this version: -->
     <!-- See
     https://pretextbook.org/doc/guide/html/publication-file-source.html#publication-file-source-version -->
@@ -79,6 +78,9 @@
     <!-- The platform above could also be "runestone" -->
 
     <baseurl href="https://mafitch.github.io/tech_math/" />
+
+    <brandlogo url="http://uaa.alaska.edu" source="images/Mathematics_GG.jpg" />
+
     <knowl
       theorem="no"
       proof="yes"
