@@ -1,0 +1,70 @@
+<diagram>
+  <annotations>
+    <annotation id="prefigure-exterior-angle-figure" speech2="A triangle with exterior angle">
+      <grouped>prefigure-exterior-angle-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-exterior-angle-triangle</active>
+      </children>
+      <components>
+        <active>prefigure-exterior-angle-triangle</active>
+      </components>
+    </annotation>
+    <annotation id="prefigure-exterior-angle-triangle" speech2="Arbitrary triangle ABC">
+      <grouped>prefigure-exterior-angle-triangle</grouped>
+      <position>1</position>
+      <children>
+        <active>prefigure-exterior-angle-extpt</active>
+        <active>prefigure-exterior-angle-midpt</active>
+        <active>prefigure-exterior-angle-newline</active>
+        <active>prefigure-exterior-angle-endpt</active>
+        <active>prefigure-exterior-angle-edge</active>
+      </children>
+      <components>
+        <active>prefigure-exterior-angle-extpt</active>
+        <active>prefigure-exterior-angle-midpt</active>
+        <active>prefigure-exterior-angle-newline</active>
+        <active>prefigure-exterior-angle-endpt</active>
+        <active>prefigure-exterior-angle-edge</active>
+      </components>
+      <parents>
+        <grouped>prefigure-exterior-angle-figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefigure-exterior-angle-extpt" speech2="Point D on line AB such that B is between A and D.">
+      <active>prefigure-exterior-angle-extpt</active>
+      <position>1</position>
+      <parents>
+        <grouped>prefigure-exterior-angle-triangle</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefigure-exterior-angle-midpt" speech2="Point M is the midpoint of segment BC">
+      <active>prefigure-exterior-angle-midpt</active>
+      <position>2</position>
+      <parents>
+        <grouped>prefigure-exterior-angle-triangle</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefigure-exterior-angle-newline" speech2="Draw a line from A through M and extended beyond">
+      <active>prefigure-exterior-angle-newline</active>
+      <position>3</position>
+      <parents>
+        <grouped>prefigure-exterior-angle-triangle</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefigure-exterior-angle-endpt" speech2="Point E is on the line AM such that segments AM and M E have the same length">
+      <active>prefigure-exterior-angle-endpt</active>
+      <position>4</position>
+      <parents>
+        <grouped>prefigure-exterior-angle-triangle</grouped>
+      </parents>
+    </annotation>
+    <annotation id="prefigure-exterior-angle-edge" speech2="Draw a line segment from point E to point B">
+      <active>prefigure-exterior-angle-edge</active>
+      <position>5</position>
+      <parents>
+        <grouped>prefigure-exterior-angle-triangle</grouped>
+      </parents>
+    </annotation>
+  </annotations>
+</diagram>

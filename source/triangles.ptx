@@ -60,6 +60,66 @@
             <statement><p>The supplementary angle formed by extending one side of a triangle is called an <term>exterior angle</term>.</p></statement>
         </definition>
 
+        <figure xml:id="figure-exterior-angle">
+            <caption>Diagram for following check point</caption>
+            <image>
+                <shortdescription>A triangle with an exterior angle labeled</shortdescription>
+                <prefigure label="prefigure-exterior-angle" xmlns="https://prefigure.org">
+                    <diagram dimensions="(300,300)" margins="5">
+                    <definition>ptA=(0,0)</definition>
+                    <definition>ptB=(3,0)</definition>
+                    <definition>ptC=(1,2)</definition>
+                    <definition>ptD=(4,0)</definition>
+                    <definition>ptM=(2,1)</definition>
+                    <definition>ptE=(4,2)</definition>
+                    <coordinates bbox="(-0.5,-0.5,4,4)">
+                        <line at="newline" endpoints="ptA,ptE" />
+                        <line at="edge" endpoints="ptE,ptB" />
+                        <group at="triangle">
+                        <line endpoints="ptA,ptD" />
+                        <line endpoints="ptA,ptC" />
+                        <line endpoints="ptB,ptC" />
+                        <point p="ptA" alignment="w">
+                            A
+                        </point>
+                        <point p="ptB" alignment="s">
+                            B
+                        </point>
+                        <point p="ptC" alignment="n">
+                            C
+                        </point>
+                        </group>
+                        <point at="extpt" p="ptD" alignment="n">
+                        D
+                        </point>
+                        <point at="midpt" p="ptM" alignment="n">
+                        M
+                        </point>
+                        <point at="endpt" p="ptE" alignment="n">
+                        E
+                        </point>
+                    </coordinates>
+
+                    <annotations text="A triangle with exterior angle">
+                        <annotation ref="triangle" text="Arbitrary triangle ABC">
+                        <annotation ref="extpt" text="Point D on line AB such that B is between A and D." />
+                        <annotation ref="midpt" text="Point M is the midpoint of segment BC" />
+                        <annotation ref="newline" text="Draw a line from A through M and extended beyond" />
+                        <annotation ref="endpt" text="Point E is on the line AM such that segments AM and M E have the same length" />
+                        <annotation ref="edge" text="Draw a line segment from point E to point B" />
+                        </annotation>
+                    </annotations>
+                    </diagram>
+                </prefigure>
+            </image>
+        </figure>
+
+        <exercise>
+            <statement>
+                <p>Consider <m>\triangle ABC</m> with exterior angle <m>\angle CBD</m>. On segment <m>\overline{BC}</m> construct midpoint <m>M</m> and draw <m>\overleftrightarrow{AM}.</m> Construct point <m>E</m> such that <m>\overline{AM} \cong \overline{ME}</m>. Finally construct <m>\overline{EB}</m> Prove that <m>\angle MBE \cong \angle MCA</m>.</p>
+            </statement>
+        </exercise>
+
         <theorem>
             <title>Exterior Angle</title>
             <statement><p>The measure of an exterior angle of a triangle is greater than the measure of either of the opposing angles of the triangle.</p></statement>
