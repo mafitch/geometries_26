@@ -45,7 +45,7 @@
 
             <theorem>
                 <statement>
-                    <p>Euclid's postulate and Theorem <xref ref="parallelright" /> are equivalent to the following. "The sum of the angles on one side of a transversal of two lines is equal to the sum of two right angles if and only if the lines are parallel."</p>
+                    <p>Euclid's postulate and <xref ref="parallelright" /> are equivalent to the following. "The sum of the angles on one side of a transversal of two lines is equal to the sum of two right angles if and only if the lines are parallel."</p>
                 </statement>
             </theorem>
 
@@ -61,11 +61,11 @@
                 </statement>
             </theorem>
 
-            <p>The alternate interior angle converse theorem states ``Given parallel lines and a transversal of those lines, the alternate interior angles formed by the transversal are congruent.''</p>
+            <p>The alternate interior angle converse theorem states <q>Given parallel lines and a transversal of those lines, the alternate interior angles formed by the transversal are congruent.</q></p>
 
             <theorem>
                 <statement>
-                    <p>Playfair and the alternating interior angle converse theorem imply the equidistance of parallel lines.</p>
+                    <p>Playfair and the alternate interior angle converse theorem imply the equidistance of parallel lines.</p>
                 </statement>
             </theorem>
 
