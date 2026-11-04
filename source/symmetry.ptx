@@ -6,6 +6,8 @@
 <subsection>
 	<title>Explore Symmetries</title>
 
+	<p>These first exercises will help you understand the concept of symmetry as a set of fixed points of a function. That is a function is a symmetry of a set of points if the image of the set equals the set (<m>T(S)=S</m>). This does not require there to be a visual representation of the set nor of the function.</p>
+
 	<definition>
 		<title>Symmetry</title>
 		<statement><p>A set of points <m>A</m> has symmetry of type <m>T</m> for some transformation <m>T</m> if and only if <m>T(A)=A.</m></p></statement>
@@ -47,7 +49,8 @@
 		</introduction>
 		<task><statement><p> What is the composition of two rotational symmetries?</p></statement></task>
 		<task><statement><p> What is the composition of two reflectional symmetries?</p></statement></task>
-		<task><statement><p> What is the smallest number of symmetries you can use to generate all the symmetries?</p></statement></task>
+		<task><statement><p> What is the composition of a rotational and a reflectional symmetry?</p></statement></task>
+		<task><statement><p> What is the smallest number of symmetries you can use to generate all the symmetries? Your response should be specific functions like a rotation of angle <m>\pi/7</m> and a reflection over the line segment <m>\overline{AB}</m>.</p></statement></task>
 	</exercise>
 
 	<exercise>
