@@ -1339,120 +1339,120 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.4",
   "title": "Symmetries",
-  "body": " Symmetries   Explore Symmetries   Symmetry  A set of points has symmetry of type for some transformation if and only if     Confirm is a symmetry of the set      Demonstrate is not a symmetry of the set      What points do you have to add to so is a symmetry of this set?      List all symmetries of a square by labeling the vertices and giving the type and parameters for the transformations.      List all symmetries of a regular -sided polygon ( -gon) by labeling the vertices and giving the type and parameters for the transformations.      For one of the regular -gons check the following.   What is the composition of two rotational symmetries?  What is the composition of two reflectional symmetries?  What is the smallest number of symmetries you can use to generate all the symmetries?     Draw some regular -gon. Color in the -gon so that the colored figure maintains the rotational symmetries, but not the reflectional symmetries.      Draw some regular -gon. Color in the -gon so that the colored figure maintains the reflectional symmetries, but not the rotational symmetries.      Draw a figure that has translational symmetry.      Draw a figure that has translational symmetry and exactly one reflectional symmetry.      Draw a figure that has translational symmetry and rotational symmetry.      Draw a figure that has dilational symmetry.      Explore Tesselations   Tesselation  A covering of the plane is a tesselation if and only if it consists of a single shape infinitely reproduced using a finite set of transformations.    Tiling  A covering of the plane is a tiling if and only if it consists of a finite set of shapes infinitely reproduced using a finite set of transformations.     Analyze the tesselation in as follows.   Identify the generating shape.  Identify the smallest set of transformations that can generate the tesselation.  List all symmetries of the tesselation.  Identify the smallest set of symmetries of the tesselation that can generate all the symmetries of the tesselation.    Conway Label  The following labeling of tesselations derives from the book The Symmetries of Things by John Conway, Heidi Burgiel, and Chaim Goodman-Strauss. Follow these steps in order to identify and label the type of symmetry group of a tesselation. The resulting notation is called the signature   Identify all lines of reflection.  If two or more lines of reflection intersect in a point, write where  are the number of lines intersecting at each unique point of intersection.  If any line of reflection does not intersect other lines of reflection, just write one for each of these.  Identify any rotations that are not the composition of reflections already listed.  Write in front of any for each rotation where  are the order of the rotations.  Identify any glide reflections that are not the composition of reflections or rotations already listed.  Write at the end of the signature for each of these glide reflections.  Identify any translations that are not the composition of other symmetries already listed.  Write at the front of the signature for each pair of these translations.     See the example signatures in to .   Find the signatures of two tesselations from the class archive at . You may not choose two with the same signature.    Find the signature of the tesselation in .    Begin the tesselation project.     Tesselation Images   Tesselation   A set of three line segments intersect to form an asterisk (sixty degrees between each line segment). At the tips of each of the six points of the asterisk, there is a star. The tips of the star curve slightly counterclockwise. This figure repeats indefinitely. left and right such that two, adjacent asterisks share one pair of stars. This asterisk figure also repeats indefinitely up-right and down-left (at sixty degrees) such that two, adjacent asterisks share one pair of stars.     Signature *236 (Variation on a Theme by Scott Roseman)   Signature *236 (Variation on a Theme by Scott Roseman)  The image consists of six cellos radiating outward as if they form an asterisk. The tops of the necks of each cello intersect in sets of three. The cello asterisks repeat indefinitely left and right such that two, adjacent asterisks meet at the tips of two of their necks. The cello asterisks also repeat indefinitely up-right and down-left (at sixty degrees) such that two, adjacent asterisks meet at the tips of two of their necks. In the space between the cello asterisks, are a set of four bass clefs mirroring each other at right angles. Lines indicate six fold mirror symmetry thru the center of each cello asterisk as well as three fold mirror symmetry through the meetings of the tips of three cellos. Another two fold mirror symmetry is between the bass clefs.     Signature 22*   Signature 22*  The image consists of pairs of french horn like shapes. Each pair are arranged so that the bells touch each other, but one is rotate 180 degrees from the other. These pairs fill a rectangular area. Those rectangles repeat indefinitely in a rectangular grid pattern. Left to right they repeat indefinitely by translation. Up and down they repeat by reflection. A horizontal line indicates the mirror symmetry. A symbol where the bells meet indicates the 180 degree rotational symmetry. The same symbol between two rectangular regions indicates another 180 degree rotation symmetry.     Signature *X   Signature *X  The image consists of a set of not fully opened tulips that repeat indefinitely in a rectangular grid. Each tuplip fits into a rectangle. Left to right the tulips repeat by reflection over a vertical line. Up and down they repeat by translation along with a relection over a vertical line thru the center of each tulip (a glide reflection). A vertical line indicates the mirror symmetry. A curved line from the tip of one tulip down to the tip of the tulip beneath indicates the glide reflection symmetry.     "
+  "body": " Symmetries   Explore Symmetries  These first exercises will help you understand the concept of symmetry as a set of fixed points of a function. That is a function is a symmetry of a set of points if the image of the set equals the set ( ). This does not require there to be a visual representation of the set nor of the function.   Symmetry  A set of points has symmetry of type for some transformation if and only if     Confirm is a symmetry of the set      Demonstrate is not a symmetry of the set      What points do you have to add to so is a symmetry of this set?      List all symmetries of a square by labeling the vertices and giving the type and parameters for the transformations.      List all symmetries of a regular -sided polygon ( -gon) by labeling the vertices and giving the type and parameters for the transformations.      For one of the regular -gons check the following.   What is the composition of two rotational symmetries?  What is the composition of two reflectional symmetries?  What is the composition of a rotational and a reflectional symmetry?  What is the smallest number of symmetries you can use to generate all the symmetries? Your response should be specific functions like a rotation of angle and a reflection over the line segment .     Draw some regular -gon. Color in the -gon so that the colored figure maintains the rotational symmetries, but not the reflectional symmetries.      Draw some regular -gon. Color in the -gon so that the colored figure maintains the reflectional symmetries, but not the rotational symmetries.      Draw a figure that has translational symmetry.      Draw a figure that has translational symmetry and exactly one reflectional symmetry.      Draw a figure that has translational symmetry and rotational symmetry.      Draw a figure that has dilational symmetry.      Explore Tesselations   Tesselation  A covering of the plane is a tesselation if and only if it consists of a single shape infinitely reproduced using a finite set of transformations.    Tiling  A covering of the plane is a tiling if and only if it consists of a finite set of shapes infinitely reproduced using a finite set of transformations.     Analyze the tesselation in as follows.   Identify the generating shape.  Identify the smallest set of transformations that can generate the tesselation.  List all symmetries of the tesselation.  Identify the smallest set of symmetries of the tesselation that can generate all the symmetries of the tesselation.    Conway Label  The following labeling of tesselations derives from the book The Symmetries of Things by John Conway, Heidi Burgiel, and Chaim Goodman-Strauss. Follow these steps in order to identify and label the type of symmetry group of a tesselation. The resulting notation is called the signature   Identify all lines of reflection.  If two or more lines of reflection intersect in a point, write where  are the number of lines intersecting at each unique point of intersection.  If any line of reflection does not intersect other lines of reflection, just write one for each of these.  Identify any rotations that are not the composition of reflections already listed.  Write in front of any for each rotation where  are the order of the rotations.  Identify any glide reflections that are not the composition of reflections or rotations already listed.  Write at the end of the signature for each of these glide reflections.  Identify any translations that are not the composition of other symmetries already listed.  Write at the front of the signature for each pair of these translations.     See the example signatures in to .   Find the signatures of two tesselations from the class archive at . You may not choose two with the same signature.    Find the signature of the tesselation in .    Begin the tesselation project.     Tesselation Images   Tesselation   A set of three line segments intersect to form an asterisk (sixty degrees between each line segment). At the tips of each of the six points of the asterisk, there is a star. The tips of the star curve slightly counterclockwise. This figure repeats indefinitely. left and right such that two, adjacent asterisks share one pair of stars. This asterisk figure also repeats indefinitely up-right and down-left (at sixty degrees) such that two, adjacent asterisks share one pair of stars.     Signature *236 (Variation on a Theme by Scott Roseman)   Signature *236 (Variation on a Theme by Scott Roseman)  The image consists of six cellos radiating outward as if they form an asterisk. The tops of the necks of each cello intersect in sets of three. The cello asterisks repeat indefinitely left and right such that two, adjacent asterisks meet at the tips of two of their necks. The cello asterisks also repeat indefinitely up-right and down-left (at sixty degrees) such that two, adjacent asterisks meet at the tips of two of their necks. In the space between the cello asterisks, are a set of four bass clefs mirroring each other at right angles. Lines indicate six fold mirror symmetry thru the center of each cello asterisk as well as three fold mirror symmetry through the meetings of the tips of three cellos. Another two fold mirror symmetry is between the bass clefs.     Signature 22*   Signature 22*  The image consists of pairs of french horn like shapes. Each pair are arranged so that the bells touch each other, but one is rotate 180 degrees from the other. These pairs fill a rectangular area. Those rectangles repeat indefinitely in a rectangular grid pattern. Left to right they repeat indefinitely by translation. Up and down they repeat by reflection. A horizontal line indicates the mirror symmetry. A symbol where the bells meet indicates the 180 degree rotational symmetry. The same symbol between two rectangular regions indicates another 180 degree rotation symmetry.     Signature *X   Signature *X  The image consists of a set of not fully opened tulips that repeat indefinitely in a rectangular grid. Each tuplip fits into a rectangle. Left to right the tulips repeat by reflection over a vertical line. Up and down they repeat by translation along with a relection over a vertical line thru the center of each tulip (a glide reflection). A vertical line indicates the mirror symmetry. A curved line from the tip of one tulip down to the tip of the tulip beneath indicates the glide reflection symmetry.     "
 },
 {
-  "id": "section-symmetry-2-2",
+  "id": "section-symmetry-2-3",
   "level": "2",
-  "url": "section-symmetry.html#section-symmetry-2-2",
+  "url": "section-symmetry.html#section-symmetry-2-3",
   "type": "Definition",
   "number": "4.4.1",
   "title": "Symmetry.",
   "body": " Symmetry  A set of points has symmetry of type for some transformation if and only if  "
 },
 {
-  "id": "section-symmetry-2-3",
+  "id": "section-symmetry-2-4",
   "level": "2",
-  "url": "section-symmetry.html#section-symmetry-2-3",
+  "url": "section-symmetry.html#section-symmetry-2-4",
   "type": "Checkpoint",
   "number": "4.4.2",
   "title": "",
   "body": "  Confirm is a symmetry of the set   "
 },
 {
-  "id": "section-symmetry-2-4",
+  "id": "section-symmetry-2-5",
   "level": "2",
-  "url": "section-symmetry.html#section-symmetry-2-4",
+  "url": "section-symmetry.html#section-symmetry-2-5",
   "type": "Checkpoint",
   "number": "4.4.3",
   "title": "",
   "body": "  Demonstrate is not a symmetry of the set   "
 },
 {
-  "id": "section-symmetry-2-5",
+  "id": "section-symmetry-2-6",
   "level": "2",
-  "url": "section-symmetry.html#section-symmetry-2-5",
+  "url": "section-symmetry.html#section-symmetry-2-6",
   "type": "Checkpoint",
   "number": "4.4.4",
   "title": "",
   "body": "  What points do you have to add to so is a symmetry of this set?   "
 },
 {
-  "id": "section-symmetry-2-6",
+  "id": "section-symmetry-2-7",
   "level": "2",
-  "url": "section-symmetry.html#section-symmetry-2-6",
+  "url": "section-symmetry.html#section-symmetry-2-7",
   "type": "Checkpoint",
   "number": "4.4.5",
   "title": "",
   "body": "  List all symmetries of a square by labeling the vertices and giving the type and parameters for the transformations.   "
 },
 {
-  "id": "section-symmetry-2-7",
+  "id": "section-symmetry-2-8",
   "level": "2",
-  "url": "section-symmetry.html#section-symmetry-2-7",
+  "url": "section-symmetry.html#section-symmetry-2-8",
   "type": "Checkpoint",
   "number": "4.4.6",
   "title": "",
   "body": "  List all symmetries of a regular -sided polygon ( -gon) by labeling the vertices and giving the type and parameters for the transformations.   "
 },
 {
-  "id": "section-symmetry-2-8",
-  "level": "2",
-  "url": "section-symmetry.html#section-symmetry-2-8",
-  "type": "Checkpoint",
-  "number": "4.4.7",
-  "title": "",
-  "body": "  For one of the regular -gons check the following.   What is the composition of two rotational symmetries?  What is the composition of two reflectional symmetries?  What is the smallest number of symmetries you can use to generate all the symmetries?  "
-},
-{
   "id": "section-symmetry-2-9",
   "level": "2",
   "url": "section-symmetry.html#section-symmetry-2-9",
   "type": "Checkpoint",
-  "number": "4.4.8",
+  "number": "4.4.7",
   "title": "",
-  "body": "  Draw some regular -gon. Color in the -gon so that the colored figure maintains the rotational symmetries, but not the reflectional symmetries.   "
+  "body": "  For one of the regular -gons check the following.   What is the composition of two rotational symmetries?  What is the composition of two reflectional symmetries?  What is the composition of a rotational and a reflectional symmetry?  What is the smallest number of symmetries you can use to generate all the symmetries? Your response should be specific functions like a rotation of angle and a reflection over the line segment .  "
 },
 {
   "id": "section-symmetry-2-10",
   "level": "2",
   "url": "section-symmetry.html#section-symmetry-2-10",
   "type": "Checkpoint",
-  "number": "4.4.9",
+  "number": "4.4.8",
   "title": "",
-  "body": "  Draw some regular -gon. Color in the -gon so that the colored figure maintains the reflectional symmetries, but not the rotational symmetries.   "
+  "body": "  Draw some regular -gon. Color in the -gon so that the colored figure maintains the rotational symmetries, but not the reflectional symmetries.   "
 },
 {
   "id": "section-symmetry-2-11",
   "level": "2",
   "url": "section-symmetry.html#section-symmetry-2-11",
   "type": "Checkpoint",
-  "number": "4.4.10",
+  "number": "4.4.9",
   "title": "",
-  "body": "  Draw a figure that has translational symmetry.   "
+  "body": "  Draw some regular -gon. Color in the -gon so that the colored figure maintains the reflectional symmetries, but not the rotational symmetries.   "
 },
 {
   "id": "section-symmetry-2-12",
   "level": "2",
   "url": "section-symmetry.html#section-symmetry-2-12",
   "type": "Checkpoint",
-  "number": "4.4.11",
+  "number": "4.4.10",
   "title": "",
-  "body": "  Draw a figure that has translational symmetry and exactly one reflectional symmetry.   "
+  "body": "  Draw a figure that has translational symmetry.   "
 },
 {
   "id": "section-symmetry-2-13",
   "level": "2",
   "url": "section-symmetry.html#section-symmetry-2-13",
   "type": "Checkpoint",
-  "number": "4.4.12",
+  "number": "4.4.11",
   "title": "",
-  "body": "  Draw a figure that has translational symmetry and rotational symmetry.   "
+  "body": "  Draw a figure that has translational symmetry and exactly one reflectional symmetry.   "
 },
 {
   "id": "section-symmetry-2-14",
   "level": "2",
   "url": "section-symmetry.html#section-symmetry-2-14",
+  "type": "Checkpoint",
+  "number": "4.4.12",
+  "title": "",
+  "body": "  Draw a figure that has translational symmetry and rotational symmetry.   "
+},
+{
+  "id": "section-symmetry-2-15",
+  "level": "2",
+  "url": "section-symmetry.html#section-symmetry-2-15",
   "type": "Checkpoint",
   "number": "4.4.13",
   "title": "",
