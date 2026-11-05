@@ -49,6 +49,8 @@
 		<statement><p>A transformation is an <term>isometry</term> if and only if <m>\|P-Q\|=\|T(P)-T(Q)\|.</m></p></statement>
 	</definition>
 
+	<p>This says that an isometry preserves distances between points. We will want to determine what other properties are preserved as a result of distance being preserved. First, let's practice testing if a transformation is an isometry.</p>
+
 	<exercise>
 		<introduction><p>Determine which of the following transformations are isometries.</p></introduction>
 		<task>
@@ -109,6 +111,8 @@
 		<statement><p>A transformation is a <term>similarity</term> if and only if it can be expressed as a composition of an isometry and a dilation.</p></statement>
 	</definition>
 
+	<p>For isometries we learned that preserving distance implied preserving angle measure. That led to preservation of other properties. We ask the same question for similarities: what other properties are preserved?</p>
+
 	<lemma>
 		<title>Similarity scales segments uniformly</title>
 		<statement><p>For any similarity <m>T</m>, <m>\|T(A)T(B)\|/\|AB\| =k.</m></p></statement>
@@ -140,7 +144,7 @@
 	</theorem>
 
 	<theorem>
-		<title>Similarity preserves circles</title>
+		<title>Similarity preserves circle similarity</title>
 		<statement><p>For any similarity <m>T</m>, circles are mapped to circles.</p></statement>
 	</theorem>
 
