@@ -2,7 +2,7 @@ source /c/pve/pretext/Scripts/activate
 source /c/pve/manim/Scripts/activate
 deactivate
 
-cd /c/DATA/Documents/texts/geometries_26/
+cd /c/DATA/Documents/texts/geometries_student26/
 
 pretext build web
 
