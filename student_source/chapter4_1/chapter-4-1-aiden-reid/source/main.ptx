@@ -1,0 +1,158 @@
+<pretext xml:lang="en-US">
+<docinfo>
+<!-- Edit this blurb to change the summary that appears in search and social -->
+<blurb>
+    A document authored using PreTeXt.Plus, the hosted platform for authoring
+    using the free and open source PreTeXt markup language.
+</blurb>
+  <latex-image-preamble>
+\usepackage{tikz, pgf}
+</latex-image-preamble>
+</docinfo>
+<article xml:id="document" label="document">
+  <title>New LaTeX-style PreTeXt document</title>
+
+  <!-- This is a new LaTeX&#x2D;style PreTeXt document.-->
+  <!-- You can add your content below.-->
+  <!-- Looking for example markup to get started? -->
+  <!-- Try creating a project from a template!-->
+  <lemma>
+    <title>4.1.6</title>
+
+    <statement>
+      <p>
+        The composition of two isometries is an isometry
+      </p>
+    </statement>
+  </lemma>
+
+  <proof>
+    <p>
+      Let <m>T_{1}</m> and <m>T_{2}</m> be isometries. Then,
+      <md>
+        ||PQ||=||T_{1}(P)T_{1}(Q)||=||T_{2}(P)T_{2}(Q)||.
+      </md>
+      Consider
+      <md>
+        ||(T_{1}\circ T_{2})(P)(T_{1}\circ T_{2})(Q)||=||T_{1}(T_{2}(P))T_{1}(T_{2}(Q))||.
+      </md>
+      Since <m>T_{1}</m> is an isometry,
+      <md alignment="align">
+        <mrow>||T_{1}(T_{2}(P))T_{1}(T_{2}(Q))||&amp;=||T_{2}(P)T_{2}(Q)||.</mrow>
+      </md>
+      But, <m>T_{2}</m> is an isometry as well. So,
+      <md alignment="align">
+        <mrow>||T_{1}(T_{2}(P))T_{1}(T_{2}(Q))||&amp;=||T_{2}(P)T_{2}(Q)||</mrow>
+        <mrow>&amp;=||PQ||.</mrow>
+      </md>
+      Thus, <m>T_{1}\circ T_{2}</m> is an isometry.
+    </p>
+  </proof>
+
+  <theorem>
+    <title>4.1.7 Isometries preserve colinearity</title>
+
+    <statement>
+      <p>
+        For any isometry T, if <m>A</m>, <m>B</m>, and <m>C</m> are colinear,
+        then <m>T(A)</m>, <m>T(B)</m>, and <m>T(C)</m> are colienar.
+      </p>
+    </statement>
+  </theorem>
+
+  <proof>
+    <p>
+      Let <m>T</m> be an isometry and let <m>A</m>, <m>B</m>, and <m>C</m> be
+      collinear. Without loss of generality, suppose <m>A-B-C</m>. Then,
+      <md>
+        ||AC||=||AB||+||BC||.
+      </md>
+      For the sake of contradiction, suppose <m>T(A)</m>, <m>T(B)</m>, and
+      <m>T(C)</m> are not colinear. Then, by definition, we have a triangle
+      <m>\triangle T(A)T(B)T(C)</m>. By the Triangle Inequality,
+      <md>
+        ||T(A)T(C)||&lt;||T(A)T(B)||+||T(B)T(C)||.
+      </md>
+      But, <m>T</m> is an isometry. So, this implies that
+      <md>
+        ||AC||&lt;||AB||+||BC||,
+      </md>
+      which is a contradiction. So, <m>T(A)</m>, <m>T(B)</m>, and <m>T(C)</m>
+      must be colinear.
+    </p>
+  </proof>
+
+  <lemma>
+    <title>4.1.15 Similarity scales segments uniformly</title>
+
+    <statement>
+      <p>
+        For any similarity <m>T</m>, <m>||T(A)T(B)||/||AB||=k</m>.
+      </p>
+    </statement>
+  </lemma>
+
+  <proof>
+    <p>
+      First, we show that dilations scale segments uniformly. Let <m>T_{D}</m>
+      be a dilation defined by a point <m>Z</m> and a positive constant
+      <m>k</m>. Consider two points <m>A</m> and <m>B</m> and their outputs
+      under <m>T_{D}</m>.
+    </p>
+
+    <blockquote>
+      <image source="asset-4-1"/>
+    </blockquote>
+
+    <p>
+      By definition,
+      <md alignment="align">
+        <mrow>\frac{||T_{D}(A)Z||}{||ZA||}=k=\frac{||T_{D}(B)Z||}{||ZB||}.</mrow>
+      </md>
+      By the Ruler Placement Postulate, we can set the point <m>Z=(0,0)</m>.
+      Since <m>||T_{D}(A)Z||=k||ZA||</m> and <m>Z=(0,0)</m>, we can say that
+      <md alignment="align">
+        <mrow>T_{D}(A)&amp;=kA</mrow>
+        <mrow>&amp;=(kx_{A},ky_{A}).</mrow>
+      </md>
+      Similarly, <m>T_{D}(B)=(kx_{B},ky_{B})</m>. Thus, the distance from
+      <m>T_{D}(A)</m> to <m>T_{D}(B)</m> is
+      <md alignment="align">
+        <mrow>||T_{D}(A)T_{D}(B)||&amp;=\sqrt{(kx_{A}-kx_{B})^{2}+(ky_{A}-ky_{B})^{2}}</mrow>
+        <mrow>&amp;=\sqrt{k^{2}\left[(x_{A}-x_{B})^{2}+(y_{A}-y_{B})^{2}\right]}</mrow>
+        <mrow>&amp;=k\sqrt{(x_{A}-x_{B})^{2}+(y_{A}-y_{B})^{2}}</mrow>
+        <mrow>&amp;=k||AB||.</mrow>
+      </md>
+      Thus, dilations scale segments uniformly.
+    </p>
+
+    <p>
+      Now, we will apply this to show that similarities scale segments
+      uniformly.
+    </p>
+
+    <p>
+      <em>Case 1: <m>T=T_{D}\circ T_{I}</m>.</em> Suppose similarity <m>T</m> is
+      defined as a dilation composed with an isometry. Then,
+      <md alignment="align">
+        <mrow>\frac{||T(A)T(B)||}{||AB||}&amp;=\frac{||T_{D}(T_{I}(A))T_{D}(T_{I}(B))||}{||AB||}</mrow>
+        <mrow>&amp;=\frac{k||T_{I}(A)T_{I}(B)||}{||AB||}</mrow>
+        <mrow>&amp;=\frac{k||AB||}{||AB||}</mrow>
+        <mrow>&amp;=k.</mrow>
+      </md>
+    </p>
+
+    <p>
+      <em>Case 2: <m>T=T_{I}\circ T_{D}</m>.</em> Now, suppose similarity
+      <m>T</m> is defined as an isometry composed with a dilation. Then,
+      <md alignment="align">
+        <mrow>\frac{||T(A)T(B)||}{||AB||}&amp;=\frac{||T_{I}(T_{D}(A))T_{I}(T_{D}(B))||}{||AB||}</mrow>
+        <mrow>&amp;=\frac{||T_{D}(A)T_{D}(B)||}{||AB||}</mrow>
+        <mrow>&amp;=\frac{k||AB||}{||AB||}</mrow>
+        <mrow>&amp;=k.</mrow>
+      </md>
+      Thus, similarities scale segments uniformly.
+    </p>
+  </proof>
+</article>
+</pretext>

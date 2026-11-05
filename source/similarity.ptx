@@ -305,6 +305,34 @@
 				</p>
 			</proof>
 		</theorem>
+
+		<theorem>
+			<title>Side-Side-Side (SSS) Similarity</title>
+			<statement><p>Two triangles are similar if and only if the ratios of their corresponding sides are equal.</p></statement>
+			<solution>
+				<p>
+					Consider two triangles <m>\triangle ABC</m> and <m>\triangle DEF</m> such that:
+				</p>
+				<p>
+					<m>k\left\Vert\overline{AB}\right\Vert</m>= <m>\left\Vert\overline{DE}\right\Vert</m>
+				</p>
+				<p>
+					<m>k\left\Vert\overline{BC}\right\Vert</m>= <m>\left\Vert\overline{EF}\right\Vert</m>
+				</p>
+				<p>
+					<m>k\left\Vert\overline{AC}\right\Vert</m>= <m>\left\Vert\overline{DF}\right\Vert</m>
+				</p>
+				<p>
+					WLOG, suppose <m>k</m> &gt; 1. Then by the Ruler Postulate we can place points <m>B'</m> and <m>C'</m> such that <m>B'</m> is between <m>D</m> and <m>E</m>, <m>C'</m> is between <m>D</m> and <m>F</m>, <m>\overline{DB'}</m> <m>\cong</m> <m>\overline{AB}</m>, and <m>\overline{DC'}</m> <m>\cong</m> <m>\overline{AC}</m>. Since <m>\overline{DB'}</m> divides <m>\overline{DE}</m> and <m>\overline{DF}</m> proportionally, by the Michael-Kiera-Cedric Lemma, <m>\overline{B'C'}</m> is parallel to <m>\overline{EF}</m>. Then, by the corollary, <m>\overline{EF} = k\overline{B'C'}</m> and thus <m>\triangle DB'C' \sim \triangle DEF</m>. But, <m>\overline{EF} = k\overline{BC}</m>. So, <m>\overline{BC} \cong \overline{B'C'}</m>. Thus by SSS, <m>\triangle ABC \cong \triangle DB'C'</m>. So, <m>\triangle ABD \sim \triangle DEF</m>
+				</p>
+			</solution>
+		</theorem>
+
+		<theorem>
+			<title>Side-Angle-Side (SAS) Similarity</title>
+			<statement><p>Two triangles are similar if and only if they have two proportional sides and the included angles are congruent.</p></statement>
+		</theorem>
+
 	</subsection>
 
     <subsection>

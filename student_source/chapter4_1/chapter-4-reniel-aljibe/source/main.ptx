@@ -1,0 +1,107 @@
+<pretext xml:lang="en-US">
+<docinfo>
+<!-- Edit this blurb to change the summary that appears in search and social -->
+<blurb>
+    A document authored using PreTeXt.Plus, the hosted platform for authoring
+    using the free and open source PreTeXt markup language.
+</blurb>
+  <latex-image-preamble>
+\usepackage{tikz, pgf}
+</latex-image-preamble>
+</docinfo>
+<article xml:id="document" label="document">
+<title>4.1</title>
+<section xml:id="sec-triangle-angle-sum">
+    <title>Checkpoint 4.1.5</title>
+
+    <statement>
+        <p>
+            Let P = (<m>x_{1}, y_{1}</m>) and Q = (<m>x_{2}, y_{2}</m>). So the distance between them is <m>\lvert\lvert P-Q \rvert\rvert = \sqrt{(x_{2}-x_{1})^2+(y_{2}-y_{1})^2}</m>.
+
+            <ol marker="(a)" start="2">
+             <li>
+                <p>
+                    <m>T:(x, y)\mapsto(2x, 2y)</m>: <m>\lvert \lvert T(P) - T(Q) \rvert \rvert = \sqrt{(2x_{2}-2x_{1})^2+(2y_{2}-2y_{1})^2} = \sqrt{2((x_{2}-x_{1})^2+(y_{2}-y_{1}))^2} = \sqrt{2} \sqrt{(x_{2}-x_{1})^2+(y_{2}-y_{1})^2}</m> so it is not an isometry.
+
+                </p>
+            </li>
+    
+             <li>
+                <p>
+                    <m>T:(x, y)\mapsto(-y, -x)</m>: <m>\lvert \lvert T(P) - T(Q) \rvert \rvert = \sqrt{(-y_{2}+y_{1})^2+(-x_{2}+x_{1})^2} = \sqrt{-((y_{2}-y_{1})^2+(x_{2}-x_{1}))^2} = \sqrt{(y_{2}-y_{1})^2+(x_{2}-x_{1})^2}</m> so it is an isometry.
+
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    <m>T:(x, y) \mapsto \begin{bmatrix}\cos\theta &amp; \sin\theta\\ -\sin\theta &amp; \cos\theta \end{bmatrix} \begin{bmatrix} x\\y \end{bmatrix} = \begin{bmatrix} x\cos\theta+y\sin\theta\\ -x\sin\theta+y\cos\theta \end{bmatrix} </m>
+                    <me>
+                         T(P)=(x_1\cos\theta+y_1\sin\theta, -x_1\sin\theta+y_1\cos\theta)
+                    </me>
+                    <me>
+                         T(Q)=(x_2\cos\theta+y_2\sin\theta, -x_2\sin\theta+y_2\cos\theta)
+                    </me>
+
+                    <me>
+                         \begin{aligned} \|T(P)-T(Q)\|= \sqrt{\left((x_2\cos\theta+y_2\sin\theta)-(x_1\cos\theta+y_1\sin\theta) \right)^2\\ + \left((-x_2\sin\theta+y_2\cos\theta)-(-x_1\sin\theta+y_1\cos\theta) \right)^2} \end{aligned}
+                    </me>
+                </p>
+                <p>
+                    After factoring the negatives and the sines and cosines, we get <m>\sqrt{(x_2 - x_1)^2(\cos^2\theta +\sin^2\theta) + (y_2 - y_1)^2(\cos^2\theta + \sin^2\theta)}</m> = <m>\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}</m> and so it is an isometry
+                </p>
+            </li>
+            </ol>
+        </p>
+    </statement>
+
+
+</section>
+
+<section xml:id="sec-Isometries preserve parallelism">
+  <title>4.1.11 Isometries preserve parallelism</title>
+        
+  <proof>
+   <p>
+    We have two parallel lines <m> l_{1}</m> and <m>l_{2}</m>. The shortest distance between them is <m>\overline{AB}</m>
+     <image source="geogebra-export-19"/>
+     By 3.1.5, <m>\angle\alpha = \angle\beta = 90</m>. Going through isometry T, <m>\lvert\lvert T(\overline{AB})\rvert\rvert = \lvert\lvert \overline{AB} \rvert\rvert</m> and by Theorem 4.1.10, angles are preserved and so, by Equidistance and 3.1.5, <m>T(l_{1})</m> and <m>T(l_{2})</m> are parallel.
+     Going the other way, to get to the original position, we have to do another isometric transformation and by the Lemma 4.1.6, the two lines are still parallel. 
+   </p>
+     
+   </proof>
+</section>
+
+<section xml:id="sec-Similarity preserves angles">
+  <title>4.1.19 Similarity preserves angles</title>
+
+    <proof>
+      <p>
+        Suppose we have <m>\triangle ABC</m>, going through a similarity transformation T. By theorem 4.1.18, <m>\triangle ABC \sim \triangle T(A)T(B)T(C)</m>. By theorem 3.2.14, similar triangles have an angle-angle-angle congruence and so we have that Similarity preserves angles.
+      </p>
+    </proof>
+</section>
+
+<section xml:id="sec-Rotation is an Isometry">
+  <title>4.3.4 Rotation is an Isometry</title>
+    <proof>
+      <p>
+        We have two points <m>P</m> and <m>Q</m> that is rotated around the point <m>C</m> making the new points <m>T(P)</m> and <m>T(Q)</m>. 
+        <image source="geogebra-export-20"/>
+        By the definition of rotation, <m>m\angle PCT(P) = m\angle QCT(Q)</m>. We can make triangles <m>\triangle T(Q)CT(P)</m> and <m>\triangle QCP</m>
+        <image source="geogebra-export-21"/>
+        With angle addition postulate, <m>m\angle T(Q)CT(P) = m\angle T(Q)CQ + m\angle QCT(P)</m> and <m>m\angle QCP = m\angle QCT(P) + m\angle T(P)CP</m>. Since <m>m\angle T(Q)CQ = m\angle T(P)CP</m>, we have that <m>\angle T(Q)CT(P) \cong \angle QCP</m> and by SAS, <m>\triangle T(Q)CT(P) \cong \triangle QCP</m>, making <m>\overline{T(Q)T(P)} \cong \overline{QP}</m>. Meaning their distance are equal making it an isometry.
+      </p>
+    </proof>
+</section>
+
+<section xml:id="sec-Checkpoint 4.3.6">
+  <title>Checkpoint 4.3.6</title>
+
+  <p>
+    Doing the isometries Translation then Rotation is equivalent to doing a single rotation around a different point
+  </p>
+  
+</section>
+</article>
+</pretext>

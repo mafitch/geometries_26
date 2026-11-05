@@ -1,0 +1,112 @@
+<pretext xml:lang="en-US">
+<docinfo>
+<!-- Edit this blurb to change the summary that appears in search and social -->
+<blurb>
+    A document authored using PreTeXt.Plus, the hosted platform for authoring
+    using the free and open source PreTeXt markup language.
+</blurb>
+  <latex-image-preamble>
+\usepackage{tikz, pgf}
+</latex-image-preamble>
+</docinfo>
+<article xml:id="document" label="document">
+<title>New PreTeXt XML document</title>
+<problem>
+    <title>4.1.9</title>
+    
+    <statement>
+        <p>
+            For any isometry <m>T, \triangle ABC \cong \triangle T(A)T(B)T(C)</m>.
+        </p>
+    </statement>
+</problem>
+
+<solution>
+    <statement>
+        <p>
+            Using the definition of an isometry, we know that <m>\left\Vert\overline{AB}\right\Vert</m> = <m>\left\Vert\overline{T(A)T(B)}\right\Vert</m>, <m>\left\Vert\overline{BC}\right\Vert</m> = <m>\left\Vert\overline{T(B)T(C)}\right\Vert</m>, and <m>\left\Vert\overline{AC}\right\Vert</m> = <m>\left\Vert\overline{T(A)T(C)}\right\Vert</m>. Because the lengths are equal, we know that the corresponding sides are congruent. Finally, by SSS, we find that <m>\triangle ABC \cong \triangle T(A)T(B)T(C)</m>.
+        </p>
+    </statement>
+</solution>
+
+<problem>
+    <title>4.1.10</title>
+    
+    <statement>
+        <p>
+            For any isometry 𝑇 and any three points, <m>\angle ABC \cong \angle T(A)T(B)T(C)</m>.
+        </p>
+    </statement>
+</problem>
+
+<solution>
+    <statement>
+        <p>
+            By 4.1.9, we know that an isometry preserves triangles. For an arbitrary triangle <m>\triangle ABC</m>, this means <m>\triangle ABC \cong \triangle T(A)T(B)T(C)</m>. Then, by CPCTC, <m>\angle ABC \cong \angle T(A)T(B)T(C)</m>.
+        </p>
+        <p>
+            If the three points are colinear and do not form a triangle, we know they will remain colinear by 4.1.7 and the angle will be preserved. 
+        </p>
+    </statement>
+</solution>
+
+<problem>
+    <title>4.1.20</title>
+    
+    <statement>
+        <p>
+            For any similarity 𝑇, <m>\ell_1 \Vert \ell_2</m> if and only if <m>T(\ell_1) \Vert T(\ell_2)</m>.
+        </p>
+    </statement>
+</problem>
+
+<solution>
+    <statement>
+        <p>
+            If <m>\ell_1 \Vert \ell_2</m> then <m>T(\ell_1) \Vert T(\ell_2)</m>:
+        </p>
+        <p>
+            Consider <m>\ell_1 \Vert \ell_2</m>. We will place an arbitrary transversal across the parallel lines by using the ruler postulate and axiom 1. By the alternate interior angle converse theorem, we know that the alternate interior angles formed by the transveral are congruent. By, 4.1.19, we know that after a similarity, the angles will be preserved. Then by 3.1.2, the alternate interior angles formed by the transveral are equal and the lines must be parallel.
+        </p>
+        <p>
+            If <m>T(\ell_1) \Vert T(\ell_2)</m> then <m>\ell_1 \Vert \ell_2</m>:
+        </p>
+        <p>
+            Consider 𝑇(ℓ1) ∥𝑇(ℓ2). We will place an arbitrary transversal across the parallel lines. By the alternate interior angle converse theorem, we know that the alternate interior angles formed by the transveral are congruent. By, 4.1.19, we know that after a similarity, the angles will be preserved. Then by 3.1.2, the alternate interior angles formed by the are equal and the lines must be parallel.
+        </p>
+    </statement>
+</solution>
+
+
+<problem>
+    <title>SSS Similar Triangle</title>
+    
+    <statement>
+        <p>
+            
+        </p>
+    </statement>
+</problem>
+
+<solution>
+    <statement>
+        <p>
+            Consider two triangles <m>\triangle ABC</m> and <m>\triangle DEF</m> such that:
+        </p>
+        <p>
+            <m>k\left\Vert\overline{AB}\right\Vert</m>= <m>\left\Vert\overline{DE}\right\Vert</m>
+        </p>
+        <p>
+            <m>k\left\Vert\overline{BC}\right\Vert</m>= <m>\left\Vert\overline{EF}\right\Vert</m>
+        </p>
+        <p>
+            <m>k\left\Vert\overline{AC}\right\Vert</m>= <m>\left\Vert\overline{DF}\right\Vert</m>
+        </p>
+        <p>
+            WLOG, suppose <m>k</m> &gt; 1. Then by the Ruler Postulate we can place points <m>B'</m> and <m>C'</m> such that <m>B'</m> is between <m>D</m> and <m>E</m>, <m>C'</m> is between <m>D</m> and <m>F</m>, <m>\overline{DB'}</m> <m>\cong</m> <m>\overline{AB}</m>, and <m>\overline{DC'}</m> <m>\cong</m> <m>\overline{AC}</m>. Since <m>\overline{DB'}</m> divides <m>\overline{DE}</m> and <m>\overline{DF}</m> proportionally, by the Michael-Kiera-Cedric Lemma, <m>\overline{B'C'}</m> is parallel to <m>\overline{EF}</m>. Then, by the corollary, <m>\overline{EF} = k\overline{B'C'}</m> and thus <m>\triangle DB'C'</m> ~ <m>\triangle DEF</m>. But, <m>\overline{EF} = k\overline{BC}</m>. So, <m>\overline{BC} \cong \overline{B'C'}</m>. Thus by SSS, <m>\triangle ABC \cong \triangle DB'C'</m>. So, <m>\triangle ABD</m> ~ <m>\triangle DEF</m>
+        </p>
+    </statement>
+</solution>
+
+</article>
+</pretext>
