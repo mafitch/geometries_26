@@ -49,6 +49,8 @@
 		<statement><p>A transformation is an <term>isometry</term> if and only if <m>\|P-Q\|=\|T(P)-T(Q)\|.</m></p></statement>
 	</definition>
 
+	<p>This says that an isometry preserves distances between points. We will want to determine what other properties are preserved as a result of distance being preserved. First, let's practice testing if a transformation is an isometry.</p>
+
 	<exercise>
 		<introduction><p>Determine which of the following transformations are isometries.</p></introduction>
 		<task>
@@ -57,16 +59,14 @@
                 <p>
                     <m>T:(x, y)\mapsto(2x, 2y)</m>: <m>\lvert \lvert T(P) - T(Q) \rvert \rvert = \sqrt{(2x_{2}-2x_{1})^2+(2y_{2}-2y_{1})^2} = \sqrt{2((x_{2}-x_{1})^2+(y_{2}-y_{1}))^2} = \sqrt{2} \sqrt{(x_{2}-x_{1})^2+(y_{2}-y_{1})^2}</m> so it is not an isometry.
                 </p>
-			</solution>
-		</task>
+			</solution>		</task>
 		<task>
 			<statement><p><m>T_2:(x,y) \mapsto (-y,-x)</m></p></statement>
 			<solution>
                 <p>
                     <m>T:(x, y)\mapsto(-y, -x)</m>: <m>\lvert \lvert T(P) - T(Q) \rvert \rvert = \sqrt{(-y_{2}+y_{1})^2+(-x_{2}+x_{1})^2} = \sqrt{-((y_{2}-y_{1})^2+(x_{2}-x_{1}))^2} = \sqrt{(y_{2}-y_{1})^2+(x_{2}-x_{1})^2}</m> so it is an isometry.
                 </p>
-			</solution>
-		</task>
+			</solution>		</task>
 		<task>
 			<statement><p><m>T_3:(x,y) \mapsto \begin{bmatrix} \cos\theta &amp; \sin\theta \\ -\sin\theta &amp; \cos\theta \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} </m></p></statement>
 			<solution>
@@ -140,8 +140,7 @@
 			which is a contradiction. So, <m>T(A)</m>, <m>T(B)</m>, and <m>T(C)</m>
 			must be colinear.
 			</p>
-		</proof>
-	</theorem>
+		</proof>	</theorem>
 
 	<corollary>
 		<title>Isometries preserve betweeness</title>
@@ -151,24 +150,24 @@
 	<theorem>
 		<title>Isometries preserve triangles</title>
 		<statement><p>For any isometry <m>T</m> and any three points <m>\triangle ABC \cong \triangle T(A)T(B)T(C).</m></p></statement>
-		<solution>
+		<proof>
 			<p>
 				Using the definition of an isometry, we know that <m>\left\Vert\overline{AB}\right\Vert</m> = <m>\left\Vert\overline{T(A)T(B)}\right\Vert</m>, <m>\left\Vert\overline{BC}\right\Vert</m> = <m>\left\Vert\overline{T(B)T(C)}\right\Vert</m>, and <m>\left\Vert\overline{AC}\right\Vert</m> = <m>\left\Vert\overline{T(A)T(C)}\right\Vert</m>. Because the lengths are equal, we know that the corresponding sides are congruent. Finally, by SSS, we find that <m>\triangle ABC \cong \triangle T(A)T(B)T(C)</m>.
 			</p>
-		</solution>
+		</proof>
 	</theorem>
 
 	<corollary>
 		<title>Isometries preserve angles</title>
 		<statement><p>For any isometry <m>T</m> and any three points <m>A</m>, <m>B</m>, and <m>C</m>, <m>\angle ABC \cong \angle T(A)T(B)T(C).</m></p></statement>
-		<solution>
+		<proof>
 			<p>
 				By 4.1.9, we know that an isometry preserves triangles. For an arbitrary triangle <m>\triangle ABC</m>, this means <m>\triangle ABC \cong \triangle T(A)T(B)T(C)</m>. Then, by CPCTC, <m>\angle ABC \cong \angle T(A)T(B)T(C)</m>.
 			</p>
 			<p>
 				If the three points are colinear and do not form a triangle, we know they will remain colinear by 4.1.7 and the angle will be preserved. 
 			</p>
-		</solution>
+		</proof>
 	</corollary>
 
 	<theorem>
@@ -203,6 +202,8 @@
 		<title>Similarity</title>
 		<statement><p>A transformation is a <term>similarity</term> if and only if it can be expressed as a composition of an isometry and a dilation.</p></statement>
 	</definition>
+
+	<p>For isometries we learned that preserving distance implied preserving angle measure. That led to preservation of other properties. We ask the same question for similarities: what other properties are preserved?</p>
 
 	<lemma>
 		<title>Similarity scales segments uniformly</title>
@@ -297,7 +298,7 @@
 	<theorem>
 		<title>Similarity preserves parallelism</title>
 		<statement><p>For any similarity <m>T</m>, <m>\ell_1 \parallel \ell_2</m> if and only if <m>T(\ell_1) \parallel T(\ell_2).</m></p></statement>
-		<solution>
+		<proof>
 			<p>
 				If <m>\ell_1 \Vert \ell_2</m> then <m>T(\ell_1) \Vert T(\ell_2)</m>:
 			</p>
@@ -310,11 +311,11 @@
 			<p>
 				Consider <m>T(\ell_1) \parallel T(\ell_2)</m>. We will place an arbitrary transversal across the parallel lines. By the alternate interior angle converse theorem, we know that the alternate interior angles formed by the transveral are congruent. By, 4.1.19, we know that after a similarity, the angles will be preserved. Then by 3.1.2, the alternate interior angles formed by the transveral are equal and the lines must be parallel.
 			</p>
-		</solution>
+		</proof>
 	</theorem>
 
 	<theorem>
-		<title>Similarity preserves circles</title>
+		<title>Similarity preserves circle similarity</title>
 		<statement><p>For any similarity <m>T</m>, circles are mapped to circles.</p></statement>
 	</theorem>
 
