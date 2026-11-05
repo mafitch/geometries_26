@@ -49,26 +49,98 @@
 		<statement><p>A transformation is an <term>isometry</term> if and only if <m>\|P-Q\|=\|T(P)-T(Q)\|.</m></p></statement>
 	</definition>
 
-	<p>This says that an isometry preserves distances between points. We will want to determine what other properties are preserved as a result of distance being preserved. First, let's practice testing if a transformation is an isometry.</p>
-
 	<exercise>
 		<introduction><p>Determine which of the following transformations are isometries.</p></introduction>
 		<task>
 			<statement><p><m>T_1:(x,y) \mapsto (2x,2y)</m></p></statement>
+			<solution>
+                <p>
+                    <m>T:(x, y)\mapsto(2x, 2y)</m>: <m>\lvert \lvert T(P) - T(Q) \rvert \rvert = \sqrt{(2x_{2}-2x_{1})^2+(2y_{2}-2y_{1})^2} = \sqrt{2((x_{2}-x_{1})^2+(y_{2}-y_{1}))^2} = \sqrt{2} \sqrt{(x_{2}-x_{1})^2+(y_{2}-y_{1})^2}</m> so it is not an isometry.
+                </p>
+			</solution>
 		</task>
 		<task>
 			<statement><p><m>T_2:(x,y) \mapsto (-y,-x)</m></p></statement>
+			<solution>
+                <p>
+                    <m>T:(x, y)\mapsto(-y, -x)</m>: <m>\lvert \lvert T(P) - T(Q) \rvert \rvert = \sqrt{(-y_{2}+y_{1})^2+(-x_{2}+x_{1})^2} = \sqrt{-((y_{2}-y_{1})^2+(x_{2}-x_{1}))^2} = \sqrt{(y_{2}-y_{1})^2+(x_{2}-x_{1})^2}</m> so it is an isometry.
+                </p>
+			</solution>
 		</task>
 		<task>
 			<statement><p><m>T_3:(x,y) \mapsto \begin{bmatrix} \cos\theta &amp; \sin\theta \\ -\sin\theta &amp; \cos\theta \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} </m></p></statement>
+			<solution>
+                <p>
+                    <m>T:(x, y) \mapsto \begin{bmatrix}\cos\theta &amp; \sin\theta\\ -\sin\theta &amp; \cos\theta \end{bmatrix} \begin{bmatrix} x\\y \end{bmatrix} = \begin{bmatrix} x\cos\theta+y\sin\theta\\ -x\sin\theta+y\cos\theta \end{bmatrix} </m>
+                    <md>
+                         T(P)=(x_1\cos\theta+y_1\sin\theta, -x_1\sin\theta+y_1\cos\theta)
+                    </md>
+                    <md>
+                         T(Q)=(x_2\cos\theta+y_2\sin\theta, -x_2\sin\theta+y_2\cos\theta)
+                    </md>
+
+                    <md>
+                         \begin{aligned} \|T(P)-T(Q)\|= \sqrt{\left((x_2\cos\theta+y_2\sin\theta)-(x_1\cos\theta+y_1\sin\theta) \right)^2\\ + \left((-x_2\sin\theta+y_2\cos\theta)-(-x_1\sin\theta+y_1\cos\theta) \right)^2} \end{aligned}
+                    </md>
+                </p>
+                <p>
+                    After factoring the negatives and the sines and cosines, we get <m>\sqrt{(x_2 - x_1)^2(\cos^2\theta +\sin^2\theta) + (y_2 - y_1)^2(\cos^2\theta + \sin^2\theta)}</m> = <m>\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}</m> and so it is an isometry
+                </p>
+			</solution>
 		</task>
 	</exercise>
 
-	<lemma><p>The composition of two isometries is an isometry.</p></lemma>
+	<lemma>
+		<statement><p>The composition of two isometries is an isometry.</p>
+		</statement>
+		<proof>
+			<p>
+			Let <m>T_{1}</m> and <m>T_{2}</m> be isometries. Then,
+			<md>
+				||PQ||=||T_{1}(P)T_{1}(Q)||=||T_{2}(P)T_{2}(Q)||.
+			</md>
+			Consider
+			<md>
+				||(T_{1}\circ T_{2})(P)(T_{1}\circ T_{2})(Q)||=||T_{1}(T_{2}(P))T_{1}(T_{2}(Q))||.
+			</md>
+			Since <m>T_{1}</m> is an isometry,
+			<md alignment="align">
+				<mrow>||T_{1}(T_{2}(P))T_{1}(T_{2}(Q))||&amp;=||T_{2}(P)T_{2}(Q)||.</mrow>
+			</md>
+			But, <m>T_{2}</m> is an isometry as well. So,
+			<md alignment="align">
+				<mrow>||T_{1}(T_{2}(P))T_{1}(T_{2}(Q))||&amp;=||T_{2}(P)T_{2}(Q)||</mrow>
+				<mrow>&amp;=||PQ||.</mrow>
+			</md>
+			Thus, <m>T_{1}\circ T_{2}</m> is an isometry.
+			</p>
+		</proof>
+	</lemma>
 
 	<theorem>
 		<title>Isometries preserve colinearity</title>
 		<statement><p>For any isometry <m>T</m>, if <m>A,</m> <m>B,</m> and <m>C</m> are colinear, then <m>T(A),</m> <m>T(B),</m> and <m>T(C)</m> are colinear.</p></statement>
+		<proof>
+			<p>
+			Let <m>T</m> be an isometry and let <m>A</m>, <m>B</m>, and <m>C</m> be
+			collinear. Without loss of generality, suppose <m>A-B-C</m>. Then,
+			<md>
+				||AC||=||AB||+||BC||.
+			</md>
+			For the sake of contradiction, suppose <m>T(A)</m>, <m>T(B)</m>, and
+			<m>T(C)</m> are not colinear. Then, by definition, we have a triangle
+			<m>\triangle T(A)T(B)T(C)</m>. By the Triangle Inequality,
+			<md>
+				||T(A)T(C)||&lt;||T(A)T(B)||+||T(B)T(C)||.
+			</md>
+			But, <m>T</m> is an isometry. So, this implies that
+			<md>
+				||AC||&lt;||AB||+||BC||,
+			</md>
+			which is a contradiction. So, <m>T(A)</m>, <m>T(B)</m>, and <m>T(C)</m>
+			must be colinear.
+			</p>
+		</proof>
 	</theorem>
 
 	<corollary>
@@ -79,16 +151,37 @@
 	<theorem>
 		<title>Isometries preserve triangles</title>
 		<statement><p>For any isometry <m>T</m> and any three points <m>\triangle ABC \cong \triangle T(A)T(B)T(C).</m></p></statement>
+		<solution>
+			<p>
+				Using the definition of an isometry, we know that <m>\left\Vert\overline{AB}\right\Vert</m> = <m>\left\Vert\overline{T(A)T(B)}\right\Vert</m>, <m>\left\Vert\overline{BC}\right\Vert</m> = <m>\left\Vert\overline{T(B)T(C)}\right\Vert</m>, and <m>\left\Vert\overline{AC}\right\Vert</m> = <m>\left\Vert\overline{T(A)T(C)}\right\Vert</m>. Because the lengths are equal, we know that the corresponding sides are congruent. Finally, by SSS, we find that <m>\triangle ABC \cong \triangle T(A)T(B)T(C)</m>.
+			</p>
+		</solution>
 	</theorem>
 
 	<corollary>
 		<title>Isometries preserve angles</title>
 		<statement><p>For any isometry <m>T</m> and any three points <m>A</m>, <m>B</m>, and <m>C</m>, <m>\angle ABC \cong \angle T(A)T(B)T(C).</m></p></statement>
+		<solution>
+			<p>
+				By 4.1.9, we know that an isometry preserves triangles. For an arbitrary triangle <m>\triangle ABC</m>, this means <m>\triangle ABC \cong \triangle T(A)T(B)T(C)</m>. Then, by CPCTC, <m>\angle ABC \cong \angle T(A)T(B)T(C)</m>.
+			</p>
+			<p>
+				If the three points are colinear and do not form a triangle, we know they will remain colinear by 4.1.7 and the angle will be preserved. 
+			</p>
+		</solution>
 	</corollary>
 
 	<theorem>
 		<title>Isometries preserve parallelism</title>
 		<statement><p>For any isometry <m>T</m>, <m>\ell_1 \parallel \ell_2</m> if and only if <m>T(\ell_1) \parallel T(\ell_2).</m></p></statement>
+		<proof>
+			<p>
+				We have two parallel lines <m> l_{1}</m> and <m>l_{2}</m>. The shortest distance between them is <m>\overline{AB}</m>
+				<image source="reniel4_1a"/>
+				By 3.1.5, <m>\angle\alpha = \angle\beta = 90</m>. Going through isometry T, <m>\lvert\lvert T(\overline{AB})\rvert\rvert = \lvert\lvert \overline{AB} \rvert\rvert</m> and by Theorem 4.1.10, angles are preserved and so, by Equidistance and 3.1.5, <m>T(l_{1})</m> and <m>T(l_{2})</m> are parallel.
+				Going the other way, to get to the original position, we have to do another isometric transformation and by the Lemma 4.1.6, the two lines are still parallel. 
+			</p>
+		</proof>
 	</theorem>
 
 	<theorem>
@@ -111,11 +204,69 @@
 		<statement><p>A transformation is a <term>similarity</term> if and only if it can be expressed as a composition of an isometry and a dilation.</p></statement>
 	</definition>
 
-	<p>For isometries we learned that preserving distance implied preserving angle measure. That led to preservation of other properties. We ask the same question for similarities: what other properties are preserved?</p>
-
 	<lemma>
 		<title>Similarity scales segments uniformly</title>
 		<statement><p>For any similarity <m>T</m>, <m>\|T(A)T(B)\|/\|AB\| =k.</m></p></statement>
+		<proof>
+			<p>
+			First, we show that dilations scale segments uniformly. Let <m>T_{D}</m>
+			be a dilation defined by a point <m>Z</m> and a positive constant
+			<m>k</m>. Consider two points <m>A</m> and <m>B</m> and their outputs
+			under <m>T_{D}</m>.
+			</p>
+
+			<image source="asset-4-1"/>
+
+			<p>
+			By definition,
+			<md alignment="align">
+				<mrow>\frac{||T_{D}(A)Z||}{||ZA||}=k=\frac{||T_{D}(B)Z||}{||ZB||}.</mrow>
+			</md>
+			By the Ruler Placement Postulate, we can set the point <m>Z=(0,0)</m>.
+			Since <m>||T_{D}(A)Z||=k||ZA||</m> and <m>Z=(0,0)</m>, we can say that
+			<md alignment="align">
+				<mrow>T_{D}(A)&amp;=kA</mrow>
+				<mrow>&amp;=(kx_{A},ky_{A}).</mrow>
+			</md>
+			Similarly, <m>T_{D}(B)=(kx_{B},ky_{B})</m>. Thus, the distance from
+			<m>T_{D}(A)</m> to <m>T_{D}(B)</m> is
+			<md alignment="align">
+				<mrow>||T_{D}(A)T_{D}(B)||&amp;=\sqrt{(kx_{A}-kx_{B})^{2}+(ky_{A}-ky_{B})^{2}}</mrow>
+				<mrow>&amp;=\sqrt{k^{2}\left[(x_{A}-x_{B})^{2}+(y_{A}-y_{B})^{2}\right]}</mrow>
+				<mrow>&amp;=k\sqrt{(x_{A}-x_{B})^{2}+(y_{A}-y_{B})^{2}}</mrow>
+				<mrow>&amp;=k||AB||.</mrow>
+			</md>
+			Thus, dilations scale segments uniformly.
+			</p>
+
+			<p>
+			Now, we will apply this to show that similarities scale segments
+			uniformly.
+			</p>
+
+			<p>
+			<em>Case 1: <m>T=T_{D}\circ T_{I}</m>.</em> Suppose similarity <m>T</m> is
+			defined as a dilation composed with an isometry. Then,
+			<md alignment="align">
+				<mrow>\frac{||T(A)T(B)||}{||AB||}&amp;=\frac{||T_{D}(T_{I}(A))T_{D}(T_{I}(B))||}{||AB||}</mrow>
+				<mrow>&amp;=\frac{k||T_{I}(A)T_{I}(B)||}{||AB||}</mrow>
+				<mrow>&amp;=\frac{k||AB||}{||AB||}</mrow>
+				<mrow>&amp;=k.</mrow>
+			</md>
+			</p>
+
+			<p>
+			<em>Case 2: <m>T=T_{I}\circ T_{D}</m>.</em> Now, suppose similarity
+			<m>T</m> is defined as an isometry composed with a dilation. Then,
+			<md alignment="align">
+				<mrow>\frac{||T(A)T(B)||}{||AB||}&amp;=\frac{||T_{I}(T_{D}(A))T_{I}(T_{D}(B))||}{||AB||}</mrow>
+				<mrow>&amp;=\frac{||T_{D}(A)T_{D}(B)||}{||AB||}</mrow>
+				<mrow>&amp;=\frac{k||AB||}{||AB||}</mrow>
+				<mrow>&amp;=k.</mrow>
+			</md>
+			Thus, similarities scale segments uniformly.
+			</p>
+		</proof>
 	</lemma>
 
 	<theorem>
@@ -136,15 +287,34 @@
 	<theorem>
 		<title>Similarity preserves angles</title>
 		<statement><p>For any similarity <m>T</m> and any three points <m>A</m>, <m>B</m>, and <m>C</m>, <m>\angle ABC \cong \angle T(A)T(B)T(C).</m></p></statement>
+		<proof>
+			<p>
+				Suppose we have <m>\triangle ABC</m>, going through a similarity transformation T. By theorem 4.1.18, <m>\triangle ABC \sim \triangle T(A)T(B)T(C)</m>. By theorem 3.2.14, similar triangles have an angle-angle-angle congruence and so we have that Similarity preserves angles.
+			</p>
+		</proof>
 	</theorem>
 
 	<theorem>
 		<title>Similarity preserves parallelism</title>
 		<statement><p>For any similarity <m>T</m>, <m>\ell_1 \parallel \ell_2</m> if and only if <m>T(\ell_1) \parallel T(\ell_2).</m></p></statement>
+		<solution>
+			<p>
+				If <m>\ell_1 \Vert \ell_2</m> then <m>T(\ell_1) \Vert T(\ell_2)</m>:
+			</p>
+			<p>
+				Consider <m>\ell_1 \Vert \ell_2</m>. We will place an arbitrary transversal across the parallel lines by using the ruler postulate and axiom 1. By the alternate interior angle converse theorem, we know that the alternate interior angles formed by the transveral are congruent. By, 4.1.19, we know that after a similarity, the angles will be preserved. Then by 3.1.2, the alternate interior angles formed by the transveral are equal and the lines must be parallel.
+			</p>
+			<p>
+				If <m>T(\ell_1) \Vert T(\ell_2)</m> then <m>\ell_1 \Vert \ell_2</m>:
+			</p>
+			<p>
+				Consider <m>T(\ell_1) \parallel T(\ell_2)</m>. We will place an arbitrary transversal across the parallel lines. By the alternate interior angle converse theorem, we know that the alternate interior angles formed by the transveral are congruent. By, 4.1.19, we know that after a similarity, the angles will be preserved. Then by 3.1.2, the alternate interior angles formed by the transveral are equal and the lines must be parallel.
+			</p>
+		</solution>
 	</theorem>
 
 	<theorem>
-		<title>Similarity preserves circle similarity</title>
+		<title>Similarity preserves circles</title>
 		<statement><p>For any similarity <m>T</m>, circles are mapped to circles.</p></statement>
 	</theorem>
 
