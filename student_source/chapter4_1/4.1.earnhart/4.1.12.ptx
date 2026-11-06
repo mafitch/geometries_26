@@ -1,0 +1,9 @@
+<title>Theorem 4.1.12 Isometries Preserve Circles</title>
+
+    <p>
+        Consider P as a point on the circle and Q as its center. By the definition of an isometry, 
+        <md>
+            \|P-Q\| = \|T(P)-T(Q)\|
+        </md>
+        The definition of a circle is all the points a distance r from the center, hence circles are mapped to congruent circles in an isometry.
+    </p>

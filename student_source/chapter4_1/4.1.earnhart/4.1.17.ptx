@@ -1,0 +1,19 @@
+<title>Corollary 4.1.17 Similarity Preserves Betweeness</title>
+
+    <p>
+        4.1.16 states that collinearity is preserved in a similarity. Consider three collinear points A-B-C such that betweeness is not preserved.
+        Without loss of generality, suppose: T(A)-T(C)-T(B). As segments are scaled uniformly in a similarity,
+        <md>
+            \|T(A)T(B)\| / \|AB\| = k = \|T(A)T(C)\| / \|AC\|
+        </md>
+        From the premise, 
+        <md>
+            \|AB\| \lt \|AC\|
+        </md>
+        As k &gt; 0, 
+        <md>
+         \|T(A)T(B)\| \lt \|T(A)T(C)\|
+        </md> 
+        but this contradicts T(A)-T(C)-T(B).
+        Hence, collinearity preserves betweeness.
+    </p>

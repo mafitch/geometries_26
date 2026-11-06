@@ -186,6 +186,15 @@
 	<theorem>
 		<title>Isometries preserve circles</title>
 		<statement><p>For any isometry <m>T</m>, circles are mapped to congruent circles.</p></statement>
+		<proof>
+			<p>
+				Consider P as a point on the circle and Q as its center. By the definition of an isometry, 
+				<md>
+					\|P-Q\| = \|T(P)-T(Q)\|
+				</md>
+				The definition of a circle is all the points a distance r from the center, hence circles are mapped to congruent circles in an isometry.
+			</p>
+		</proof>
 	</theorem>
 
 </subsection>
@@ -278,6 +287,25 @@
 	<corollary>
 		<title>Similarity preserves betweeness</title>
 		<statement><p>For any similarity <m>T</m>, if <m>A-B-C</m> then <m>T(A)-T(B)-T(C).</m></p></statement>
+		<proof>
+			<p>
+				4.1.16 states that collinearity is preserved in a similarity. Consider three collinear points A-B-C such that betweeness is not preserved.
+				Without loss of generality, suppose: <m>T(A)-T(C)-T(B)</m>. As segments are scaled uniformly in a similarity,
+				<md>
+					\|T(A)T(B)\| / \|AB\| = k = \|T(A)T(C)\| / \|AC\|
+				</md>
+				From the premise, 
+				<md>
+					\|AB\| \lt \|AC\|
+				</md>
+				As <m>k \gt 0</m>, 
+				<md>
+				\|T(A)T(B)\| \lt \|T(A)T(C)\|
+				</md> 
+				but this contradicts <m>T(A)-T(C)-T(B)</m>.
+				Hence, collinearity preserves betweeness.
+			</p>
+		</proof>
 	</corollary>
 
 	<theorem>
