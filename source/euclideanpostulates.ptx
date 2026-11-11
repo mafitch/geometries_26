@@ -6,7 +6,7 @@
     <introduction>
         <p>Each of the following is an equivalent Euclidean postulate.</p>
 
-        <list>
+        <list xml:id="list-equivalent-euclidean-postulates">
             <title>Equivalent Euclidean Postulates</title>
             <ul>
                 <li>(<em>Playfair</em>) Given a line and a point not on that line, there exists exactly one line through that point parallel to the given line.</li>
