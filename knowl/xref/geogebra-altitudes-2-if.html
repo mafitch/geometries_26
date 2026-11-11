@@ -37,7 +37,8 @@ lang: "en-US",
 <script>var ggb_perpalt_onload = function(ggb_perpalt_applet) {
 ggb_perpalt_applet.setCoordSystem(0, 10, 0, 6);
 ggb_perpalt_applet.enableShiftDragZoom(true);
-listeners(ggb_perpalt_applet)};
+if (typeof listeners === "function") { listeners(ggb_perpalt_applet); }
+};
 var ggb_perpalt_params = {
 material_id:"mykyhhv8",
 width:600,

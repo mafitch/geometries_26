@@ -34,7 +34,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Finite Geometries",
-  "body": " Finite Geometries   Intersect  Two lines intersect if and only if they share a point.    Parallel  Two lines are parallel if and only if they do not intersect.    Four Point Geometry  The four point geometry is defined by the following axioms and definitions.  There exist exactly four points.  Any two, distinct points have exactly one line on them.  Each line is on exactly two points.       Explore the four point geometry as follows.    Draw and label four points.       Use axiom 2 to draw as many lines as possible.       How many lines exist in this geometry?   6     Find a pair of parallel lines.   , ,      Can you find three lines that are pairwise parallel?   No.     Can you find a point that is on three lines?   Any point.     The four point geometry is an affine geometry. We are also interested in projective geometries.   Projective Geometry   A finite projective geometry satisfies the following conditions.  Any two, distinct points have exactly one line on them.  There are at least four points with no three on the same line.  Any two, distinct lines share at least one point.       Construct a projective geometry with exactly 4 points on every line.    Place 9 points in a grid. Then, place four more points above, below, and to the left and right of the grid.   We want every line to contain exactly four points. So, we can draw the following lines.   We arrange the lines in this way to not violate axiom 3 of the Finite Projective Geometry. Then, notice we can repeat this pattern as follows.   Once again, we satisfy axiom 3. But, we cannot repeat this pattern again since we would be violating axiom 1. So, we have to come up with a different strategy to connect our top and rightmost points with the rest of the diagram such that we do not violate axiom 1. Instead of attaching the points along the verticals and horizontals, we can attack from the diagonals like so.   If we draw our lines this way, we still satisfy all the axioms. Now, notice we can repeat this same method of attachment on our topmost point.   Finally, we need to connect our 4 outermost dots to satisfy axiom 1.   We see that this final image satisfies the three axioms of the finite projective geometry:   Every two distinct points have exactly one line on them,    There are at least four points with no three on the same line,    Every two lines have at least one point on them both.   To see how we satisfy axiom 2, we can pick the centermost point, the topmost post, the rightmost point, and the left middle point of the grid. Further, as per the problem statement, each line has exactly four points on it.    "
+  "body": " Finite Geometries   Intersect  Two lines intersect if and only if they share a point.    Parallel  Two lines are parallel if and only if they do not intersect.    Four Point Geometry  The four point geometry is defined by the following axioms and definitions.  There exist exactly four points.  Any two, distinct points have exactly one line on them.  Each line is on exactly two points.       Explore the four point geometry as follows.    Draw and label four points.    Use axiom 2 to draw as many lines as possible.    How many lines exist in this geometry?    Find a pair of parallel lines.    Can you find three lines that are pairwise parallel?    Can you find a point that is on three lines?    The four point geometry is an affine geometry. We are also interested in projective geometries.   Projective Geometry   A finite projective geometry satisfies the following conditions.  Any two, distinct points have exactly one line on them.  There are at least four points with no three on the same line.  Any two, distinct lines share at least one point.       Construct a projective geometry with exactly 4 points on every line.    "
 },
 {
   "id": "section-finite-geometries-2",
@@ -70,7 +70,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.1.4",
   "title": "",
-  "body": "  Explore the four point geometry as follows.    Draw and label four points.       Use axiom 2 to draw as many lines as possible.       How many lines exist in this geometry?   6     Find a pair of parallel lines.   , ,      Can you find three lines that are pairwise parallel?   No.     Can you find a point that is on three lines?   Any point.    "
+  "body": "  Explore the four point geometry as follows.    Draw and label four points.    Use axiom 2 to draw as many lines as possible.    How many lines exist in this geometry?    Find a pair of parallel lines.    Can you find three lines that are pairwise parallel?    Can you find a point that is on three lines?   "
 },
 {
   "id": "section-finite-geometries-6",
@@ -97,7 +97,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.1.6",
   "title": "",
-  "body": "  Construct a projective geometry with exactly 4 points on every line.    Place 9 points in a grid. Then, place four more points above, below, and to the left and right of the grid.   We want every line to contain exactly four points. So, we can draw the following lines.   We arrange the lines in this way to not violate axiom 3 of the Finite Projective Geometry. Then, notice we can repeat this pattern as follows.   Once again, we satisfy axiom 3. But, we cannot repeat this pattern again since we would be violating axiom 1. So, we have to come up with a different strategy to connect our top and rightmost points with the rest of the diagram such that we do not violate axiom 1. Instead of attaching the points along the verticals and horizontals, we can attack from the diagonals like so.   If we draw our lines this way, we still satisfy all the axioms. Now, notice we can repeat this same method of attachment on our topmost point.   Finally, we need to connect our 4 outermost dots to satisfy axiom 1.   We see that this final image satisfies the three axioms of the finite projective geometry:   Every two distinct points have exactly one line on them,    There are at least four points with no three on the same line,    Every two lines have at least one point on them both.   To see how we satisfy axiom 2, we can pick the centermost point, the topmost post, the rightmost point, and the left middle point of the grid. Further, as per the problem statement, each line has exactly four points on it.   "
+  "body": "  Construct a projective geometry with exactly 4 points on every line.   "
 },
 {
   "id": "section-completeness",
@@ -106,7 +106,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Completeness",
-  "body": " Completeness   Fano Geometry (attempt 1)    There exists at least one line.  There are exactly three points on every line.  Not all points are on the same line.       Use the definition above and the previous definitions of intersection and parallel to explore the Fano geometry as follows.    Draw a line using Geogebra.    Add a third point to the line.    Axiom 3 requires one more point. Draw one.    Must any more lines be added? If so, do so.    By continuing this process of adding required points and lines, determine how many lines are in this geometry.    Following the instructions and the axioms, there is only one line in this geometry and four points, with one point outside of the line. There is nothing in the axioms that forces us to draw a line to connect the point outside of the line with the other points so this could be left as it is.     Add the axiom: every point is on at least one line.    To your line with three points, and one point not on that line add any lines required by this new axiom.    Make sure these lines satisfy Axiom 2.    How many lines are in this geometry now?    May any more lines be added? If so, do so, and be sure all the axioms are satisfied.    How many lines are in this geometry?    There are 2 lines.     What do the answers to , , and say about this attempt at constructing a geometry?    What is needed to fix the difficulty noted in the previous question?    "
+  "body": " Completeness   Fano Geometry (attempt 1)    There exists at least one line.  There are exactly three points on every line.  Not all points are on the same line.       Use the definition above and the previous definitions of intersection and parallel to explore the Fano geometry as follows.    Draw a line using Geogebra.    Add a third point to the line.    Axiom 3 requires one more point. Draw one.    Must any more lines be added? If so, do so.    By continuing this process of adding required points and lines, determine how many lines are in this geometry.    Add the axiom: every point is on at least one line.    To your line with three points, and one point not on that line add any lines required by this new axiom.    Make sure these lines satisfy Axiom 2.    How many lines are in this geometry now?    May any more lines be added? If so, do so, and be sure all the axioms are satisfied.    How many lines are in this geometry?    What do the answers to , , and say about this attempt at constructing a geometry?    What is needed to fix the difficulty noted in the previous question?    "
 },
 {
   "id": "section-completeness-2",
@@ -124,7 +124,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.2.2",
   "title": "",
-  "body": "  Use the definition above and the previous definitions of intersection and parallel to explore the Fano geometry as follows.    Draw a line using Geogebra.    Add a third point to the line.    Axiom 3 requires one more point. Draw one.    Must any more lines be added? If so, do so.    By continuing this process of adding required points and lines, determine how many lines are in this geometry.    Following the instructions and the axioms, there is only one line in this geometry and four points, with one point outside of the line. There is nothing in the axioms that forces us to draw a line to connect the point outside of the line with the other points so this could be left as it is.     Add the axiom: every point is on at least one line.    To your line with three points, and one point not on that line add any lines required by this new axiom.    Make sure these lines satisfy Axiom 2.    How many lines are in this geometry now?    May any more lines be added? If so, do so, and be sure all the axioms are satisfied.    How many lines are in this geometry?    There are 2 lines.     What do the answers to , , and say about this attempt at constructing a geometry?    What is needed to fix the difficulty noted in the previous question?   "
+  "body": "  Use the definition above and the previous definitions of intersection and parallel to explore the Fano geometry as follows.    Draw a line using Geogebra.    Add a third point to the line.    Axiom 3 requires one more point. Draw one.    Must any more lines be added? If so, do so.    By continuing this process of adding required points and lines, determine how many lines are in this geometry.    Add the axiom: every point is on at least one line.    To your line with three points, and one point not on that line add any lines required by this new axiom.    Make sure these lines satisfy Axiom 2.    How many lines are in this geometry now?    May any more lines be added? If so, do so, and be sure all the axioms are satisfied.    How many lines are in this geometry?    What do the answers to , , and say about this attempt at constructing a geometry?    What is needed to fix the difficulty noted in the previous question?   "
 },
 {
   "id": "section-consistency",
@@ -133,7 +133,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "Consistency",
-  "body": " Consistency   Nine Point Geometry  Use the following axioms and definitions of intersection and parallel as an alleged definition of the nine point geometry.   There exist exactly nine points.  There exist exactly nine lines.  Any two, distinct points have exactly one line on them.  Each line is on exactly three points.       Explore the alleged nine point geometry as follows.    Draw nine points using Geogebra.    Use Axiom 3 to draw all required lines.       How many lines did you construct?   Using the formula for edges of a complete graph with n vertices: For nine points, this gives:      Compare this answer to Axiom 2.   Axiom two restricts us to nine lines.     "
+  "body": " Consistency   Nine Point Geometry  Use the following axioms and definitions of intersection and parallel as an alleged definition of the nine point geometry.   There exist exactly nine points.  There exist exactly nine lines.  Any two, distinct points have exactly one line on them.  Each line is on exactly three points.       Explore the alleged nine point geometry as follows.    Draw nine points using Geogebra.    Use Axiom 3 to draw all required lines.    How many lines did you construct?    Compare this answer to Axiom 2.    "
 },
 {
   "id": "section-consistency-2",
@@ -151,7 +151,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.3.2",
   "title": "",
-  "body": "  Explore the alleged nine point geometry as follows.    Draw nine points using Geogebra.    Use Axiom 3 to draw all required lines.       How many lines did you construct?   Using the formula for edges of a complete graph with n vertices: For nine points, this gives:      Compare this answer to Axiom 2.   Axiom two restricts us to nine lines.    "
+  "body": "  Explore the alleged nine point geometry as follows.    Draw nine points using Geogebra.    Use Axiom 3 to draw all required lines.    How many lines did you construct?    Compare this answer to Axiom 2.   "
 },
 {
   "id": "section-summarize",
@@ -160,7 +160,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.4",
   "title": "Explain and Apply",
-  "body": " Explain and Apply    Explain what completeness is and why it is important. Note, an explanation is not a proof, just a clarification for someone else.      Explain what consistency is and why it is important.      Modify the axioms for the Fano geometry so they are complete and consistent. You might use the Four Point Geometry axioms as a model.    For Fano Geometry, we were given the axioms:  There exists at least one line.  There are exactly three points on every line.  Not all points are on the same line.  We shall modify them in the following manner: Axiom 3 shall be changed to: Any two points share a line. We shall also add an Axiom 4: There are at most 7 points.      Try to construct the Fano geometry with exactly seven points.      Modify the axioms of the Nine Point Geometry to be complete and consistent. You might use the Four Point Geometry axioms as a model.    (Michael Earnhart)   There exists exactly nine points.    Any two points have exactly one line on them.    Each line is on exactly three points.      (Cedric Deacon) For the Nine Point Geometry, we were given the following axioms:  There exist exactly nine points.  There exist exactly nine lines.  Any two, distinct points have exactly one line on them.  Each line is on exactly three points.    We shall modify these in the following manner: Axiom 3 shall be changed to: For every set of three points, two of those points share a line.      How many lines are there in the Nine Point Geometry?    This problem follows 1.4.5, where we are asked to modify the axioms of the Nine Point Geometry:   There exists exactly nine points,    There exists exactly nine lines,    Any two distinct points have exactly one line on them,    Each line is on exactly three points.   I followed the following modification to these axioms:   There exists exactly nine points,    Any two distinct points have exactly one line on them,    Each line is on exactly three points.    To visualize this geometry, we first place 9 points in a grid.   Next, draw 3 horizontal and 3 vertical lines like so to satisfy axiom 3.   Since we need to connect the corners to satisfy axiom 2, draw two diagonal lines.   But, the corners do not connect to the middle edges on the opposing sides. Notice that each corner is not adjacent to exactly two edges. So, we can draw lines that connect each corner to their nonadjacent edge points that will conveniently satisfy axioms 2 and 3.      Now, all axioms are satisfied. There are 12 lines in this depiction of the Nine Point Geometry.      Modify the axioms of the Nine Point Geometry to be complete and consistent and so that they result in the same number of points and lines.    "
+  "body": " Explain and Apply    Explain what completeness is and why it is important. Note, an explanation is not a proof, just a clarification for someone else.      Explain what consistency is and why it is important.      Modify the axioms for the Fano geometry so they are complete and consistent. You might use the Four Point Geometry axioms as a model.      Try to construct the Fano geometry with exactly seven points.      Modify the axioms of the Nine Point Geometry to be complete and consistent. You might use the Four Point Geometry axioms as a model.      How many lines are there in the Nine Point Geometry?      Modify the axioms of the Nine Point Geometry to be complete and consistent and so that they result in the same number of points and lines.    "
 },
 {
   "id": "section-summarize-2",
@@ -187,7 +187,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.4.3",
   "title": "",
-  "body": "  Modify the axioms for the Fano geometry so they are complete and consistent. You might use the Four Point Geometry axioms as a model.    For Fano Geometry, we were given the axioms:  There exists at least one line.  There are exactly three points on every line.  Not all points are on the same line.  We shall modify them in the following manner: Axiom 3 shall be changed to: Any two points share a line. We shall also add an Axiom 4: There are at most 7 points.   "
+  "body": "  Modify the axioms for the Fano geometry so they are complete and consistent. You might use the Four Point Geometry axioms as a model.   "
 },
 {
   "id": "section-summarize-5",
@@ -205,7 +205,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.4.5",
   "title": "",
-  "body": "  Modify the axioms of the Nine Point Geometry to be complete and consistent. You might use the Four Point Geometry axioms as a model.    (Michael Earnhart)   There exists exactly nine points.    Any two points have exactly one line on them.    Each line is on exactly three points.      (Cedric Deacon) For the Nine Point Geometry, we were given the following axioms:  There exist exactly nine points.  There exist exactly nine lines.  Any two, distinct points have exactly one line on them.  Each line is on exactly three points.    We shall modify these in the following manner: Axiom 3 shall be changed to: For every set of three points, two of those points share a line.   "
+  "body": "  Modify the axioms of the Nine Point Geometry to be complete and consistent. You might use the Four Point Geometry axioms as a model.   "
 },
 {
   "id": "section-summarize-7",
@@ -214,7 +214,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.4.6",
   "title": "",
-  "body": "  How many lines are there in the Nine Point Geometry?    This problem follows 1.4.5, where we are asked to modify the axioms of the Nine Point Geometry:   There exists exactly nine points,    There exists exactly nine lines,    Any two distinct points have exactly one line on them,    Each line is on exactly three points.   I followed the following modification to these axioms:   There exists exactly nine points,    Any two distinct points have exactly one line on them,    Each line is on exactly three points.    To visualize this geometry, we first place 9 points in a grid.   Next, draw 3 horizontal and 3 vertical lines like so to satisfy axiom 3.   Since we need to connect the corners to satisfy axiom 2, draw two diagonal lines.   But, the corners do not connect to the middle edges on the opposing sides. Notice that each corner is not adjacent to exactly two edges. So, we can draw lines that connect each corner to their nonadjacent edge points that will conveniently satisfy axioms 2 and 3.      Now, all axioms are satisfied. There are 12 lines in this depiction of the Nine Point Geometry.   "
+  "body": "  How many lines are there in the Nine Point Geometry?   "
 },
 {
   "id": "section-summarize-8",
@@ -232,7 +232,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Triangles",
-  "body": " Triangles   Basic Triangle Theorems  Note all theorems in this section can and should be proved without using the parallel postulate.   Vertical Angles  The opposing angles formed by the intersection of two lines are called vertical angles .    Congruent Angles  Two angles are congruent ( ) if and only if their measures are equal ( ).    Vertical Angle Congruence  Vertical angles are congruent.    Image required for the proof of Theorem 2-1-3.   Take the figure above. Because angles and form a linear pair, the supplement postulate indicates that  . We also know that and form a linear pair, so we know that  .  Thus, So, . Thus, . We can show by similar processes that , so the theorem is proven.    means that the points and are colinear and is between and   Pasch's Axiom  If a line intersects a triangle at a point such that then must intersect or   Assume there is some arbitrary triangle with a point D such that A-B-D, with a line that passes through point D. We apply the plane separation postulate using as our line and the fact that a plane contains at least three non-collinear points. By the plane separation postulate, we can create two sets {A,B} and {C}. By the plane separation postulate, this means that segment and intersect the line . Therefore, must intersect or .     Crossbar  If is a point in the interior of then ray intersects at a point such that    Congruent Line Segments  Two line segments are congruent ( ) if and only if their measures (length) are equal ( ).    Isosceles  A triangle is isosceles if and only if two sides are congruent.    Isosceles Triangle  In an isosceles triangle the angles opposite the equal sides are congruent.   Consider with .   Draw an angle bisector from to the base , meeting at point .    from the construction of .   by the reflexive property.   by the Side-Angle-Side congruence postulate.  Corresponding angles of congruent triangles are congruent, so . Therefore, the angles opposite the congruent sides of an isosceles triangle are congruent.     Perpendicular Bisector  A point is on the perpendicular bisector of a segment if and only if it is equidistant from the endpoints.   ( ) Let be a line segment. Construct a perpendicular bisector that intersects at a point so that . Place a point on this perpendicular bisector. By Axiom 1, we can construct unique line segments and . Since is a perpendicular bisector to , we have . By reflexivity, . In fact, since is a perpendicular bisector of , we know that . Hence, . By the SAS Postulate, is in a one-to-one correspondence to . So, and therefore , as desired.     Exterior Angle  The supplementary angle formed by extending one side of a triangle is called an exterior angle .    Diagram for following check point   A triangle with an exterior angle labeled    ptA=(0,0)  ptB=(3,0)  ptC=(1,2)  ptD=(4,0)  ptM=(2,1)  ptE=(4,2)         A  B  C   D  M  E                  Consider with exterior angle . On segment construct midpoint and draw Construct point such that . Finally construct Prove that .     Exterior Angle  The measure of an exterior angle of a triangle is greater than the measure of either of the opposing angles of the triangle.   Suppose we have . We can construct a ray from such that it goes through and intersects it at point , such that and is the midpoint of . Thus, .  By the Ruler Postulate, we then construct point on the ray such that , with as the midpoint of . Therefore, .   By the Vertical Angle Theorem, . Since and , it follows by SAS that Thus, By the Angle Addition Postulate, By Axiom 12, .     Congruent Triangles  Two triangles are congruent if and only if all their sides and angles are congruent ( ).     Triangle Congruence Theorems  Determine if two triangles with two congruent sides and a congruent angle not between the two sides are congruent.   Angle-Side-Angle  Two triangles are congruent if and only if two corresponding angles and the side between them are congruent.    Angle-Angle-Side  Two triangles are congruent if and only if two corresponding angles and a side not between them are congruent.   Suppose we have two triangles, and , with , , and . Assume, for contradiction, that . We want to construct an angle such that . Using Axiom 18, we can construct a crossbar from that intersects , constructing a point such that .  We now also have . By doing this, through angle-side-angle, the that we constructed is congruent to and we have . But is an exterior angle of , by the exterior angle theorem, and which contradicts the definition of congruent triangles.     Side-Side-Side  Two triangles are congruent if and only if all three corresponding sides are congruent.   ( ) Construct triangles and such that By the Angle Construction Postulate, we can construct a ray such that , where and are in separate half-planes separated by . Then, on ray , by the Ruler Postulate we can extend this ray and place a point such that . By Axiom 1, we can construct the line . Now, since , , and , we know that by the SAS Postulate. For the sake of simplicity, we will re-label as . So, we should have the following figure.   Essentially, we place on such that overlaps and overlaps . By axiom 1, we can construct the segment .   We observe the new triangles and . Since and , triangles and are isosceles. By the Isosceles Triangle Theorem, and .   Since lies in the interior of and lies in the interior of , by the Angle Addition Postulate, Using the fact that and , we see that So, we have that    ,     ,     .   By the SAS Postulate, .  ( ) Suppose . Then, by definition, their corresponding sides are congruent. So,      Right Angle-Side-Side  Two right triangles are congruent if and only if two corresponding sides and a right angle not between those sides are congruent.    Image required for the proof of right angle side side theorem   Take the above figure and suppose that line segments and to be congruent and the angles and to be congruent. Note that line segment is congruent to itself. Then, per the Isosceles Triangle Theorem, . Thus, by our congruences, we know that per Angle Angle Side congruence.     Converse of Isosceles Triangle  If two angles of a triangle are congruent then the sides opposite those angles are congruent.    Extended Inverse of Isosceles Triangle  If two sides of a triangle are not congruent then the angles opposite those sides are not congruent. Further the larger angle is opposite the longer side.    Triangle Inequality  The sum of the lengths of any two sides of a triangle is larger than the length of the other side.   Case 1: Where 1 side is longer than the others.  There exists some arbitrary triangle . Assume that is the longest side.  Subcase 1:  The length of is a non-negative number and is being added to the longest side . The sum will remain longer than the other side. then remains true.    Subcase 2:  Similar to Subcase 1.   Subcase 3:  Place a point D such that . We need to show that for the sum of the two sides to be greater than . By definition, is an isosceles triangle and by the Isosceles Triangle theorem, the angles opposite the equal sides are congruent. .    is an exterior angle to and by the exterior angle theorem, . is an exterior angle to , so . We know that which means but we also know that . Therefore, . By the extended inverse of isosceles triangle, .   this equation becomes . Since we know that this means which is what we wanted to prove.    Case 2: 2 or more sides are equal  This means for some where then for the sum of any two sides, which proves the theorem.     "
+  "body": " Triangles   Basic Triangle Theorems  Note all theorems in this section can and should be proved without using the parallel postulate.   Vertical Angles  The opposing angles formed by the intersection of two lines are called vertical angles .    Congruent Angles  Two angles are congruent ( ) if and only if their measures are equal ( ).    Vertical Angle Congruence  Vertical angles are congruent.   means that the points and are colinear and is between and   Pasch's Axiom  If a line intersects a triangle at a point such that then must intersect or    Crossbar  If is a point in the interior of then ray intersects at a point such that    Congruent Line Segments  Two line segments are congruent ( ) if and only if their measures (length) are equal ( ).    Isosceles  A triangle is isosceles if and only if two sides are congruent.    Isosceles Triangle  In an isosceles triangle the angles opposite the equal sides are congruent.    Perpendicular Bisector  A point is on the perpendicular bisector of a segment if and only if it is equidistant from the endpoints.    Exterior Angle  The supplementary angle formed by extending one side of a triangle is called an exterior angle .    Diagram for following check point   A triangle with an exterior angle labeled    ptA=(0,0)  ptB=(3,0)  ptC=(1,2)  ptD=(4,0)  ptM=(2,1)  ptE=(4,2)         A  B  C   D  M  E                  Consider with exterior angle . On segment construct midpoint and draw Construct point such that . Finally construct Prove that .     Exterior Angle  The measure of an exterior angle of a triangle is greater than the measure of either of the opposing angles of the triangle.    Congruent Triangles  Two triangles are congruent if and only if all their sides and angles are congruent ( ).     Triangle Congruence Theorems  Determine if two triangles with two congruent sides and a congruent angle not between the two sides are congruent.   Angle-Side-Angle  Two triangles are congruent if and only if two corresponding angles and the side between them are congruent.    Angle-Angle-Side  Two triangles are congruent if and only if two corresponding angles and a side not between them are congruent.    Side-Side-Side  Two triangles are congruent if and only if all three corresponding sides are congruent.    Right Angle-Side-Side  Two right triangles are congruent if and only if two corresponding sides and a right angle not between those sides are congruent.    Converse of Isosceles Triangle  If two angles of a triangle are congruent then the sides opposite those angles are congruent.    Extended Inverse of Isosceles Triangle  If two sides of a triangle are not congruent then the angles opposite those sides are not congruent. Further the larger angle is opposite the longer side.    Triangle Inequality  The sum of the lengths of any two sides of a triangle is larger than the length of the other side.    "
 },
 {
   "id": "def-vertical-angles",
@@ -259,7 +259,7 @@ var ptx_lunr_docs = [
   "type": "Theorem",
   "number": "2.1.3",
   "title": "Vertical Angle Congruence.",
-  "body": " Vertical Angle Congruence  Vertical angles are congruent.    Image required for the proof of Theorem 2-1-3.   Take the figure above. Because angles and form a linear pair, the supplement postulate indicates that  . We also know that and form a linear pair, so we know that  .  Thus, So, . Thus, . We can show by similar processes that , so the theorem is proven.   "
+  "body": " Vertical Angle Congruence  Vertical angles are congruent.  "
 },
 {
   "id": "section-triangles-2-7",
@@ -268,7 +268,7 @@ var ptx_lunr_docs = [
   "type": "Theorem",
   "number": "2.1.4",
   "title": "Pasch’s Axiom.",
-  "body": " Pasch's Axiom  If a line intersects a triangle at a point such that then must intersect or   Assume there is some arbitrary triangle with a point D such that A-B-D, with a line that passes through point D. We apply the plane separation postulate using as our line and the fact that a plane contains at least three non-collinear points. By the plane separation postulate, we can create two sets {A,B} and {C}. By the plane separation postulate, this means that segment and intersect the line . Therefore, must intersect or .   "
+  "body": " Pasch's Axiom  If a line intersects a triangle at a point such that then must intersect or  "
 },
 {
   "id": "section-triangles-2-8",
@@ -304,7 +304,7 @@ var ptx_lunr_docs = [
   "type": "Theorem",
   "number": "2.1.8",
   "title": "Isosceles Triangle.",
-  "body": " Isosceles Triangle  In an isosceles triangle the angles opposite the equal sides are congruent.   Consider with .   Draw an angle bisector from to the base , meeting at point .    from the construction of .   by the reflexive property.   by the Side-Angle-Side congruence postulate.  Corresponding angles of congruent triangles are congruent, so . Therefore, the angles opposite the congruent sides of an isosceles triangle are congruent.   "
+  "body": " Isosceles Triangle  In an isosceles triangle the angles opposite the equal sides are congruent.  "
 },
 {
   "id": "section-triangles-2-12",
@@ -313,7 +313,7 @@ var ptx_lunr_docs = [
   "type": "Theorem",
   "number": "2.1.9",
   "title": "Perpendicular Bisector.",
-  "body": " Perpendicular Bisector  A point is on the perpendicular bisector of a segment if and only if it is equidistant from the endpoints.   ( ) Let be a line segment. Construct a perpendicular bisector that intersects at a point so that . Place a point on this perpendicular bisector. By Axiom 1, we can construct unique line segments and . Since is a perpendicular bisector to , we have . By reflexivity, . In fact, since is a perpendicular bisector of , we know that . Hence, . By the SAS Postulate, is in a one-to-one correspondence to . So, and therefore , as desired.   "
+  "body": " Perpendicular Bisector  A point is on the perpendicular bisector of a segment if and only if it is equidistant from the endpoints.  "
 },
 {
   "id": "section-triangles-2-13",
@@ -349,7 +349,7 @@ var ptx_lunr_docs = [
   "type": "Theorem",
   "number": "2.1.13",
   "title": "Exterior Angle.",
-  "body": " Exterior Angle  The measure of an exterior angle of a triangle is greater than the measure of either of the opposing angles of the triangle.   Suppose we have . We can construct a ray from such that it goes through and intersects it at point , such that and is the midpoint of . Thus, .  By the Ruler Postulate, we then construct point on the ray such that , with as the midpoint of . Therefore, .   By the Vertical Angle Theorem, . Since and , it follows by SAS that Thus, By the Angle Addition Postulate, By Axiom 12, .   "
+  "body": " Exterior Angle  The measure of an exterior angle of a triangle is greater than the measure of either of the opposing angles of the triangle.  "
 },
 {
   "id": "section-triangles-2-17",
@@ -385,7 +385,7 @@ var ptx_lunr_docs = [
   "type": "Theorem",
   "number": "2.1.17",
   "title": "Angle-Angle-Side.",
-  "body": " Angle-Angle-Side  Two triangles are congruent if and only if two corresponding angles and a side not between them are congruent.   Suppose we have two triangles, and , with , , and . Assume, for contradiction, that . We want to construct an angle such that . Using Axiom 18, we can construct a crossbar from that intersects , constructing a point such that .  We now also have . By doing this, through angle-side-angle, the that we constructed is congruent to and we have . But is an exterior angle of , by the exterior angle theorem, and which contradicts the definition of congruent triangles.   "
+  "body": " Angle-Angle-Side  Two triangles are congruent if and only if two corresponding angles and a side not between them are congruent.  "
 },
 {
   "id": "section-triangles-3-5",
@@ -394,7 +394,7 @@ var ptx_lunr_docs = [
   "type": "Theorem",
   "number": "2.1.18",
   "title": "Side-Side-Side.",
-  "body": " Side-Side-Side  Two triangles are congruent if and only if all three corresponding sides are congruent.   ( ) Construct triangles and such that By the Angle Construction Postulate, we can construct a ray such that , where and are in separate half-planes separated by . Then, on ray , by the Ruler Postulate we can extend this ray and place a point such that . By Axiom 1, we can construct the line . Now, since , , and , we know that by the SAS Postulate. For the sake of simplicity, we will re-label as . So, we should have the following figure.   Essentially, we place on such that overlaps and overlaps . By axiom 1, we can construct the segment .   We observe the new triangles and . Since and , triangles and are isosceles. By the Isosceles Triangle Theorem, and .   Since lies in the interior of and lies in the interior of , by the Angle Addition Postulate, Using the fact that and , we see that So, we have that    ,     ,     .   By the SAS Postulate, .  ( ) Suppose . Then, by definition, their corresponding sides are congruent. So,    "
+  "body": " Side-Side-Side  Two triangles are congruent if and only if all three corresponding sides are congruent.  "
 },
 {
   "id": "section-triangles-3-6",
@@ -403,7 +403,7 @@ var ptx_lunr_docs = [
   "type": "Theorem",
   "number": "2.1.19",
   "title": "Right Angle-Side-Side.",
-  "body": " Right Angle-Side-Side  Two right triangles are congruent if and only if two corresponding sides and a right angle not between those sides are congruent.    Image required for the proof of right angle side side theorem   Take the above figure and suppose that line segments and to be congruent and the angles and to be congruent. Note that line segment is congruent to itself. Then, per the Isosceles Triangle Theorem, . Thus, by our congruences, we know that per Angle Angle Side congruence.   "
+  "body": " Right Angle-Side-Side  Two right triangles are congruent if and only if two corresponding sides and a right angle not between those sides are congruent.  "
 },
 {
   "id": "section-triangles-3-7",
@@ -430,7 +430,7 @@ var ptx_lunr_docs = [
   "type": "Theorem",
   "number": "2.1.22",
   "title": "Triangle Inequality.",
-  "body": " Triangle Inequality  The sum of the lengths of any two sides of a triangle is larger than the length of the other side.   Case 1: Where 1 side is longer than the others.  There exists some arbitrary triangle . Assume that is the longest side.  Subcase 1:  The length of is a non-negative number and is being added to the longest side . The sum will remain longer than the other side. then remains true.    Subcase 2:  Similar to Subcase 1.   Subcase 3:  Place a point D such that . We need to show that for the sum of the two sides to be greater than . By definition, is an isosceles triangle and by the Isosceles Triangle theorem, the angles opposite the equal sides are congruent. .    is an exterior angle to and by the exterior angle theorem, . is an exterior angle to , so . We know that which means but we also know that . Therefore, . By the extended inverse of isosceles triangle, .   this equation becomes . Since we know that this means which is what we wanted to prove.    Case 2: 2 or more sides are equal  This means for some where then for the sum of any two sides, which proves the theorem.   "
+  "body": " Triangle Inequality  The sum of the lengths of any two sides of a triangle is larger than the length of the other side.  "
 },
 {
   "id": "section-parallel-postulate",
@@ -442,9 +442,9 @@ var ptx_lunr_docs = [
   "body": " Equivalent Parallel Postulates   Each of the following is an equivalent Euclidean postulate.   Equivalent Euclidean Postulates   ( Playfair ) Given a line and a point not on that line, there exists exactly one line through that point parallel to the given line.  ( Equidistance ) Lines that are parallel are everywhere equidistant.  ( Euclid ) Given two lines and a transversal of those lines, if the sum of the angles on one side of the transversal is less than two right angles then the lines meet on that side.      Preparation  These theorems do not require a parallel postulate.   Alternate Interior Angles  If the alternate interior angles formed by a transversal of two lines are equal, then the lines are parallel.    Point to line distance  The (shortest) distance between a point and a line is from the point to the foot of the perpendicular.    Convenient Euclid Parallel Axiom  Given two lines and a transversal of those lines, if the sum of the angles on one side of the transversal is equal to two right angles then the lines are parallel.     Equivalency  The following theorem produces an easier to use version of Euclid's postulate.    Euclid's postulate and are equivalent to the following. \"The sum of the angles on one side of a transversal of two lines is equal to the sum of two right angles if and only if the lines are parallel.\"      Euclid's postulate implies Playfair's axiom.      Playfair's axiom implies the alternate interior angle converse theorem.    The alternate interior angle converse theorem states Given parallel lines and a transversal of those lines, the alternate interior angles formed by the transversal are congruent.    Playfair and the alternate interior angle converse theorem imply the equidistance of parallel lines.      The equidistance of parallel lines implies Euclid's postulate.      Prove the three postulates are all equivalent.     "
 },
 {
-  "id": "section-parallel-postulate-2-2",
+  "id": "list-equivalent-euclidean-postulates",
   "level": "2",
-  "url": "section-parallel-postulate.html#section-parallel-postulate-2-2",
+  "url": "section-parallel-postulate.html#list-equivalent-euclidean-postulates",
   "type": "List",
   "number": "3.1.1",
   "title": "Equivalent Euclidean Postulates",
@@ -970,7 +970,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.1",
   "title": "Transformation",
-  "body": " Transformation   If you see this statement, remind the instructor to revise this section to have more play before the proofs.    Planar Transformations   Transformation  A function is a transformation if and only if it is one-to-one and onto.    Planar Transformation  A transformation is a planar transformation if and only if it is from to   For this course all transformations will be transformations of the Euclidean plane.   Describe the effect of each of the following transformations by considering the effects on the region (not just the border) with the following vertices. (0,0), (2,0), (3,5), (0,4). Hint: map the vertices, then map the lines connecting the vertices.   .    .    .    .      Isometry   Isometry  A transformation is an isometry if and only if    Determine which of the following transformations are isometries.            The composition of two isometries is an isometry.   Isometries preserve colinearity  For any isometry , if  and are colinear, then  and are colinear.    Isometries preserve betweeness  For any isometry , if then    Isometries preserve triangles  For any isometry and any three points    Isometries preserve angles  For any isometry and any three points , , and ,    Isometries preserve parallelism  For any isometry , if and only if    Isometries preserve circles  For any isometry , circles are mapped to congruent circles.     Dilations   Dilation  A transformation is a dilation if and only if it can be defined by a point and a ratio such that where and    Similarity  A transformation is a similarity if and only if it can be expressed as a composition of an isometry and a dilation.    Similarity scales segments uniformly  For any similarity ,    Similarity preserves colinearity  For any similarity , if , , and are colinear, then  and are colinear.    Similarity preserves betweeness  For any similarity , if then    Similarity preserves triangle similarity  For any similarity and any three points , , and ,    Similarity preserves angles  For any similarity and any three points , , and ,    Similarity preserves parallelism  For any similarity , if and only if    Similarity preserves circles  For any similarity , circles are mapped to circles.    Similarities are closed  The composition of two similarities is a similarity.    "
+  "body": " Transformation   If you see this statement, remind the instructor to revise this section to have more play before the proofs.    Planar Transformations   Transformation  A function is a transformation if and only if it is one-to-one and onto.    Planar Transformation  A transformation is a planar transformation if and only if it is from to   For this course all transformations will be transformations of the Euclidean plane.   Describe the effect of each of the following transformations by considering the effects on the region (not just the border) with the following vertices. (0,0), (2,0), (3,5), (0,4). Hint: map the vertices, then map the lines connecting the vertices.   .    .    .    .      Isometry   Isometry  A transformation is an isometry if and only if   This says that an isometry preserves distances between points. We will want to determine what other properties are preserved as a result of distance being preserved. First, let's practice testing if a transformation is an isometry.   Determine which of the following transformations are isometries.            The composition of two isometries is an isometry.   Isometries preserve colinearity  For any isometry , if  and are colinear, then  and are colinear.    Isometries preserve betweeness  For any isometry , if then    Isometries preserve triangles  For any isometry and any three points    Isometries preserve angles  For any isometry and any three points , , and ,    Isometries preserve parallelism  For any isometry , if and only if    Isometries preserve circles  For any isometry , circles are mapped to congruent circles.     Dilations   Dilation  A transformation is a dilation if and only if it can be defined by a point and a ratio such that where and    Similarity  A transformation is a similarity if and only if it can be expressed as a composition of an isometry and a dilation.   For isometries we learned that preserving distance implied preserving angle measure. That led to preservation of other properties. We ask the same question for similarities: what other properties are preserved?   Similarity scales segments uniformly  For any similarity ,    Similarity preserves colinearity  For any similarity , if , , and are colinear, then  and are colinear.    Similarity preserves betweeness  For any similarity , if then    Similarity preserves triangle similarity  For any similarity and any three points , , and ,    Similarity preserves angles  For any similarity and any three points , , and ,    Similarity preserves parallelism  For any similarity , if and only if    Similarity preserves circle similarity  For any similarity , circles are mapped to circles.    Similarities are closed  The composition of two similarities is a similarity.    "
 },
 {
   "id": "section-transformation-3-2",
@@ -1009,72 +1009,72 @@ var ptx_lunr_docs = [
   "body": " Isometry  A transformation is an isometry if and only if  "
 },
 {
-  "id": "section-transformation-4-3",
+  "id": "section-transformation-4-4",
   "level": "2",
-  "url": "section-transformation.html#section-transformation-4-3",
+  "url": "section-transformation.html#section-transformation-4-4",
   "type": "Checkpoint",
   "number": "4.1.5",
   "title": "",
   "body": " Determine which of the following transformations are isometries.           "
 },
 {
-  "id": "section-transformation-4-4",
+  "id": "section-transformation-4-5",
   "level": "2",
-  "url": "section-transformation.html#section-transformation-4-4",
+  "url": "section-transformation.html#section-transformation-4-5",
   "type": "Lemma",
   "number": "4.1.6",
   "title": "",
   "body": "The composition of two isometries is an isometry. "
 },
 {
-  "id": "section-transformation-4-5",
+  "id": "section-transformation-4-6",
   "level": "2",
-  "url": "section-transformation.html#section-transformation-4-5",
+  "url": "section-transformation.html#section-transformation-4-6",
   "type": "Theorem",
   "number": "4.1.7",
   "title": "Isometries preserve colinearity.",
   "body": " Isometries preserve colinearity  For any isometry , if  and are colinear, then  and are colinear.  "
 },
 {
-  "id": "section-transformation-4-6",
+  "id": "section-transformation-4-7",
   "level": "2",
-  "url": "section-transformation.html#section-transformation-4-6",
+  "url": "section-transformation.html#section-transformation-4-7",
   "type": "Corollary",
   "number": "4.1.8",
   "title": "Isometries preserve betweeness.",
   "body": " Isometries preserve betweeness  For any isometry , if then  "
 },
 {
-  "id": "section-transformation-4-7",
+  "id": "section-transformation-4-8",
   "level": "2",
-  "url": "section-transformation.html#section-transformation-4-7",
+  "url": "section-transformation.html#section-transformation-4-8",
   "type": "Theorem",
   "number": "4.1.9",
   "title": "Isometries preserve triangles.",
   "body": " Isometries preserve triangles  For any isometry and any three points  "
 },
 {
-  "id": "section-transformation-4-8",
+  "id": "section-transformation-4-9",
   "level": "2",
-  "url": "section-transformation.html#section-transformation-4-8",
+  "url": "section-transformation.html#section-transformation-4-9",
   "type": "Corollary",
   "number": "4.1.10",
   "title": "Isometries preserve angles.",
   "body": " Isometries preserve angles  For any isometry and any three points , , and ,  "
 },
 {
-  "id": "section-transformation-4-9",
+  "id": "section-transformation-4-10",
   "level": "2",
-  "url": "section-transformation.html#section-transformation-4-9",
+  "url": "section-transformation.html#section-transformation-4-10",
   "type": "Theorem",
   "number": "4.1.11",
   "title": "Isometries preserve parallelism.",
   "body": " Isometries preserve parallelism  For any isometry , if and only if  "
 },
 {
-  "id": "section-transformation-4-10",
+  "id": "section-transformation-4-11",
   "level": "2",
-  "url": "section-transformation.html#section-transformation-4-10",
+  "url": "section-transformation.html#section-transformation-4-11",
   "type": "Theorem",
   "number": "4.1.12",
   "title": "Isometries preserve circles.",
@@ -1099,72 +1099,72 @@ var ptx_lunr_docs = [
   "body": " Similarity  A transformation is a similarity if and only if it can be expressed as a composition of an isometry and a dilation.  "
 },
 {
-  "id": "section-transformation-5-4",
+  "id": "section-transformation-5-5",
   "level": "2",
-  "url": "section-transformation.html#section-transformation-5-4",
+  "url": "section-transformation.html#section-transformation-5-5",
   "type": "Lemma",
   "number": "4.1.15",
   "title": "Similarity scales segments uniformly.",
   "body": " Similarity scales segments uniformly  For any similarity ,  "
 },
 {
-  "id": "section-transformation-5-5",
+  "id": "section-transformation-5-6",
   "level": "2",
-  "url": "section-transformation.html#section-transformation-5-5",
+  "url": "section-transformation.html#section-transformation-5-6",
   "type": "Theorem",
   "number": "4.1.16",
   "title": "Similarity preserves colinearity.",
   "body": " Similarity preserves colinearity  For any similarity , if , , and are colinear, then  and are colinear.  "
 },
 {
-  "id": "section-transformation-5-6",
+  "id": "section-transformation-5-7",
   "level": "2",
-  "url": "section-transformation.html#section-transformation-5-6",
+  "url": "section-transformation.html#section-transformation-5-7",
   "type": "Corollary",
   "number": "4.1.17",
   "title": "Similarity preserves betweeness.",
   "body": " Similarity preserves betweeness  For any similarity , if then  "
 },
 {
-  "id": "section-transformation-5-7",
+  "id": "section-transformation-5-8",
   "level": "2",
-  "url": "section-transformation.html#section-transformation-5-7",
+  "url": "section-transformation.html#section-transformation-5-8",
   "type": "Theorem",
   "number": "4.1.18",
   "title": "Similarity preserves triangle similarity.",
   "body": " Similarity preserves triangle similarity  For any similarity and any three points , , and ,  "
 },
 {
-  "id": "section-transformation-5-8",
+  "id": "section-transformation-5-9",
   "level": "2",
-  "url": "section-transformation.html#section-transformation-5-8",
+  "url": "section-transformation.html#section-transformation-5-9",
   "type": "Theorem",
   "number": "4.1.19",
   "title": "Similarity preserves angles.",
   "body": " Similarity preserves angles  For any similarity and any three points , , and ,  "
 },
 {
-  "id": "section-transformation-5-9",
+  "id": "section-transformation-5-10",
   "level": "2",
-  "url": "section-transformation.html#section-transformation-5-9",
+  "url": "section-transformation.html#section-transformation-5-10",
   "type": "Theorem",
   "number": "4.1.20",
   "title": "Similarity preserves parallelism.",
   "body": " Similarity preserves parallelism  For any similarity , if and only if  "
 },
 {
-  "id": "section-transformation-5-10",
-  "level": "2",
-  "url": "section-transformation.html#section-transformation-5-10",
-  "type": "Theorem",
-  "number": "4.1.21",
-  "title": "Similarity preserves circles.",
-  "body": " Similarity preserves circles  For any similarity , circles are mapped to circles.  "
-},
-{
   "id": "section-transformation-5-11",
   "level": "2",
   "url": "section-transformation.html#section-transformation-5-11",
+  "type": "Theorem",
+  "number": "4.1.21",
+  "title": "Similarity preserves circle similarity.",
+  "body": " Similarity preserves circle similarity  For any similarity , circles are mapped to circles.  "
+},
+{
+  "id": "section-transformation-5-12",
+  "level": "2",
+  "url": "section-transformation.html#section-transformation-5-12",
   "type": "Lemma",
   "number": "4.1.22",
   "title": "Similarities are closed.",
@@ -1339,7 +1339,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.4",
   "title": "Symmetries",
-  "body": " Symmetries   Explore Symmetries  These first exercises will help you understand the concept of symmetry as a set of fixed points of a function. That is a function is a symmetry of a set of points if the image of the set equals the set ( ). This does not require there to be a visual representation of the set nor of the function.   Symmetry  A set of points has symmetry of type for some transformation if and only if     Confirm is a symmetry of the set      Demonstrate is not a symmetry of the set      What points do you have to add to so is a symmetry of this set?      List all symmetries of a square by labeling the vertices and giving the type and parameters for the transformations.      List all symmetries of a regular -sided polygon ( -gon) by labeling the vertices and giving the type and parameters for the transformations.      For one of the regular -gons check the following.   What is the composition of two rotational symmetries?  What is the composition of two reflectional symmetries?  What is the composition of a rotational and a reflectional symmetry?  What is the smallest number of symmetries you can use to generate all the symmetries? Your response should be specific functions like a rotation of angle and a reflection over the line segment .     Draw some regular -gon. Color in the -gon so that the colored figure maintains the rotational symmetries, but not the reflectional symmetries.      Draw some regular -gon. Color in the -gon so that the colored figure maintains the reflectional symmetries, but not the rotational symmetries.      Draw a figure that has translational symmetry.      Draw a figure that has translational symmetry and exactly one reflectional symmetry.      Draw a figure that has translational symmetry and rotational symmetry.      Draw a figure that has dilational symmetry.      Explore Tesselations   Tesselation  A covering of the plane is a tesselation if and only if it consists of a single shape infinitely reproduced using a finite set of transformations.    Tiling  A covering of the plane is a tiling if and only if it consists of a finite set of shapes infinitely reproduced using a finite set of transformations.     Analyze the tesselation in as follows.   Identify the generating shape.  Identify the smallest set of transformations that can generate the tesselation.  List all symmetries of the tesselation.  Identify the smallest set of symmetries of the tesselation that can generate all the symmetries of the tesselation.    Conway Label  The following labeling of tesselations derives from the book The Symmetries of Things by John Conway, Heidi Burgiel, and Chaim Goodman-Strauss. Follow these steps in order to identify and label the type of symmetry group of a tesselation. The resulting notation is called the signature   Identify all lines of reflection.  If two or more lines of reflection intersect in a point, write where  are the number of lines intersecting at each unique point of intersection.  If any line of reflection does not intersect other lines of reflection, just write one for each of these.  Identify any rotations that are not the composition of reflections already listed.  Write in front of any for each rotation where  are the order of the rotations.  Identify any glide reflections that are not the composition of reflections or rotations already listed.  Write at the end of the signature for each of these glide reflections.  Identify any translations that are not the composition of other symmetries already listed.  Write at the front of the signature for each pair of these translations.     See the example signatures in to .   Find the signatures of two tesselations from the class archive at . You may not choose two with the same signature.    Find the signature of the tesselation in .    Begin the tesselation project.     Tesselation Images   Tesselation   A set of three line segments intersect to form an asterisk (sixty degrees between each line segment). At the tips of each of the six points of the asterisk, there is a star. The tips of the star curve slightly counterclockwise. This figure repeats indefinitely. left and right such that two, adjacent asterisks share one pair of stars. This asterisk figure also repeats indefinitely up-right and down-left (at sixty degrees) such that two, adjacent asterisks share one pair of stars.     Signature *236 (Variation on a Theme by Scott Roseman)   Signature *236 (Variation on a Theme by Scott Roseman)  The image consists of six cellos radiating outward as if they form an asterisk. The tops of the necks of each cello intersect in sets of three. The cello asterisks repeat indefinitely left and right such that two, adjacent asterisks meet at the tips of two of their necks. The cello asterisks also repeat indefinitely up-right and down-left (at sixty degrees) such that two, adjacent asterisks meet at the tips of two of their necks. In the space between the cello asterisks, are a set of four bass clefs mirroring each other at right angles. Lines indicate six fold mirror symmetry thru the center of each cello asterisk as well as three fold mirror symmetry through the meetings of the tips of three cellos. Another two fold mirror symmetry is between the bass clefs.     Signature 22*   Signature 22*  The image consists of pairs of french horn like shapes. Each pair are arranged so that the bells touch each other, but one is rotate 180 degrees from the other. These pairs fill a rectangular area. Those rectangles repeat indefinitely in a rectangular grid pattern. Left to right they repeat indefinitely by translation. Up and down they repeat by reflection. A horizontal line indicates the mirror symmetry. A symbol where the bells meet indicates the 180 degree rotational symmetry. The same symbol between two rectangular regions indicates another 180 degree rotation symmetry.     Signature *X   Signature *X  The image consists of a set of not fully opened tulips that repeat indefinitely in a rectangular grid. Each tuplip fits into a rectangle. Left to right the tulips repeat by reflection over a vertical line. Up and down they repeat by translation along with a relection over a vertical line thru the center of each tulip (a glide reflection). A vertical line indicates the mirror symmetry. A curved line from the tip of one tulip down to the tip of the tulip beneath indicates the glide reflection symmetry.     "
+  "body": " Symmetries   Explore Symmetries  These first exercises will help you understand the concept of symmetry as a set of fixed points of a function. That is a function is a symmetry of a set of points if the image of the set equals the set ( ). This does not require there to be a visual representation of the set nor of the function.   Symmetry  A set of points has symmetry of type for some transformation if and only if     Confirm is a symmetry of the set      Demonstrate is not a symmetry of the set      What points do you have to add to so is a symmetry of this set?      List all symmetries of a square by labeling the vertices and giving the type and parameters for the transformations.      List all symmetries of a regular -sided polygon ( -gon) by labeling the vertices and giving the type and parameters for the transformations.      For one of the regular -gons check the following.   What is the composition of two rotational symmetries?  What is the composition of two reflectional symmetries?  What is the composition of a rotational and a reflectional symmetry?  What is the smallest number of symmetries you can use to generate all the symmetries? Your response should be specific functions like a rotation of angle and a reflection over the line segment .     Draw some regular -gon. Color in the -gon so that the colored figure maintains the rotational symmetries, but not the reflectional symmetries.      Draw some regular -gon. Color in the -gon so that the colored figure maintains the reflectional symmetries, but not the rotational symmetries.      Draw a figure that has translational symmetry.      Draw a figure that has translational symmetry and reflectional symmetry.      Draw a figure that has translational symmetry and rotational symmetry.      Draw a figure that has dilational symmetry.      Explore Tesselations   Tesselation  A covering of the plane is a tesselation if and only if it consists of a single shape infinitely reproduced using a finite set of transformations.    Tiling  A covering of the plane is a tiling if and only if it consists of a finite set of shapes infinitely reproduced using a finite set of transformations.     Analyze the tesselation in as follows.   Identify the generating shape.  Identify the smallest set of transformations that can generate the tesselation.  List all symmetries of the tesselation.  Identify the smallest set of symmetries of the tesselation that can generate all the symmetries of the tesselation.    Conway Label  The following labeling of tesselations derives from the book The Symmetries of Things by John Conway, Heidi Burgiel, and Chaim Goodman-Strauss. Follow these steps in order to identify and label the type of symmetry group of a tesselation. The resulting notation is called the signature   Identify all lines of reflection.  If two or more lines of reflection intersect in a point, write where  are the number of lines intersecting at each unique point of intersection.  If any line of reflection does not intersect other lines of reflection, just write one for each of these.  Identify any rotations that are not the composition of reflections already listed.  Write in front of any for each rotation where  are the order of the rotations.  Identify any glide reflections that are not the composition of reflections or rotations already listed.  Write at the end of the signature for each of these glide reflections.  Identify any translations that are not the composition of other symmetries already listed.  Write at the front of the signature for each pair of these translations.     See the example signatures in to .   Find the signatures of two tesselations from the class archive at . You may not choose two with the same signature.    Find the signature of the tesselation in .    Begin the tesselation project.     Tesselation Images   Tesselation   A set of three line segments intersect to form an asterisk (sixty degrees between each line segment). At the tips of each of the six points of the asterisk, there is a star. The tips of the star curve slightly counterclockwise. This figure repeats indefinitely. left and right such that two, adjacent asterisks share one pair of stars. This asterisk figure also repeats indefinitely up-right and down-left (at sixty degrees) such that two, adjacent asterisks share one pair of stars.     Signature *236 (Variation on a Theme by Scott Roseman)   Signature *236 (Variation on a Theme by Scott Roseman)  The image consists of six cellos radiating outward as if they form an asterisk. The tops of the necks of each cello intersect in sets of three. The cello asterisks repeat indefinitely left and right such that two, adjacent asterisks meet at the tips of two of their necks. The cello asterisks also repeat indefinitely up-right and down-left (at sixty degrees) such that two, adjacent asterisks meet at the tips of two of their necks. In the space between the cello asterisks, are a set of four bass clefs mirroring each other at right angles. Lines indicate six fold mirror symmetry thru the center of each cello asterisk as well as three fold mirror symmetry through the meetings of the tips of three cellos. Another two fold mirror symmetry is between the bass clefs.     Signature 22*   Signature 22*  The image consists of pairs of french horn like shapes. Each pair are arranged so that the bells touch each other, but one is rotate 180 degrees from the other. These pairs fill a rectangular area. Those rectangles repeat indefinitely in a rectangular grid pattern. Left to right they repeat indefinitely by translation. Up and down they repeat by reflection. A horizontal line indicates the mirror symmetry. A symbol where the bells meet indicates the 180 degree rotational symmetry. The same symbol between two rectangular regions indicates another 180 degree rotation symmetry.     Signature *X   Signature *X  The image consists of a set of not fully opened tulips that repeat indefinitely in a rectangular grid. Each tuplip fits into a rectangle. Left to right the tulips repeat by reflection over a vertical line. Up and down they repeat by translation along with a relection over a vertical line thru the center of each tulip (a glide reflection). A vertical line indicates the mirror symmetry. A curved line from the tip of one tulip down to the tip of the tulip beneath indicates the glide reflection symmetry.     "
 },
 {
   "id": "section-symmetry-2-3",
@@ -1438,7 +1438,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "4.4.11",
   "title": "",
-  "body": "  Draw a figure that has translational symmetry and exactly one reflectional symmetry.   "
+  "body": "  Draw a figure that has translational symmetry and reflectional symmetry.   "
 },
 {
   "id": "section-symmetry-2-14",
@@ -1564,7 +1564,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.1",
   "title": "Hyperbolic Geometry",
-  "body": " Hyperbolic Geometry  Hyperbolic geometry results by replacing the Euclidean parallel postulate with the following.  Given a line and a point not on that line there exists at least two lines through the point and parallel to the line.    There were three major variants (wordings) of the Euclidean parallel postulate. Conjecture what these look like in hyperbolic geometry.    "
+  "body": " Hyperbolic Geometry  Hyperbolic geometry results by replacing the Euclidean parallel postulate with the following.  Given a line and a point not on that line there exists at least two lines through the point and parallel to the line.    There were three major variants of the Euclidean parallel postulate found in . Conjecture what each of these looks like in hyperbolic geometry.    "
 },
 {
   "id": "section-hyperbolic-intro-3",
@@ -1582,7 +1582,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "5.1.2",
   "title": "",
-  "body": "  There were three major variants (wordings) of the Euclidean parallel postulate. Conjecture what these look like in hyperbolic geometry.   "
+  "body": "  There were three major variants of the Euclidean parallel postulate found in . Conjecture what each of these looks like in hyperbolic geometry.   "
 },
 {
   "id": "section-hyperbolic-model",
@@ -1591,25 +1591,34 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.2",
   "title": "A Model for Hyperbolic Geometry",
-  "body": " A Model for Hyperbolic Geometry  Hyperbolic geometry can be drawn with the aid of the Poincaré disc model. The hyperbolic plane is represented by a disc with the border not included (\"open disc\" in analysis terms). Lines are either diameters or circular arc that are orthogonal to the disc. The origin is the center of the disc. You will use the provided Geogebra file or one you search for online in Geoegebra with special tools to explore hyperbolic geometry.    Construct each of the following hyperbolic figures.    Triangle using at least two lines that are diameters.    Triangle using exactly one line that is a diameter.    Triangle using no lines that are diameters.    Quadrilateral (Can you make it a square?)      Explore parallelism in hyperbolic geometry.    Construct a line and select a point not on that line. Construct two lines through that point parallel to the given line.    How many lines through that point parallel to the given line could be constructed?    Do any of these parallel lines have special properties? Properties might be easier to describe in terms of the model.    Construct two parallel lines. For ease make them large and close in the model. What seems to be true about the distance between the parallel lines?    "
-},
-{
-  "id": "section-hyperbolic-model-3",
-  "level": "2",
-  "url": "section-hyperbolic-model.html#section-hyperbolic-model-3",
-  "type": "Checkpoint",
-  "number": "5.2.1",
-  "title": "",
-  "body": "  Construct each of the following hyperbolic figures.    Triangle using at least two lines that are diameters.    Triangle using exactly one line that is a diameter.    Triangle using no lines that are diameters.    Quadrilateral (Can you make it a square?)   "
+  "body": " A Model for Hyperbolic Geometry  Before we attempt to prove theorems, we will play in a model to begin building a new intuition.  Hyperbolic geometry can be drawn with the aid of the Poincaré disc model. The hyperbolic plane is represented by a disc with the border not included (\"open disc\" in analysis terms). Lines are either diameters of this circle or circular arcs that are orthogonal to the disc. The origin is the center of the disc. For the following, use the provided Geogebra tools to explore hyperbolic geometry.    This exercise provides you an opportunity to get used to the model and the tool you are using to play in the model. Construct each of the following hyperbolic figures.    Triangle using at least two lines that are diameters    Triangle using exactly one line that is a diameter    Triangle using no lines that are diameters    Quadrilateral (Can you make it a square?)      Explore parallelism in hyperbolic geometry.    Construct a line and select a point not on that line. Construct two lines through that point parallel to the given line.    How many lines through that point parallel to the given line could be constructed?    Do any of these parallel lines have special properties? Properties might be easier to describe in terms of the model.    Construct two parallel lines. For ease make them large and close in the model. What seems to be true about the distance between the parallel lines?      Explore shapes in hyperbolic geometry. Use this GeoGebra applet .    Construct a triangle from three points in the plane (disc). Move one of the points toward the disc. What is happening to the angle at that point? What is happening to the angle sum of the triangle?    Construct a triangle from three points in the plane (disc). Have the angle measure displayed for all angles. What happens to the angles as you make the triangle bigger?    Construct a line segment. Construct a second segment that is orthogonal to the first. Construct a third segment that is orthogonal to the second. Connect the first and last points to form a quadrilateral. What is the measure of the final angle?    "
 },
 {
   "id": "section-hyperbolic-model-4",
   "level": "2",
   "url": "section-hyperbolic-model.html#section-hyperbolic-model-4",
   "type": "Checkpoint",
+  "number": "5.2.1",
+  "title": "",
+  "body": "  This exercise provides you an opportunity to get used to the model and the tool you are using to play in the model. Construct each of the following hyperbolic figures.    Triangle using at least two lines that are diameters    Triangle using exactly one line that is a diameter    Triangle using no lines that are diameters    Quadrilateral (Can you make it a square?)   "
+},
+{
+  "id": "section-hyperbolic-model-5",
+  "level": "2",
+  "url": "section-hyperbolic-model.html#section-hyperbolic-model-5",
+  "type": "Checkpoint",
   "number": "5.2.2",
   "title": "",
   "body": "  Explore parallelism in hyperbolic geometry.    Construct a line and select a point not on that line. Construct two lines through that point parallel to the given line.    How many lines through that point parallel to the given line could be constructed?    Do any of these parallel lines have special properties? Properties might be easier to describe in terms of the model.    Construct two parallel lines. For ease make them large and close in the model. What seems to be true about the distance between the parallel lines?   "
+},
+{
+  "id": "section-hyperbolic-model-6",
+  "level": "2",
+  "url": "section-hyperbolic-model.html#section-hyperbolic-model-6",
+  "type": "Checkpoint",
+  "number": "5.2.3",
+  "title": "",
+  "body": "  Explore shapes in hyperbolic geometry. Use this GeoGebra applet .    Construct a triangle from three points in the plane (disc). Move one of the points toward the disc. What is happening to the angle at that point? What is happening to the angle sum of the triangle?    Construct a triangle from three points in the plane (disc). Have the angle measure displayed for all angles. What happens to the angles as you make the triangle bigger?    Construct a line segment. Construct a second segment that is orthogonal to the first. Construct a third segment that is orthogonal to the second. Connect the first and last points to form a quadrilateral. What is the measure of the final angle?   "
 },
 {
   "id": "section-hyperbolic-theorems",
@@ -1618,66 +1627,66 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.3",
   "title": "Theorems of Hyperbolic Geometry",
-  "body": " Theorems of Hyperbolic Geometry  Note when working on these problems the model may be useful in figuring out why something works. However the proofs should be directly based on the axioms. It is legitimate to prove a statement using the model description if the model has been proven to be equivalent to the axioms. For this course proofs using the model will be worth fewer points than proofs directly from the axioms.   Hyperbolic Parallel Corollary  Given a line and a point not on that line there exists infinitely many lines through that point parallel to the given line.    Sensed Parallel  Given a line and a point not on that line there exists a first line through that point parallel to the given line.    Sensed Parallel  A line is a sensed parallel if and only if it is the first line parallel to a given line on that side through a given point.    Angle of Parallelism  The smaller angle formed by a sensed parallel and a transversal through the given point is the angle of parallelism if and only if the transversal is perpendicular to the given line.    The angle of parallelism is the same on the left and right.     The angle of parallelism is less than      Consider the following illustrated in . is the right sensed parallel to at Let be on to the left of Suppose line through is the sensed parallel to at Show that if is on to the left of then must be below to the right of Further if on such that and , then sensed parallel must be above to the right of and above      Sensed Parallels Left   This diagram is described in the preceeding lemma.      Consider the following illustrated in . is the right sensed parallel to at Let be on to the right of Suppose line through is the sensed parallel to at Show that if and are on such that and then is below to the right of and above     Sensed Parallels Right   This diagram is described in the preceding lemma.      If is the right sensed parallel to at then is the right sensed parallel to at any point to the left of on     Sensed Everywhere  If is the sensed parallel to at a point , then is the sensed parallel to at any point also on    Omega Triangle  A pair of parallel lines and a transversal is a omega triangle if and only if the parallels are sensed parallels.     Draw an omega triangle using the Poincaré disc model.      In terms of the model what are omega points (the third \"vertex\" of an omega triangle)? What might these represent in terms of pairs of sensed parallels?     Crossbar for Omega Triangles  If a line contains a vertex and an interior point of an omega triangle, it intersects the side opposite the vertex.     Does a version of Pasch's Axiom work for omega triangles?      Let and be sensed parallels. Let be a transversal with and Let be the midpoint of and be the foot of the perpendicular from to Also choose on the opposite side of from such that Let be such that Prove that     Omega Triangle Exterior Angle  An exterior angle of an omega triangle is greater than the opposite interior angle.    Angle-Side Congruency  Two omega triangles are congruent if the length of the finite sides and the measure of one pair of corresponding angles are congruent.    Angle-Angle Congruency  Two omega triangles are congruent if corresponding pairs of angles are congruent.   "
-},
-{
-  "id": "section-hyperbolic-theorems-3",
-  "level": "2",
-  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-3",
-  "type": "Lemma",
-  "number": "5.3.1",
-  "title": "Hyperbolic Parallel Corollary.",
-  "body": " Hyperbolic Parallel Corollary  Given a line and a point not on that line there exists infinitely many lines through that point parallel to the given line.  "
+  "body": " Theorems of Hyperbolic Geometry  In hyperbolic geometry, all of the neutral theorems still hold. You will need some of them for these proofs. You will also need to use the new parallel postulate.  When working on these problems the model may be useful in figuring out why something works. However the proofs should be based on the axioms of hyperbolic geometry rather than on the model properties. It is legitimate to prove a statement using the model properties if the model has been proven to be equivalent to the axioms. For this course, proofs using the model will be worth fewer points than proofs directly from the axioms.   Hyperbolic Parallel Corollary  Given a line and a point not on that line there exists infinitely many lines through that point parallel to the given line.    Sensed Parallel  Given a line and a point not on that line there exists a first line through that point parallel to the given line.    Sensed Parallel  A line is a sensed parallel if and only if it is the first line parallel to a given line on that side through a given point.    Angle of Parallelism  The smaller angle formed by a sensed parallel and a transversal through the given point is the angle of parallelism if and only if the transversal is perpendicular to the given line.    The angle of parallelism is the same on the left and right.     The angle of parallelism is less than      Consider the following illustrated in . is the right sensed parallel to at Let be on to the left of Suppose line through is the sensed parallel to at Show that if is on to the left of then must be below to the right of Further if on such that and , then sensed parallel must be above to the right of and above      Sensed Parallels Left   This diagram is described in the preceeding lemma.      Consider the following illustrated in . is the right sensed parallel to at Let be on to the right of Suppose line through is the sensed parallel to at Show that if and are on such that and then is below to the right of and above     Sensed Parallels Right   This diagram is described in the preceding lemma.      If is the right sensed parallel to at then is the right sensed parallel to at any point to the left of on     Sensed Everywhere  If is the sensed parallel to at a point , then is the sensed parallel to at any point also on    Omega Triangle  A pair of parallel lines and a transversal is a omega triangle if and only if the parallels are sensed parallels.     Draw an omega triangle using the Poincaré disc model.      In terms of the model what are omega points (the third \"vertex\" of an omega triangle)? What might these represent in terms of pairs of sensed parallels?     Crossbar for Omega Triangles  If a line contains a vertex and an interior point of an omega triangle, it intersects the side opposite the vertex.     Does a version of Pasch's Axiom work for omega triangles?      Let and be sensed parallels. Let be a transversal with and Let be the midpoint of and be the foot of the perpendicular from to Also choose on the opposite side of from such that Let be such that Prove that     Omega Triangle Exterior Angle  An exterior angle of an omega triangle is greater than the opposite interior angle.    Angle-Side Congruency  Two omega triangles are congruent if the length of the finite sides and the measure of one pair of corresponding angles are congruent.    Angle-Angle Congruency  Two omega triangles are congruent if corresponding pairs of angles are congruent.   "
 },
 {
   "id": "section-hyperbolic-theorems-4",
   "level": "2",
   "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-4",
   "type": "Lemma",
-  "number": "5.3.2",
-  "title": "Sensed Parallel.",
-  "body": " Sensed Parallel  Given a line and a point not on that line there exists a first line through that point parallel to the given line.  "
+  "number": "5.3.1",
+  "title": "Hyperbolic Parallel Corollary.",
+  "body": " Hyperbolic Parallel Corollary  Given a line and a point not on that line there exists infinitely many lines through that point parallel to the given line.  "
 },
 {
   "id": "section-hyperbolic-theorems-5",
   "level": "2",
   "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-5",
-  "type": "Definition",
-  "number": "5.3.3",
+  "type": "Lemma",
+  "number": "5.3.2",
   "title": "Sensed Parallel.",
-  "body": " Sensed Parallel  A line is a sensed parallel if and only if it is the first line parallel to a given line on that side through a given point.  "
+  "body": " Sensed Parallel  Given a line and a point not on that line there exists a first line through that point parallel to the given line.  "
 },
 {
   "id": "section-hyperbolic-theorems-6",
   "level": "2",
   "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-6",
   "type": "Definition",
-  "number": "5.3.4",
-  "title": "Angle of Parallelism.",
-  "body": " Angle of Parallelism  The smaller angle formed by a sensed parallel and a transversal through the given point is the angle of parallelism if and only if the transversal is perpendicular to the given line.  "
+  "number": "5.3.3",
+  "title": "Sensed Parallel.",
+  "body": " Sensed Parallel  A line is a sensed parallel if and only if it is the first line parallel to a given line on that side through a given point.  "
 },
 {
   "id": "section-hyperbolic-theorems-7",
   "level": "2",
   "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-7",
+  "type": "Definition",
+  "number": "5.3.4",
+  "title": "Angle of Parallelism.",
+  "body": " Angle of Parallelism  The smaller angle formed by a sensed parallel and a transversal through the given point is the angle of parallelism if and only if the transversal is perpendicular to the given line.  "
+},
+{
+  "id": "section-hyperbolic-theorems-8",
+  "level": "2",
+  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-8",
   "type": "Corollary",
   "number": "5.3.5",
   "title": "",
   "body": " The angle of parallelism is the same on the left and right.  "
 },
 {
-  "id": "section-hyperbolic-theorems-8",
+  "id": "section-hyperbolic-theorems-9",
   "level": "2",
-  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-8",
+  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-9",
   "type": "Theorem",
   "number": "5.3.6",
   "title": "",
   "body": "  The angle of parallelism is less than   "
 },
 {
-  "id": "section-hyperbolic-theorems-9",
+  "id": "section-hyperbolic-theorems-10",
   "level": "2",
-  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-9",
+  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-10",
   "type": "Lemma",
   "number": "5.3.7",
   "title": "",
@@ -1693,9 +1702,9 @@ var ptx_lunr_docs = [
   "body": " Sensed Parallels Left   This diagram is described in the preceeding lemma.   "
 },
 {
-  "id": "section-hyperbolic-theorems-11",
+  "id": "section-hyperbolic-theorems-12",
   "level": "2",
-  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-11",
+  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-12",
   "type": "Lemma",
   "number": "5.3.9",
   "title": "",
@@ -1711,99 +1720,99 @@ var ptx_lunr_docs = [
   "body": " Sensed Parallels Right   This diagram is described in the preceding lemma.   "
 },
 {
-  "id": "section-hyperbolic-theorems-13",
+  "id": "section-hyperbolic-theorems-14",
   "level": "2",
-  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-13",
+  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-14",
   "type": "Lemma",
   "number": "5.3.11",
   "title": "",
   "body": "  If is the right sensed parallel to at then is the right sensed parallel to at any point to the left of on   "
 },
 {
-  "id": "section-hyperbolic-theorems-14",
+  "id": "section-hyperbolic-theorems-15",
   "level": "2",
-  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-14",
+  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-15",
   "type": "Theorem",
   "number": "5.3.12",
   "title": "Sensed Everywhere.",
   "body": " Sensed Everywhere  If is the sensed parallel to at a point , then is the sensed parallel to at any point also on  "
 },
 {
-  "id": "section-hyperbolic-theorems-15",
+  "id": "section-hyperbolic-theorems-16",
   "level": "2",
-  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-15",
+  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-16",
   "type": "Definition",
   "number": "5.3.13",
   "title": "Omega Triangle.",
   "body": " Omega Triangle  A pair of parallel lines and a transversal is a omega triangle if and only if the parallels are sensed parallels.  "
 },
 {
-  "id": "section-hyperbolic-theorems-16",
+  "id": "section-hyperbolic-theorems-17",
   "level": "2",
-  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-16",
+  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-17",
   "type": "Checkpoint",
   "number": "5.3.14",
   "title": "",
   "body": "  Draw an omega triangle using the Poincaré disc model.   "
 },
 {
-  "id": "section-hyperbolic-theorems-17",
+  "id": "section-hyperbolic-theorems-18",
   "level": "2",
-  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-17",
+  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-18",
   "type": "Checkpoint",
   "number": "5.3.15",
   "title": "",
   "body": "  In terms of the model what are omega points (the third \"vertex\" of an omega triangle)? What might these represent in terms of pairs of sensed parallels?   "
 },
 {
-  "id": "section-hyperbolic-theorems-18",
+  "id": "section-hyperbolic-theorems-19",
   "level": "2",
-  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-18",
+  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-19",
   "type": "Lemma",
   "number": "5.3.16",
   "title": "Crossbar for Omega Triangles.",
   "body": " Crossbar for Omega Triangles  If a line contains a vertex and an interior point of an omega triangle, it intersects the side opposite the vertex.  "
 },
 {
-  "id": "section-hyperbolic-theorems-19",
+  "id": "section-hyperbolic-theorems-20",
   "level": "2",
-  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-19",
+  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-20",
   "type": "Checkpoint",
   "number": "5.3.17",
   "title": "",
   "body": "  Does a version of Pasch's Axiom work for omega triangles?   "
 },
 {
-  "id": "section-hyperbolic-theorems-20",
+  "id": "section-hyperbolic-theorems-21",
   "level": "2",
-  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-20",
+  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-21",
   "type": "Checkpoint",
   "number": "5.3.18",
   "title": "",
   "body": "  Let and be sensed parallels. Let be a transversal with and Let be the midpoint of and be the foot of the perpendicular from to Also choose on the opposite side of from such that Let be such that Prove that   "
 },
 {
-  "id": "section-hyperbolic-theorems-21",
+  "id": "section-hyperbolic-theorems-22",
   "level": "2",
-  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-21",
+  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-22",
   "type": "Lemma",
   "number": "5.3.19",
   "title": "Omega Triangle Exterior Angle.",
   "body": " Omega Triangle Exterior Angle  An exterior angle of an omega triangle is greater than the opposite interior angle.  "
 },
 {
-  "id": "section-hyperbolic-theorems-22",
+  "id": "section-hyperbolic-theorems-23",
   "level": "2",
-  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-22",
+  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-23",
   "type": "Lemma",
   "number": "5.3.20",
   "title": "Angle-Side Congruency.",
   "body": " Angle-Side Congruency  Two omega triangles are congruent if the length of the finite sides and the measure of one pair of corresponding angles are congruent.  "
 },
 {
-  "id": "section-hyperbolic-theorems-23",
+  "id": "section-hyperbolic-theorems-24",
   "level": "2",
-  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-23",
+  "url": "section-hyperbolic-theorems.html#section-hyperbolic-theorems-24",
   "type": "Lemma",
   "number": "5.3.21",
   "title": "Angle-Angle Congruency.",

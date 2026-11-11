@@ -37,7 +37,8 @@ lang: "en-US",
 <script>var ggb_medians_onload = function(ggb_medians_applet) {
 ggb_medians_applet.setCoordSystem(0, 10, 0, 6);
 ggb_medians_applet.enableShiftDragZoom(true);
-listeners(ggb_medians_applet)};
+if (typeof listeners === "function") { listeners(ggb_medians_applet); }
+};
 var ggb_medians_params = {
 material_id:"ttavzcwk",
 width:600,

@@ -37,7 +37,8 @@ lang: "en-US",
 <script>var ggb_anglebisect_onload = function(ggb_anglebisect_applet) {
 ggb_anglebisect_applet.setCoordSystem(0, 10, 0, 6);
 ggb_anglebisect_applet.enableShiftDragZoom(true);
-listeners(ggb_anglebisect_applet)};
+if (typeof listeners === "function") { listeners(ggb_anglebisect_applet); }
+};
 var ggb_anglebisect_params = {
 material_id:"t6qcnzga",
 width:600,

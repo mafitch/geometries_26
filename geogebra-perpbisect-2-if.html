@@ -37,7 +37,8 @@ lang: "en-US",
 <script>var ggb_perpbisect_onload = function(ggb_perpbisect_applet) {
 ggb_perpbisect_applet.setCoordSystem(0, 10, 0, 6);
 ggb_perpbisect_applet.enableShiftDragZoom(true);
-listeners(ggb_perpbisect_applet)};
+if (typeof listeners === "function") { listeners(ggb_perpbisect_applet); }
+};
 var ggb_perpbisect_params = {
 material_id:"enecsuwx",
 width:600,
