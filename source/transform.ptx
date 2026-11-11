@@ -73,14 +73,14 @@
                 <p>
                     <m>T:(x, y) \mapsto \begin{bmatrix}\cos\theta &amp; \sin\theta\\ -\sin\theta &amp; \cos\theta \end{bmatrix} \begin{bmatrix} x\\y \end{bmatrix} = \begin{bmatrix} x\cos\theta+y\sin\theta\\ -x\sin\theta+y\cos\theta \end{bmatrix} </m>
                     <md>
-                         T(P)=(x_1\cos\theta+y_1\sin\theta, -x_1\sin\theta+y_1\cos\theta)
+                         T(P)=(x_1 \cos\theta + y_1 \sin\theta, -x_1 \sin\theta + y_1 \cos\theta)
                     </md>
                     <md>
-                         T(Q)=(x_2\cos\theta+y_2\sin\theta, -x_2\sin\theta+y_2\cos\theta)
+                         T(Q)=(x_2 \cos\theta + y_2 \sin\theta, -x_2 \sin\theta + y_2 \cos\theta)
                     </md>
 
                     <md>
-                         \begin{aligned} \|T(P)-T(Q)\|= \sqrt{\left((x_2\cos\theta+y_2\sin\theta)-(x_1\cos\theta+y_1\sin\theta) \right)^2\\ + \left((-x_2\sin\theta+y_2\cos\theta)-(-x_1\sin\theta+y_1\cos\theta) \right)^2} \end{aligned}
+                         \|T(P)-T(Q)\|= \sqrt{ \left( (x_2 \cos\theta + y_2 \sin\theta)-(x_1 \cos\theta + y_1 \sin\theta)  \right)^2 + \left( (-x_2 \sin\theta + y_2 \cos\theta) - (-x_1 \sin\theta + y_1 \cos\theta) \right)^2}
                     </md>
                 </p>
                 <p>
@@ -176,7 +176,7 @@
 		<proof>
 			<p>
 				We have two parallel lines <m> l_{1}</m> and <m>l_{2}</m>. The shortest distance between them is <m>\overline{AB}</m>
-				<image source="reniel4_1a"/>
+				<image source="images/reniel4_1a"/>
 				By 3.1.5, <m>\angle\alpha = \angle\beta = 90</m>. Going through isometry T, <m>\lvert\lvert T(\overline{AB})\rvert\rvert = \lvert\lvert \overline{AB} \rvert\rvert</m> and by Theorem 4.1.10, angles are preserved and so, by Equidistance and 3.1.5, <m>T(l_{1})</m> and <m>T(l_{2})</m> are parallel.
 				Going the other way, to get to the original position, we have to do another isometric transformation and by the Lemma 4.1.6, the two lines are still parallel. 
 			</p>
@@ -225,7 +225,7 @@
 			under <m>T_{D}</m>.
 			</p>
 
-			<image source="asset-4-1"/>
+			<image source="images/asset-4-1"/>
 
 			<p>
 			By definition,
