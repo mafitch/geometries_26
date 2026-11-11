@@ -3,7 +3,9 @@
 <section xml:id="section-hyperbolic-theorems" >
 <title>Theorems of Hyperbolic Geometry</title>
 
-<p>Note when working on these problems the model may be useful in figuring out why something works. However the proofs should be directly based on the axioms. It is legitimate to prove a statement using the model description if the model has been proven to be equivalent to the axioms. For this course proofs using the model will be worth fewer points than proofs directly from the axioms.</p>
+<p>In hyperbolic geometry, all of the neutral theorems still hold. You will need some of them for these proofs. You will also need to use the new parallel postulate.</p>
+
+<p>When working on these problems the model may be useful in figuring out why something works. However the proofs should be based on the axioms of hyperbolic geometry rather than on the model properties. It is legitimate to prove a statement using the model properties if the model has been proven to be equivalent to the axioms. For this course, proofs using the model will be worth fewer points than proofs directly from the axioms.</p>
 
 <lemma>
 	<title>Hyperbolic Parallel Corollary</title>

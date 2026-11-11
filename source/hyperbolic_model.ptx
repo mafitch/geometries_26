@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="section-hyperbolic-model" >
+<title>A Model for Hyperbolic Geometry</title>
+
+<p>Before we attempt to prove theorems, we will play in a model to begin building a new intuition.</p>
+
+<p>Hyperbolic geometry can be drawn with the aid of the Poincaré disc model. The hyperbolic plane is represented by a disc with the border not included ("open disc" in analysis terms). Lines are either diameters of this circle or circular arcs that are orthogonal to the disc. The origin is the center of the disc. For the following, use the provided Geogebra tools to explore hyperbolic geometry.</p>
+
+<exercise>
+	<introduction>
+		<p>This exercise provides you an opportunity to get used to the model and the tool you are using to play in the model. Construct each of the following hyperbolic figures.</p>
+	</introduction>
+	<task>
+		<statement><p>Triangle using at least two lines that are diameters</p></statement>
+	</task>
+	<task>
+		<statement><p>Triangle using exactly one line that is a diameter</p></statement>
+	</task>
+	<task>
+		<statement><p>Triangle using no lines that are diameters</p></statement>
+	</task>
+	<task>
+		<statement><p>Quadrilateral (Can you make it a square?)</p></statement>
+	</task>
+</exercise>
+
+<exercise>
+	<introduction>
+		<p>Explore parallelism in hyperbolic geometry.</p>
+	</introduction>
+	<task>
+		<statement><p>Construct a line and select a point not on that line. Construct two lines through that point parallel to the given line.</p></statement>
+	</task>
+	<task>
+		<statement><p>How many lines through that point parallel to the given line could be constructed?</p></statement>
+	</task>
+	<task>
+		<statement><p>Do any of these parallel lines have special properties? Properties might be easier to describe in terms of the model.</p></statement>
+	</task>
+	<task>
+		<statement><p>Construct two parallel lines. For ease make them large and close in the model. What seems to be true about the distance between the parallel lines?</p></statement>
+	</task>
+</exercise>
+
+<exercise>
+	<introduction>
+		<p>Explore shapes in hyperbolic geometry. Use this <url href="https://www.geogebra.org/calculator/v4r6fmxs" visual="geogebra.org/calculator" >GeoGebra applet</url>.</p>
+	</introduction>
+	<task>
+		<statement><p>Construct a triangle from three points in the plane (disc). Move one of the points toward the disc. What is happening to the angle at that point? What is happening to the angle sum of the triangle?</p></statement>
+	</task>
+	<task>
+		<statement><p>Construct a triangle from three points in the plane (disc). Have the angle measure displayed for all angles. What happens to the angles as you make the triangle bigger?</p></statement>
+	</task>
+	<task>
+		<statement><p>Construct a line segment. Construct a second segment that is orthogonal to the first. Construct a third segment that is orthogonal to the second. Connect the first and last points to form a quadrilateral. What is the measure of the final angle?</p></statement>
+	</task>
+</exercise>
+
+</section>

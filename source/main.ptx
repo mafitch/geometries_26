@@ -61,7 +61,7 @@ Copyright 2019 Mark A. Fitch
 
             <xi:include href="./hyperbolic.ptx" />       <!-- Introduction to hyperbolic geometry -->
 
-            <xi:include href="./model.ptx" />       <!-- Present a model for the hyperbolic plane -->
+            <xi:include href="./hyperbolic_model.ptx" />       <!-- Present a model for the hyperbolic plane -->
 
             <xi:include href="./hyperbolic_thms.ptx" />       <!-- Hyperbolic theorems -->
 
